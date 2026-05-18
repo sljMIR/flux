@@ -1,3 +1,3 @@
 ﻿# Declaration of conformity example
 
-{% image src=$image_declaration_of_conformity alt="Example of the Declration of conformity"  /%}
+{% image src="/images/mir250/certificates/DoC_2024.webp" alt="Example of the Declration of conformity"  /%}

@@ -12,7 +12,7 @@ The robot has seven electrical interfaces in the left and right top compartments
 	* Auxiliary Safety Functions A
 	* Auxiliary Safety Functions B
 
-{% partial file="partials/references/text_electrical_interfaces_location.md" /%}
+{% partial file="products/_manual_partials/references/text_electrical_interfaces_location.md" /%}
 
 ## Emergency stop {% tag="electrical_interfaces_auxiliary_emergency_stop" %}
 
@@ -110,26 +110,24 @@ For more information on how to use the Emergency stop interface, see {% tagref t
 
 {% image src="/images/mir250/interfaces/power.webp" alt="Power interface pins"  /%}
 
-{% partial file="partials/interfaces/caution_power_interface_usage.md" /%}
+{% partial file="products/_manual_partials/interfaces/caution_power_interface_usage.md" /%}
 
-The maximum current across pins 1 and 3 combined is 10 A.
-
-The maximum capacitance of devices connected to pins 1 and 3 is 2 000 µF combined. If your device has a higher capacitance, you must integrate your own softstarter that keeps the current under 2 A for the first 100 ms, and thereafter under 10 A.
 
 {% table %}
 
 * Pin
 * Name
-* Limits
+* Current
+* Voltage
 * Function
 
 ---
 
 * 1
 * 48V power
-* 10 A across pins 1 and 3
+* 10 A *
 
-	42–54 V, with reference to pins 2 and 4
+* 42–54 V
 
 * Always active when robot is on. Intended for high-power loads like motors and actuators.
 
@@ -139,6 +137,7 @@ The maximum capacitance of devices connected to pins 1 and 3 is 2 000 µF combin
 * GND
 
 *
+*
 
 * Power ground.
 
@@ -146,9 +145,9 @@ The maximum capacitance of devices connected to pins 1 and 3 is 2 000 µF combin
 
 * 3
 * 48V safe power
-* 10 A across pins 1 and 3
+* 10 A *
 
-	42–54 V, with reference to pins 2 and 4
+* 42–54 V
 
 * Intended for high-power loads like motors or actuators.
 
@@ -160,6 +159,7 @@ The maximum capacitance of devices connected to pins 1 and 3 is 2 000 µF combin
 * GND
 
 *
+*
 
 * Power ground.
 
@@ -169,7 +169,7 @@ The maximum capacitance of devices connected to pins 1 and 3 is 2 000 µF combin
 * Isolated 24V
 * 2 A
 
-	22.8–25.2 V, with reference to pin 6
+* 23–25 V
 
 * Must be used with pin 6 to be galvanically isolated from the rest of the robot. Still provides 24 V even when the robot is in Emergency or Protective stop.
 
@@ -178,6 +178,7 @@ The maximum capacitance of devices connected to pins 1 and 3 is 2 000 µF combin
 * 6
 * Isolated GND
 
+*
 *
 
 * Must be used with pin 5 to be galvanically isolated from the rest of the robot.
@@ -188,14 +189,18 @@ The maximum capacitance of devices connected to pins 1 and 3 is 2 000 µF combin
 
 *
 *
+*
 
 * Unassigned
 
 {% /table %}
+*The maximum current across pins 1 and 3 combined is 10 A.
+
+*The maximum capacitance of devices connected to pins 1 and 3 is 2 000 µF combined. If your device has a higher capacitance, you must integrate your own softstarter that keeps the current under 2 A for the first 100 ms, and thereafter under 10 A.
 
 ## Ethernet
 
-{% partial file="partials/interfaces/text_ethernet_supported_protocols_and_speed.md" /%}
+{% partial file="products/_manual_partials/interfaces/text_ethernet_supported_protocols_and_speed.md" /%}
 
 {% image src="/images/mir250/interfaces/ethernet.webp" alt="Ethernet pins"  /%}
 
@@ -225,13 +230,11 @@ The maximum capacitance of devices connected to pins 1 and 3 is 2 000 µF combin
 
 ## GPIO A and B
 
-The GPIO supports low current and power devices like relays, contactors, lamps, and separate PLC units.
-
-{% partial file="partials/interfaces/list_gpio_pin_usage.md" /%}
+{% partial file="products/_manual_partials/interfaces/list_gpio_pin_usage.md" /%}
 
 If the GPIO pins are not working as expected, ensure that the **Shelf** feature is disabled under **System > Settings > Features**. This feature uses the GPIO with specific MiR features.
 
-{% partial file="partials/interfaces/text_gpio_24v_to_in_ground_to_out.md" /%}
+{% partial file="products/_manual_partials/interfaces/text_gpio_24v_to_in_ground_to_out.md" /%}
 
 {% image src="/images/mir250/part_identification/right_compartment-2.webp" alt="GPIO interface pins" /%}
 
@@ -389,7 +392,7 @@ If the GPIO pins are not working as expected, ensure that the **Shelf** feature 
 
 ## Auxiliary Safety Functions A and B {% tag="electrical_interfaces_auxiliary_safety_functions" %}
 
-{% partial file="partials/interfaces/text_aux_safety_functions_interface_supports_safety_function_section'.md" /%}
+{% partial file="products/_manual_partials/interfaces/text_aux_safety_functions_interface_supports_safety_function_section'.md" /%}
 
 {% image src="/images/mir250/interfaces/safety.webp" alt="Auxiliary safety interface pins"  /%}
 
@@ -397,56 +400,50 @@ If the GPIO pins are not working as expected, ensure that the **Shelf** feature 
 
 {% table %}
 
-* Pin no.
+* Pin
+* Name
 * Description
 
 ---
 
 * 1
-* **Signal name:** Test output 1
+* Test output 1
 
-	**Type:** Output
-	**Standard function:** 24 V test signal. Sends test pulses (not on constantly).
+* Output. 24 V test signal. Sends test pulses (not on constantly).
 
 ---
 
 * 2
-* **Signal name:** Safeguarded stop 1
+* Safeguarded stop 1
 
-	**Type:** Input
-	**Standard function:** When inactive, the robot enters Protective stop. If this pin and the other Safeguarded stop pin are unequally set for a period greater than three seconds, the robot must be restarted.
+* Input. When inactive, the robot enters Protective stop. If this pin and the other Safeguarded stop pin are unequally set for a period greater than three seconds, the robot must be restarted.
 
 ---
 
 * 3
-* **Signal name:** System Emergency stop in 1
+* System Emergency stop in 1
 
-	**Type:** Input
-	**Standard function:** When inactive, the robot goes into Emergency stop.
+* Input. When inactive, the robot goes into Emergency stop.
 
 ---
 
 * 4
-* **Signal name:** Reduced speed 1
+* Reduced speed 1
 
-	**Type:** Input
-	**Standard function:** When inactive, the robot drives with reduced speed. The reduced speed function is not a safety-rated function.
+* Input. When inactive, the robot drives with reduced speed. The reduced speed function is not a safety-rated function.
 
 ---
 
 * 5
-* **Signal name:** Locomotion 1
+* Locomotion 1
 
-	**Type:** Output
-	**Standard function:** Is active when the robot is standing still.
+* Output. Is active when the robot is standing still.
 
 ---
 
 * 6
-* **Signal name:** Shared Emergency stop out 1
-
-	**Type:** Output
-	**Standard function:** Inactive when an Emergency stop button is pressed. Active if all Emergency stop buttons are released, even if you have not pressed the Resume button.
+* Shared Emergency stop out 1
+* Output. Inactive when an Emergency stop button is pressed. Active if all Emergency stop buttons are released, even if you have not pressed the Resume button.
 
 
 {% /table %}
@@ -455,63 +452,53 @@ If the GPIO pins are not working as expected, ensure that the **Shelf** feature 
 
 {% table %}
 
-* Pin no.
+* Pin 
+* Name
 * Description
 
 ---
 
 * 1
-* 	**Signal name:** Test output 2
-
-	**Type:** Output
-	**Standard function:** 24 V out test signal. Sends test pulses (not on constantly).
+* Test output 2
+* Output. 24 V out test signal. Sends test pulses (not on constantly).
 
 ---
 
 * 2
-* 	**Signal name:** Safeguarded stop 2
-
-	**Type:** Input
-	**Standard function:** When inactive, the robot enters Protective stop. If this pin and the other Safeguarded stop pin are unequally set for a period greater than three seconds, the robot must be restarted.
+* Safeguarded stop 2
+* Input. When inactive, the robot enters Protective stop. If this pin and the other Safeguarded stop pin are unequally set for a period greater than three seconds, the robot must be restarted.
 
 ---
 
 * 3
-* 	**Signal name:** System Emergency stop in 2
-
-	**Type:** Input
-	**Standard function:** When inactive, the robot goes into Emergency stop.
+* System Emergency stop in 2
+* Input. When inactive, the robot goes into Emergency stop.
 
 ---
 
 * 4
-* 	**Signal name:** Reduced speed 2
+* Reduced speed 2
 
-	**Type:** Input
-	**Standard function:** When inactive, the robot drives with reduced speed. The reduced speed function is not a safety-rated function.
+* Input. When inactive, the robot drives with reduced speed. The reduced speed function is not a safety-rated function.
 
 ---
 
 * 5
-* 	**Signal name:** Locomotion 2
+* Locomotion 2
 
-	**Type:** Output
-	**Standard function:** Is active when the robot is standing still.
+* Output. Is active when the robot is standing still.
 
 ---
 
 * 6
-* 	**Signal name:** System Emergency stop out 2
-
-	**Type:** Output
-	**Standard function:** Inactive when an Emergency stop button is pressed. Active if all Emergency stop buttons are released, even if you have not pressed the Resume button.
+*  System Emergency stop out 2
+*  Output. Inactive when an Emergency stop button is pressed. Active if all Emergency stop buttons are released, even if you have not pressed the Resume button.
 
 ---
 
 * 7
-* 	**Signal name:** SAFE_RETURN
-
-	**Standard function:** Safe return for output signals.
+* SAFE_RETURN
+* Safe return for output signals.
 
 
 {% /table %}

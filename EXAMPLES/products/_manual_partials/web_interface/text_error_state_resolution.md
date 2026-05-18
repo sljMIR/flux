@@ -1,0 +1,1 @@
+The robot enters an error state when it can not solve a problem on its own. Some errors the robot clears and resolves itself, but for most errors the robot pauses operation until you clear the error.

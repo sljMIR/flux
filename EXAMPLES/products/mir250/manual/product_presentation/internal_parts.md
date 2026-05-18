@@ -1,8 +1,8 @@
 ﻿# Internal parts {% tag="internal_parts" %}
 
-{% partial file="partials/service_maintenance/text_remove_covers_access_internal_parts.md" /%}
+{% partial file="products/_manual_partials/service_maintenance/text_remove_covers_access_internal_parts.md" /%}
 
-{% partial file="partials/service_maintenance/caution_remove_covers_exposes_parts.md" /%}
+{% partial file="products/_manual_partials/service_maintenance/caution_remove_covers_exposes_parts.md" /%}
 
 ## Front compartment
 
@@ -28,7 +28,7 @@
 
 ## Side compartments
 
-{% partial file="partials/service_maintenance/text_do_not_swap_nameplate_covers.md" /%}
+{% partial file="products/_manual_partials/service_maintenance/text_do_not_swap_nameplate_covers.md" /%}
 
 ### Left side
 
@@ -50,7 +50,7 @@
 
 ## Top compartments {% tag="internal_electrical_interfaces" %}
 
-{% partial file="partials/references/text_electrical_interfaces_more_info.md" /%}
+{% partial file="products/_manual_partials/references/text_electrical_interfaces_more_info.md" /%}
 
 {% image src="/images/mir250/overview/electrical_interfaces.webp" alt="Interfaces in the top compartments" /%}
 

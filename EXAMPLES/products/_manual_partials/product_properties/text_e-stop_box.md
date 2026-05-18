@@ -1,0 +1,1 @@
+The robot is delivered with an Emergency stop box that you connect to the Auxiliary emergency stop interface—see {% tagref tag="unpack_the_robot" /%}. When you press the button, the robot enters Emergency stop—see {% tagref tag="types_of_stop" /%}.

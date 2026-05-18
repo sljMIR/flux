@@ -1,0 +1,628 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schemas.mir/support/config.schema.json",
+  "type": "object",
+  "title": "MiR Robot Configuration Schema",
+  "description": "Schema for MiR robot configuration files",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "The schema for the configuration file"
+    },
+    "model": {
+      "type": "string",
+      "description": "The model name of the robot"
+    },
+    "base_robot": {
+      "type": "string",
+      "enum": ["MiR250", "MiR600", "MiR1350", "MiR1200 Pallet Jack", "MiR600/MiR1350"],
+      "description": "The base robot model"
+    },
+    "top_module": {
+      "type": ["string", "null"],
+      "enum":["MiR Shelf Carrier 250", "MiR Hook 250", "MiR Shelf Lift", "MiR EU Pallet Lift 600/1350", "MiR Pallet Lift 600/1350", null],
+      "description": "The top module attached to the robot"
+    },
+    "compatible_products": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["MiR Shelf Carrier 250", "MiR Hook 250", "MiR Shelf Lift", "MiR EU Pallet Lift 600", "MiR Pallet Lift 600", "MiR EU Pallet Lift 1350", "MiR Pallet Lift 1350", "MiR Fleet", "MiR Pallet Rack", "MiR EU Pallet Rack"]
+      },
+      "description": "The compatible products for the robot"
+    },
+
+    "has_broom": {
+      "type": "boolean",
+      "description": "Whether the robot has a broom attachment"
+    },
+    "has_proximity_sensors": {
+      "type": "boolean",
+      "description": "Whether the robot has proximity sensors"
+    },
+    "has_mechanical_brake_switch": {
+      "type": "boolean",
+      "description": "Whether the robot has a mechanical brake switch"
+    },
+    "has_top_plate": {
+      "type": "boolean",
+      "description": "Whether the robot has a top plate"
+    },
+    "has_contactors": {
+      "type": "boolean",
+      "description": "Whether the robot has contactors"
+    },
+    "has_mosfets": {
+      "type": "boolean",
+      "description": "Whether the robot has MOSFETs"
+    },
+    "has_inbuilt_display": {
+      "type": "boolean",
+      "description": "Whether the robot has an inbuilt display"
+    },
+    "has_power_over_ethernet_service_port": {
+      "type": "boolean",
+      "description": "Whether the robot has power over ethernet service port"
+    },
+    "has_estop_box": {
+      "type": "boolean",
+      "description": "Whether the robot is delivered with an emergency stop box"
+    },
+      "has_fast_swap": {
+      "type": "boolean",
+      "description": "Whether the robot has a fast swap feature"
+    },
+      "has_pull_handles": {
+      "type": "boolean",
+      "description": "Whether the robot has pull handles"
+    },
+    "min_caster_wheel_diameter": {
+      "type": ["number", "null"],
+      "description": "Minimum caster wheel diameter in millimeters",
+      "minimum": 0
+    },
+    "min_drive_wheel_diameter": {
+      "type": ["number", "null"],
+      "description": "Minimum drive wheel diameter in millimeters",
+      "minimum": 0
+    },
+    "min_cleanroom_caster_wheel_diameter": {
+      "type": ["number", "null"],
+      "description": "Minimum cleanroom wheel diameter in mm",
+      "minimum": 0
+    },
+    "max_current_power_pins_1_and_3_standstill": {
+      "type": ["number", "null"],
+      "description": "Maximum current for power pins 1 and 3 in amperes when robot is at standstill",
+      "minimum": 0
+    },
+      "max_current_power_pins_1_and_3_driving": {
+      "type": ["number", "null"],
+      "description": "Maximum current for power pins 1 and 3 in amperes when robot is driving. If there is no difference between standstill and driving, set this to the same value as max_current_power_pins_1_and_3_standstill.",
+      "minimum": 0
+    },
+    "task_grease_drive_wheels": {
+      "type": "boolean",
+      "description": "Whether greasing drive wheels is a required maintenance task"
+    },
+    "task_check_drive_wheel_shaft": {
+      "type": "boolean",
+      "description": "Whether checking drive wheel shaft is a required maintenance task"
+    },
+    "task_clean_heat_sink": {
+      "type": "boolean",
+      "description": "Whether cleaning the heat sink is a required maintenance task"
+    },
+    "location_ethernet_service_port": {
+      "type": ["string", "null"],
+      "enum": ["left rear compartment", "front right corner", "rear compartment", null],
+      "description": "Location of the ethernet service port"
+    },
+    "location_battery_lever_compartment": {
+      "type": ["string", "null"],
+      "enum": ["power interface compartment", "left compartment", "rear compartment", null],
+      "description": "Location battery lever compartment"
+    },
+    "location_charging_port": {
+      "type": ["string", "null"],
+      "enum": ["rear compartment", "power interface compartment", null],
+      "description": "Location of the charging port"
+    },
+    "number_of_batteries": {
+      "type": "integer",
+      "description": "Number of batteries in the robot",
+      "minimum": 1
+    },
+    "is_deckload": {
+      "type": "boolean",
+      "description": "Whether the robot is a deckload variant"
+    },
+    "is_forklift": {
+      "type": "boolean",
+      "description": "Whether the robot is a forklift variant"
+    },
+    "is_shelf_lift": {
+      "type": "boolean",
+      "description": "Whether the robot is a shelf lift variant"
+    },
+    "year_first_release": {
+      "type": "integer",
+      "description": "Year of first release",
+      "minimum": 2000,
+      "maximum": 3000
+    },
+    "has_esd_variant": {
+      "type": "boolean",
+      "description": "Whether the robot has an ESD (Electrostatic Discharge) variant"
+    },
+    "is_pcm": {
+      "type": "boolean",
+      "description": "Whether the robot is PCM (Pallet Cart Module)"
+    },
+    "is_ce": {
+      "type": "boolean",
+      "description": "Whether the robot is CE certified"
+    },
+    "spec_payload": {
+      "type": "integer",
+      "description": "Payload specification in kilograms",
+      "minimum": 0
+    },
+    "name_sick_configuration_file": {
+      "type": "string",
+      "description": "Name of the SICK configuration file"
+    },
+    "checksum_safety_plc": {
+      "type": "string",
+      "description": "Checksum of the safety PLC configuration file"
+    },
+    "checksum_rear_scanner_function": {
+      "type": ["string", "null"],
+      "description": "Checksum of the rear SICK scanner configuration file"
+    },
+    "checksum_rear_scanner_function_network": {
+      "type": ["string", "null"],
+      "description": "Checksum of the rear SICK scanner configuration file"
+    },
+    "checksum_front_scanner_function": {
+      "type": ["string", "null"],
+      "description": "Checksum of the front SICK scanner configuration file"
+    },
+    "checksum_front_scanner_function_network": {
+      "type": ["string", "null"],
+      "description": "Checksum of the front SICK scanner configuration file"
+    },
+    "checksum_front_left_scanner_function": {
+      "type": ["string", "null"],
+      "description": "Checksum of the front left SICK scanner configuration file"
+    },
+    "checksum_front_left_scanner_function_network": {
+      "type": ["string", "null"],
+      "description": "Checksum of the front left SICK scanner configuration file"
+    },
+    "checksum_front_right_scanner_function": {
+      "type": ["string", "null"],
+      "description": "Checksum of the front right SICK scanner configuration file"
+    },
+    "checksum_front_right_scanner_function_network": {
+      "type": ["string", "null"],
+      "description": "Checksum of the front right SICK scanner configuration file"
+    },
+    "min_sick_supported_software_version": {
+      "type": "string",
+      "description": "Minimum supported software version for the applied SICK configuration file"
+    },
+    "has_two_pins_for_reduced_speed_function": {
+      "type": "boolean",
+      "description": "Whether the robot has two pins for the reduced speed function. False assumes one pin."
+    },
+    "image_declaration_of_conformity": {
+    "type": "string",
+    "description": "The path to the declaration of conformity image"
+    },
+    "image_declaration_of_incorporation": {
+    "type": "string",
+    "description": "The path to the declaration of incorporation image"
+    },
+    "image_battery_remove": {
+    "type": "string",
+    "description": "The path to the battery removal image"
+    },
+    "image_power_button": {
+    "type": "string",
+    "description": "The path to an image the shows the power button while the robot is off"
+    },
+    "image_power_button_turn_on": {
+    "type": "string",
+    "description": "The path to an image that shows the power button being turned on"
+    },
+    "image_start_up_lights": {
+    "type": "string",
+    "description": "The path to an image that shows the status lights during startup"
+    },
+    "image_restart_button": {
+    "type": "string",
+    "description": "The path to an image that shows the restart (resume) button"
+    },
+    "image_packaging_material": {
+    "type": "string",
+    "description": "The path to an image that shows the packaging material used for the robot"
+    },
+    "safety_function_emergency_stop": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the emergency stop function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the emergency stop function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the emergency stop function"
+        }
+      }
+    },
+    "safety_function_overspeed_detection": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the overspeed detection function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the overspeed detection function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the overspeed detection function"
+        }
+      }
+    },
+    "safety_function_field_switching": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the field switching function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the field switching function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the field switchingfunction"
+        }
+      }
+    },
+    "safety_function_personnel_detection": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the personnel detection function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the personnel detection function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the personnel detection function"
+        }
+      }
+    },
+    "safety_function_speed_monitor": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the speed monitor function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the speed monitor function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the speed monitor function"
+        }
+      }
+    },
+    "safety_function_safeguarded_stop": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the safeguarded stop function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the safeguarded stop function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the safeguarded stop function"
+        }
+      }
+    },
+    "safety_function_locomotion": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the locomotion function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the locomotion function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the locomotion function"
+        }
+      }
+    },
+    "safety_function_mode_selection": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the mode selection function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the mode selection function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the mode selection function"
+        }
+      }
+    },
+    "safety_function_system_emergency_stop": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the system emergency stop function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the system emergency stop function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the system emergency stop function"
+        }
+      }
+    },
+    "safety_function_manual_stop": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the manual stop function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the manual stop function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the manual stop function"
+        }
+      }
+    },
+    "safety_function_manual_restart": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the manual brake release function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the manual brake release function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the manual brake release function"
+        }
+      }
+    },
+    "safety_function_manual_brake_release": {
+      "type": "object",
+      "properties": {
+          "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the manual brake release function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the manual brake release function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the manual brake release function"
+        }
+      }
+    },
+    "safety_function_pallet_lift_position_monitor": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the pallet lift position monitor function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the pallet lift position monitor function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the pallet lift position monitor function"
+        }
+      }
+    },
+    "safety_function_shelf_lift_position_monitor": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the shelf lift position monitor function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the shelf lift position monitor function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the shelf lift position monitor function"
+        }
+      }
+    },
+    "safety_function_shelf_detection": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the shelf detection function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the shelf detection function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the shelf detection function"
+        }
+      }
+    },
+    "safety_function_pin_position_monitor": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the function is active"
+        },
+        "pfhd": {
+          "type": "string",
+          "description": "Probability of dangerous failure per hour for the pin position monitor function"
+        },
+        "pl" : {
+          "type": "string",
+          "enum": ["a", "b", "c", "d"],
+          "description": "Performance level of the pin position monitor function"
+        },
+        "architecture": {
+          "type": "string",
+          "enum": ["Category 1", "Category 2", "Category 3", "Category b"],
+          "description": "Architecture of the pin position monitor function"
+        }
+      }
+    },
+    "link_preventative_maintenance_inspection": {
+      "type": "string",
+      "description": "Link to the preventive maintenance inspection video"
+    }
+  },
+  "required": [
+    "model"
+  ],
+  "additionalProperties": false
+}

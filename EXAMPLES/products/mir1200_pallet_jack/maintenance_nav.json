@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Introduction",
+    "slug": "maintenance/intro"
+  },
+  {
+    "title": "Before performing maintenance",
+    "slug": "maintenance/before_performing_maintenance/before_performing_maintenance",
+    "children": [
+      { "title": "Things you will need", "slug": "maintenance/before_performing_maintenance/things_you_will_need" },
+      { "title": "Preparation for maintenance", "slug": "maintenance/before_performing_maintenance/preparation_for_maintenance.md" }
+    ]
+  },
+  {
+    "title": "Weekly maintenance",
+    "slug": "maintenance/weekly_maintenance/weekly_maintenance_tasks",
+    "children": [
+      { "title": "Inspect the antennas", "slug": "maintenance/weekly_maintenance/inspect_the_antennas" },
+      { "title": "Clean the exterior and verify attachment of covers", "slug": "maintenance/weekly_maintenance/clean_the_exterior_and_verify_attachment_of_covers" },
+      { "title": "Inspect and clean the proximity sensors", "slug": "maintenance/weekly_maintenance/inspect_and_clean_the_proximity_sensors" },
+      { "title": "Check and clean the status lights", "slug": "maintenance/weekly_maintenance/check_and_clean_the_status_lights" },
+      { "title": "Inspect and test the signal lights", "slug": "maintenance/weekly_maintenance/inspect_and_test_the_signal_lights" },
+      { "title": "Inspect and clean the safety laser scanners", "slug": "maintenance/weekly_maintenance/inspect_and_clean_the_safety_laser_scanners" },
+      { "title": "Perform a mechanical brake function test", "slug": "maintenance/weekly_maintenance/perform_a_mechanical_brake_function_test" }
+    ]
+  },
+  {
+    "title": "Monthly maintenance tasks",
+    "slug": "maintenance/monthly_maintenance/monthly_maintenance_tasks",
+    "children": [
+      { "title": "Clean and inspect the caster wheels", "slug": "maintenance/monthly_maintenance/clean_and_inspect_the_caster_wheels" },
+      { "title": "Clean the drive wheels", "slug": "maintenance/monthly_maintenance/clean_the_drive_wheels" },
+      { "title": "Inspect and clean the charging pads and broom", "slug": "maintenance/monthly_maintenance/inspect_and_clean_the_charging_pads_and_broom" },
+      { "title": "Check hardware health status", "slug": "maintenance/monthly_maintenance/check_hardware_health_status" },
+      { "title": "Check and clean the 3D cameras", "slug": "maintenance/monthly_maintenance/check_and_clean_the_3d_cameras" },
+      { "title": "Check safety laser scanner contamination", "slug": "maintenance/monthly_maintenance/check_safety_laser_scanner_contamination" },
+      { "title": "Test the speaker", "slug": "maintenance/monthly_maintenance/test_the_speaker" },
+      { "title": "Test the status lights", "slug": "maintenance/monthly_maintenance/test_the_status_lights" },
+      { "title": "Check the gearbox for oil leakage", "slug": "maintenance/monthly_maintenance/check_the_gearbox_for_oil_leakage" }
+    ]
+  },
+  {
+  "title": "Quarterly maintenance tasks",
+  "slug": "maintenance/quarterly_maintenance/quarterly_maintenance_tasks",
+  "children": [
+    { "title": "Check the control panel", "slug": "maintenance/quarterly_maintenance/check_the_control_panel" },
+    { "title": "Test the Emergency stop buttons", "slug": "maintenance/quarterly_maintenance/test_the_emergency_stop_buttons" }
+    ]
+  },
+  {
+    "title": "Half-yearly maintenance tasks",
+    "slug": "maintenance/half_yearly_maintenance/half_yearly_maintenance_tasks",
+    "children": [
+      { "title": "Check the drive wheels", "slug": "maintenance/half_yearly_maintenance/check_the_drive_wheels" },
+      { "title": "Check the drive wheel shaft nuts", "slug": "maintenance/half_yearly_maintenance/check_the_drive_wheel_shaft_nuts" },
+      { "title": "Check the caster wheels", "slug": "maintenance/half_yearly_maintenance/check_the_caster_wheels" },
+      { "title": "Inspect the battery connection and fast-swap assembly", "slug": "maintenance/half_yearly_maintenance/inspect_the_battery_connection_and_fast_swap_assembly" },
+      { "title": "Inspect and clean the battery", "slug": "maintenance/half_yearly_maintenance/inspect_and_clean_the_battery" },
+      { "title": "Perform a brake test", "slug": "maintenance/half_yearly_maintenance/perform_a_brake_test" },
+      { "title": "Check safety markings in the environment", "slug": "maintenance/half_yearly_maintenance/check_safety_markings_in_the_environment" }
+    ]
+  },
+  {
+    "title": "Yearly maintenance tasks",
+    "slug": "maintenance/half_yearly_maintenance/half_yearly_maintenance_tasks",
+    "children": [
+      { "title": "Replace the caster wheels", "slug": "maintenance/yearly_maintenance/replace_the_caster_wheels" },
+      { "title": "Replace the drive wheels", "slug": "maintenance/yearly_maintenance/replace_the_drive_wheels" },
+      { "title": "Check information stickers", "slug": "maintenance/yearly_maintenance/check_information_stickers" }
+    ]
+  },
+  {
+    "title": "Checklist",
+    "slug": "maintenance/checklists_for_maintenance_tasks.md"
+  }
+]

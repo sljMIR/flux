@@ -1,0 +1,1 @@
+{% $model %} is a component which is designed to be used as a generic base when designing an autonomous mobile robot (AMR) for a specific application. The structure and electrical interfaces allow a wide variety of top modules to be designed and integrated so that it forms a complete AMR.

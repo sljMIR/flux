@@ -14,4 +14,4 @@ The box contains:
 
 * A document folder
 
-{% partial file="partials/packaging/list_document_folder_contents.md" /%}
+{% partial file="products/_manual_partials/packaging/list_document_folder_contents.md" /%}

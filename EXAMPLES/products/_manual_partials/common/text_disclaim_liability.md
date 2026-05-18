@@ -1,0 +1,1 @@
+Mobile Industrial Robots disclaims any and all liability if the robot or its accessories are damaged, changed, or modified in any way. Mobile Industrial Robots cannot be held responsible for any damages caused to the robot, accessories, or any other equipment due to programming errors or malfunctioning of the robot.

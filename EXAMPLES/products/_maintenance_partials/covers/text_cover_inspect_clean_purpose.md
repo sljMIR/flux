@@ -1,0 +1,1 @@
+Limiting the amount of dust particles and other debris that can enter the internal parts of the robot. You should also inspect the general condition of the compartment covers.

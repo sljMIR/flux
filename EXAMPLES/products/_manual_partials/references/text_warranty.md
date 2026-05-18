@@ -1,0 +1,1 @@
+Mobile Industrial Robots offers a standard warranty on all products. You can find the standard warranty on [MiR Support Portal](https://supportportal.mobile-industrial-robots.com/).

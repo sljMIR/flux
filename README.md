@@ -20,7 +20,7 @@ Adeptus supports nine document types, each with its own metadata schema defined 
 | Field | Type | Description |
 |-------|------|-------------|
 | `id` | string | automatically assigned |
-| `type` | string | see list |
+| `type` | string | `releaseNote`, `manual`, `article`, `notice`, `productNote`, `faq`  |
 | `title` | sting | document title |
 | `documentNumber` | int | Document number for all items that are printed (optional and triggers automated PDF generation in pipeline) |
 | `status` | string | `draft` / `review` / `published` / `archived` |
@@ -30,21 +30,12 @@ Adeptus supports nine document types, each with its own metadata schema defined 
 | `updateDate` | date | When the release was updated (auto filled by PR) |
 | `accessLevel` | string | SSO |
 | `tags` | string[] | array of tags to help categorize and search for articles |
-| `files` | string[] | associated download files |
 | `documentHistory` | object[ date , string] | array of entry objects that contain date of change and description of change |
+| `files` | string[] | (optional) associated download files |
 
 
 
-### 1. Release Notes (Atomic - but with automated component)
-
-Version-based aggregations of release items. Not atomic themselves -- they compose items by reference to JIRA tickets and include any custom texts or instructions that accompany the release
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `swVersion` | string | Release version, e.g. `"1.5.0"` |
-| `swAccess` | string | `standard` / `beta` / `<specific_customer>`|
-
-### 2. Manuals (Composed)
+### Manuals (Composed)
 
 Comprehensive user or service manuals. Always composed documents with an `index.markdoc` entry point referencing chapters and partials.
 
@@ -55,34 +46,9 @@ Comprehensive user or service manuals. Always composed documents with an `index.
 | `swVersion`| string | (Optional) SW version |
 | `products`| string[] | (Optional) the product the guide is relevant for |
 | `configFile` | string | Path to applicable config file |
-| `sections` | string[] | Ordered array of chapter file paths |
+| `indexFile` | string[] | Path to applicable TOC file that reference and structures chapters|
 
-### 3. Notice (atomic)
-
-Technical service/safety bulletins and maintenance notices targeting field service technicians and engineering.
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `category` | string | `product` / `safety` |
-| `affectedProducts` | string[] | Product identifiers |
-| `affectedHwRanges` | object[] | Serial number ranges (optional) |
-| `expiryDate` | date | When the note becomes obsolete |
-
-
-### 4. Product Notes
-
-Product announcements, transitions, end-of-life notices.
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `title` | string | Product note title |
-| `description` | string | Description |
-| `noteType` | string | `new_product` / `hw_update` / `replacement` / `retired` / `eol` |
-| `affectedProducts` | string[] | Products being changed |
-| `replacementProducts` | string[] | Replacement product identifiers (if applicable) |
-| `effectiveDate` | date | When the change takes effect |
-
-### 5. Article (Atomic)
+### Article (Atomic)
 
 How-to guides, tutorials, and feature documentation that are collected on one page
 
@@ -94,14 +60,46 @@ How-to guides, tutorials, and feature documentation that are collected on one pa
 | `products`| string[] | (Optional) the product the guide is relevant for |
 | `orderNumber` | int | (optional) for spare part guides |
 
-### 6. FAQs (Atomic)
+
+### Notice (Atomic)
+
+Technical service/safety bulletins and maintenance notices targeting field service technicians and engineering.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `category` | string | `product` / `safety` |
+| `affectedProducts` | string[] | Product identifiers |
+| `affectedHwRanges` | object[] | (optional) HW or serial number ranges |
+| `expiryDate` | date | (optional) When the note becomes obsolete |
+
+
+### Product Notes (Atomic)
+
+Product announcements, transitions, end-of-life notices.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `noteType` | string | `new_product` / `hw_update` / `replacement` / `retired` / `eol` |
+| `affectedProducts` | string[] | Products being changed |
+| `replacementProducts` | string[] | (optional) Replacement product identifiers |
+| `effectiveDate` | date | When the change takes effect |
+
+### Release Notes (Atomic - but with automated component)
+
+Release note consisting of a general description of the release and any relevant update information. All solved issues should be included using JIRA import components. 
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `swVersion` | string | Release version, e.g. `"1.5.0"` |
+
+
+### FAQs (Atomic)
 
 Frequently asked questions, individually authored and independently searchable.
 
 | Field | Type | Description |
 |-------|------|-------------|
 | `question` | string | The question text |
-| `category` | string | Category for organisation, e.g. `"troubleshooting/power-supplies"` |
 | `popularity` | number | View/interaction count (tracked by Adeptus) |
 
 ## Content Format

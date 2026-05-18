@@ -1,3 +1,3 @@
 ﻿# Declaration of Incorporation example
 
-{% image src=$image_declaration_of_incorporation alt="Example of the Declration of Incorporation"  /%}
+{% image src="/images/mir250/certificates/DoI_2024.webp" alt="Example of the Declration of Incorporation"  /%}

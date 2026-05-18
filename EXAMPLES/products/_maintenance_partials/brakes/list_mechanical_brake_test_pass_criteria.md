@@ -1,0 +1,1 @@
+* The mechanical brakes' correct function is verified as described.

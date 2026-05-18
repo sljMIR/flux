@@ -1,0 +1,1 @@
+* All sensors are clean and that there are no visible dust or debris present.

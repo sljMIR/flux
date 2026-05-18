@@ -1,5 +1,5 @@
 ﻿# Turn on the robot{% tag="turn_on" %}
 
-{% partial file="partials/getting_started/instructions_turn_on.md" /%}
+{% partial file="products/_manual_partials/control_panel/instructions_turn_on.md" /%}
 
-{% partial file="partials/references/info_battery48v_technical_guide.md" /%}
+{% partial file="products/_manual_partials/power/info_battery48v_technical_guide.md" /%}

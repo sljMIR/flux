@@ -1,0 +1,1 @@
+To clear an error, select the red warning indicator in the interface, and select **Reset**.
