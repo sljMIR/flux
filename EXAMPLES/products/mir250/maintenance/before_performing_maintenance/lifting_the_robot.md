@@ -1,4 +1,4 @@
-# Lifting the robot {% tag="lifting_the_robot" %}
+# Lifting the robot {% tag "lifting_the_robot" /%}
 
 {% partial file="products/_maintenance_partials/safety/warning_suspended_robots.md" /%}
 

@@ -1,4 +1,4 @@
-# Check the control panel {% tag="check_the_control_panel" %}
+# Check the control panel {% tag "check_the_control_panel" /%}
 
 <image: "mir250\_test\_control\_panel.png">
 

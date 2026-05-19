@@ -1,4 +1,4 @@
-# Obstacle detection {% tag="obstacle_detection" %}
+# Obstacle detection {% tag "obstacle_detection" /%}
 
 {% partial file="products/_manual_partials/navigation/text_detects_obstacles_while_driving.md" /%}
 

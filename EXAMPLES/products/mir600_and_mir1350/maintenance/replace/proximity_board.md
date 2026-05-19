@@ -1,4 +1,4 @@
-# Proximity board {% tag="replace_proximity_board_mir250" %}
+# Proximity board {% tag "replace_proximity_board_mir250" /%}
 
 Date: 2025-07-21
 

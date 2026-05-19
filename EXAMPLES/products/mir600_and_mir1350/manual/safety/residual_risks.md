@@ -1,4 +1,4 @@
-﻿# Residual risks {% tag="residual_risks" %}
+﻿# Residual risks {% tag "residual_risks" /%}
 
 Mobile Industrial Robots has identified the following potential hazards that integrators must inform personnel about and take all precautions to avoid when working with the robot:
 

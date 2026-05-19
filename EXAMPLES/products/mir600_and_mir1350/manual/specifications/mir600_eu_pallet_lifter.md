@@ -1,4 +1,4 @@
-# MiR600 EU Pallet lifter specifications {% tag="specifications" %}
+# MiR600 EU Pallet lifter specifications {% tag "specifications" /%}
 
 ## Compliance and approvals
 

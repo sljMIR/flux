@@ -1,4 +1,4 @@
-# Control panel interfaces {% tag="replace_control_panel_interfaces_mir250" %}
+# Control panel interfaces {% tag "replace_control_panel_interfaces_mir250" /%}
 
 Date: 2025-07-21
 

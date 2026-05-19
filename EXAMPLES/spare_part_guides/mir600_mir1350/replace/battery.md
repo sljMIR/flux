@@ -1,4 +1,4 @@
-# Battery {% tag="replace_battery_mir600_1350" %}
+# Battery {% tag "replace_battery_mir600_1350" /%}
 
 <image: "250_600_1350_battery_v.2.1_how-to.png">
 

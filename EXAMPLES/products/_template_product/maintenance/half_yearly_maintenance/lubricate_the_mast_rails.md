@@ -1,4 +1,4 @@
-# Lubricate the mast rails {% tag="lubricate_the_mast_rails" %}
+# Lubricate the mast rails {% tag "lubricate_the_mast_rails" /%}
 
 <image: "mast_rails.png">
 

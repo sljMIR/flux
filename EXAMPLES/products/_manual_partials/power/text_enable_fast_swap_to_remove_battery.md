@@ -1,1 +1,1 @@
-To be able to remove the battery, you must first enable the fast swap-option in your robot—see {% tagref tag="enable_fast_swap" /%}.
+To be able to remove the battery, you must first enable the fast swap-option in your robot—see {% tagref "enable_fast_swap" /%}.

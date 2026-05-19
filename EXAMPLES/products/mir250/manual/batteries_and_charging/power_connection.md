@@ -1,4 +1,4 @@
-# Power connection {% tag="power_connection" %}
+# Power connection {% tag "power_connection" /%}
 
 {% partial file="products/_manual_partials/power/text_power_main_connection_lever.md" /%}
 
@@ -11,7 +11,7 @@
 
 {% /if %}
 
-The Battery lever is in the rear compartment—see {% tagref tag="access_internal_parts" /%}.
+The Battery lever is in the rear compartment—see {% tagref "access_internal_parts" /%}.
 
 ## When to connect power
 

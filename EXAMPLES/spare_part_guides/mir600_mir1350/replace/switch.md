@@ -1,4 +1,4 @@
-# Switch {% tag="replace_switch_mir600_1350" %}
+# Switch {% tag "replace_switch_mir600_1350" /%}
 
 <image: "Router 2.0_for card.png">
 

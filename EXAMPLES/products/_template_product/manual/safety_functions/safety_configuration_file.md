@@ -1,4 +1,4 @@
-# Safety configuration file {% tag="safety_configuration_file" %}
+# Safety configuration file {% tag "safety_configuration_file" /%}
 
 {% partial file="products/_manual_partials/safety/list_applied_safety_config_and_required_sw_version.md" /%}
 

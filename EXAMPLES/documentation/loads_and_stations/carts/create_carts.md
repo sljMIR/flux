@@ -9,7 +9,7 @@ firstReleaseDate: "2025-11-04"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---
-# Create carts {% tag="create_carts_and_marker_types" %}
+# Create carts {% tag "create_carts_and_marker_types" /%}
 
 Before creating missions with carts, you need to define the different carts that your robot will be docking to. This information is used when the robot is picking up, placing, and towing the cart to ensure that the cart is correctly transported.
 

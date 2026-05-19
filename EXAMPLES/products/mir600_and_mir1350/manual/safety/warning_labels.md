@@ -1,4 +1,4 @@
-﻿# Warning labels {% tag="warning_labels" %}
+﻿# Warning labels {% tag "warning_labels" /%}
 
 The robot is supplied with a warning label that specifies that it is strictly prohibited to ride on the robot.
 

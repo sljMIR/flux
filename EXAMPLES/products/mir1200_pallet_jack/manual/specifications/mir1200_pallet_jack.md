@@ -1,4 +1,4 @@
-# MiR1200 Pallet Jack specifications {% tag="specifications" %}
+# MiR1200 Pallet Jack specifications {% tag "specifications" /%}
 
 ## Battery and charger
 

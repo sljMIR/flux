@@ -1,4 +1,4 @@
-# Test the status lights {% tag="test_the_status_lights" %}
+# Test the status lights {% tag "test_the_status_lights" /%}
 
 <image: "mir250\_maintenance\_test\_status\_lights.png">
 

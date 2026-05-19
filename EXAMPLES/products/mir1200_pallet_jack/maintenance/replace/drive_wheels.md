@@ -1,4 +1,4 @@
-# Drive wheels {% tag="replace_drive_wheels_mir250" %}
+# Drive wheels {% tag "replace_drive_wheels_mir250" /%}
 
 <image: "kit\_contents.png">
 

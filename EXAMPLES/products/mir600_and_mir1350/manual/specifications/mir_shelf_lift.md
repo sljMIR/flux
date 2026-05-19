@@ -1,4 +1,4 @@
-# MiR shelf lift specifications {% tag="specifications" %}
+# MiR shelf lift specifications {% tag "specifications" /%}
 
 ## Compliance and approvals
 

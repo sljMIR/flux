@@ -1,4 +1,4 @@
-# Inspect and clean the proximity sensors {% tag="inspect_and_clean_the_proximity_sensors" %}
+# Inspect and clean the proximity sensors {% tag "inspect_and_clean_the_proximity_sensors" /%}
 
 <image: "mir250\_maintenance\_proximity\_scanners.png">
 

@@ -1,4 +1,4 @@
-# Received Product Inspection Checklist{% tag="received_product_inspection_checklist" %}
+# Received Product Inspection Checklist{% tag "received_product_inspection_checklist" /%}
 
 ## General Information
 

@@ -1,4 +1,4 @@
-# Check and clean the 3D cameras {% tag="check_and_clean_the_3d_cameras" %}
+# Check and clean the 3D cameras {% tag "check_and_clean_the_3d_cameras" /%}
 
 <image: "mir250\_maintenance\_inspect\_3D\_cameras.png">
 

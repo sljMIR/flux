@@ -1,10 +1,10 @@
-﻿# Internal parts {% tag="internal_parts" %}
+﻿# Internal parts {% tag "internal_parts" /%}
 
 {% partial file="products/_manual_partials/service_maintenance/text_remove_covers_access_internal_parts.md" /%}
 
 {% partial file="products/_manual_partials/service_maintenance/caution_remove_covers_exposes_parts.md" /%}
 
-## Electronics drawer {% tag="internal_electronics_drawer" %}
+## Electronics drawer {% tag "internal_electronics_drawer" /%}
 
 {% image src="/images/mir600_1350/overview/front_compartment.webp" alt="Identification of parts in the electronics drawer"  /%}
 
@@ -114,7 +114,7 @@
 
 {% /table %}
 
-## Top compartments {% tag="internal_electrical_interfaces" %}
+## Top compartments {% tag "internal_electrical_interfaces" /%}
 
 {% partial file="products/_manual_partials/references/text_electrical_interfaces_more_info.md" /%}
 

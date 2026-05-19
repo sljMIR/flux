@@ -1,4 +1,4 @@
-# Payload hold test {% tag="payload_hold_test" %}
+# Payload hold test {% tag "payload_hold_test" /%}
 
 <image: "general_overview.png">
 

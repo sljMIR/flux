@@ -1,8 +1,8 @@
-# Connect batteries{% tag="connect_batteries" %}
+# Connect batteries{% tag "connect_batteries" /%}
 
 The robot has three joined batteries that are connected to the robot by one main battery connector.
 
-When you receive the robot, connect the three batteries in the right-rear compartment. You only need to do this once as you can use the main battery connector in the power interface compartment to connect and disconnect the robot's battery power source—see {% tagref tag="power_connection" /%}.
+When you receive the robot, connect the three batteries in the right-rear compartment. You only need to do this once as you can use the main battery connector in the power interface compartment to connect and disconnect the robot's battery power source—see {% tagref "power_connection" /%}.
 
 To connect the batteries in the right rear compartment, follow these steps:
 

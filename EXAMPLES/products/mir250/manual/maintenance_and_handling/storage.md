@@ -1,4 +1,4 @@
-﻿# Storage {% tag="storage" %}
+﻿# Storage {% tag "storage" /%}
 
 {% partial file="products/_manual_partials/storage/text_monitor_battery_percentage.md" /%}
 

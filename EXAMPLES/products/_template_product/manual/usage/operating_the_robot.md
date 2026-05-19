@@ -1,8 +1,8 @@
-# Operating the robot {% tag="operating_the_robot" %}
+# Operating the robot {% tag "operating_the_robot" /%}
 
 {% partial file="products/_manual_partials/modes/text_switch_between_modes.md" /%}
 
-## Manual mode {% tag="operate_manually" %}
+## Manual mode {% tag "operate_manually" /%}
 
 {% partial file="products/_manual_partials/modes/text_manual_mode_usage.md" /%}
 
@@ -14,7 +14,7 @@
 
 In Maintenance mode, the robot is removed from operations and is not accounted for by MiR Fleet and cannot receive or execute a mission.
 
-You can also control the robot manually using the tiller in Maintenance mode—see {% tagref tag="operate_manually" /%}.
+You can also control the robot manually using the tiller in Maintenance mode—see {% tagref "operate_manually" /%}.
 
 This mode is used for setup, maintenance, safety function tests, troubleshooting, and running diagnostics.
 
@@ -25,6 +25,6 @@ This mode is used for setup, maintenance, safety function tests, troubleshooting
 
 {% partial file="products/_manual_partials/modes/list_automatic_mode_options.md" /%}
 
-## Locked mode{% tag="locked_mode" %}
+## Locked mode{% tag "locked_mode" /%}
 
 {% partial file="products/_manual_partials/modes/text_locked_mode_description.md" /%}

@@ -1,4 +1,4 @@
-# Control panel and display {% tag="control_panel" %}
+# Control panel and display {% tag "control_panel" /%}
 
 The robot has a control panel and display on the top of the main body of the robot.
 
@@ -40,4 +40,4 @@ The Operating mode key lets you switch between operating modes.
 
 The display shows the robot interface. The robot interface shown on the display is the exact same as the one shown if you open the robot interface on a PC.
 
-For more information on operating modes, see {% tagref tag="operating_the_robot" /%}.
+For more information on operating modes, see {% tagref "operating_the_robot" /%}.

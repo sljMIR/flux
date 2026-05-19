@@ -1,6 +1,6 @@
 The Manual brake release switch is located below the control panel. You release the robot's mechanical brakes by turning the Manual brake release switch clockwise.
 
-The mechanical brakes require electrical power to be released. The robot must be connected to its battery power source to release the brakes—see {% tagref tag="power_connection" /%}.
+The mechanical brakes require electrical power to be released. The robot must be connected to its battery power source to release the brakes—see {% tagref "power_connection" /%}.
 
 When the robot is driving, the robot engages and releases the mechanical brakes automatically. You should only release the brakes manually when you want to move the robot by hand. The robot cannot operate automatically while the mechanical brakes are released manually.
 

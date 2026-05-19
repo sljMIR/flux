@@ -1,4 +1,4 @@
-# MiR600 US pallet lift specifications {% tag="specifications" %}
+# MiR600 US pallet lift specifications {% tag "specifications" /%}
 
 ## Compliance and approvals
 

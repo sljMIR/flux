@@ -1,4 +1,4 @@
-# Check safety laser scanner contamination {% tag="check_safety_laser_scanner_contamination" %}
+# Check safety laser scanner contamination {% tag "check_safety_laser_scanner_contamination" /%}
 
 <image: "SICK\_SD\_contamination\_measurement.png">
 

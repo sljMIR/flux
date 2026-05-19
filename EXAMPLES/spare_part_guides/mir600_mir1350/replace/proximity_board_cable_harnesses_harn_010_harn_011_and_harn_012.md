@@ -1,4 +1,4 @@
-# Proximity board cable harnesses (HARN-010, HARN-011, and HARN-012) {% tag="replace_proximity_board_cable_harnesses_harn_010_harn_011_and_harn_012_mir600_1350" %}
+# Proximity board cable harnesses (HARN-010, HARN-011, and HARN-012) {% tag "replace_proximity_board_cable_harnesses_harn_010_harn_011_and_harn_012_mir600_1350" /%}
 
 Date: 2025-07-28
 

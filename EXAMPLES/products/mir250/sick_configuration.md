@@ -21,7 +21,7 @@ products:
 - "MiR250 Hook"
 ---
 
-# SICK configuration files and compatibility {% tag="mobile_industrial_robots_mir250_sick_configuration_files_and_compatibility" %}
+# SICK configuration files and compatibility {% tag "mobile_industrial_robots_mir250_sick_configuration_files_and_compatibility" /%}
 
 ## MiR250 Base Robot SICK configuration files
 

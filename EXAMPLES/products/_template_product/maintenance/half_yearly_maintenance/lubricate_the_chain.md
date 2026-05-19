@@ -1,4 +1,4 @@
-# Lubricate the chain {% tag="lubricate_the_chain" %}
+# Lubricate the chain {% tag "lubricate_the_chain" /%}
 
 <image: "chain_maintenance.png">
 

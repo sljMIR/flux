@@ -1,4 +1,4 @@
-# Proximity board {% tag="replace_proximity_board_mir600_1350" %}
+# Proximity board {% tag "replace_proximity_board_mir600_1350" /%}
 
 <image: "proximity_sensor.png">
 

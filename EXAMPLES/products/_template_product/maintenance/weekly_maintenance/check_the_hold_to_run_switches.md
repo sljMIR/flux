@@ -1,4 +1,4 @@
-# Check the hold-to-run switches {% tag="check_the_hold_to_run_switches" %}
+# Check the hold-to-run switches {% tag "check_the_hold_to_run_switches" /%}
 
 <image: "hold-to-run_switches.png">
 

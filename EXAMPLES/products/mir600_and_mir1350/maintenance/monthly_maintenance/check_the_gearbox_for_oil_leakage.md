@@ -1,4 +1,4 @@
-# Check the gearbox for oil leakage {% tag="check_the_gearbox_for_oil_leakage" %}
+# Check the gearbox for oil leakage {% tag "check_the_gearbox_for_oil_leakage" /%}
 
 <image: "mir250\_inspect\_gearbox.png">
 

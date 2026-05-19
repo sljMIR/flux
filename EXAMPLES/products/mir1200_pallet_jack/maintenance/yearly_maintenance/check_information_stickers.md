@@ -1,4 +1,4 @@
-# Check information stickers {% tag="check_information_stickers" %}
+# Check information stickers {% tag "check_information_stickers" /%}
 
 <image: "mir250\_maintenance\_inspect\_nameplate.png">
 

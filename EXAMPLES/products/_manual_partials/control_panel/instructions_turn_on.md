@@ -1,6 +1,6 @@
 To turn on the robot, follow these steps:
 
-1. Make sure the battery power source is connected—see {% tagref tag="power_connection" /%}.
+1. Make sure the battery power source is connected—see {% tagref "power_connection" /%}.
 2. Press the Power button for three seconds.
 
     {% image src=$image_power_button_turn_on alt="The location of the Power button on the control panel."  /%}

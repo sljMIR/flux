@@ -1,4 +1,4 @@
-# M12 connector on the scanner cable {% tag="replace_m12_connector_on_the_scanner_cable_mir600_1350" %}
+# M12 connector on the scanner cable {% tag "replace_m12_connector_on_the_scanner_cable_mir600_1350" /%}
 
 Date: 2025-07-28
 

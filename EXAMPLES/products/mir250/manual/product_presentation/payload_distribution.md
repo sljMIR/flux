@@ -1,4 +1,4 @@
-﻿# Payload distribution{% tag="payload_distribution" %}
+﻿# Payload distribution{% tag "payload_distribution" /%}
 
 {% partial file="products/_manual_partials/safety/warning_load_falling_if_incorrectly_fastened.md" /%}
 

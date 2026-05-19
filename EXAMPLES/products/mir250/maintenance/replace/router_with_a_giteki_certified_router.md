@@ -1,4 +1,4 @@
-# Router with a Giteki certified router {% tag="replace_router_with_a_giteki_certified_router_mir250" %}
+# Router with a Giteki certified router {% tag "replace_router_with_a_giteki_certified_router_mir250" /%}
 
 <image: "MicrosoftTeams-image (9).png">
 

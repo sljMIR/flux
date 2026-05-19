@@ -1,4 +1,4 @@
-# Clean the  exterior and verify attachment of covers {% tag="clean_the_exterior_and_verify_attachment_of_covers" %}
+# Clean the  exterior and verify attachment of covers {% tag "clean_the_exterior_and_verify_attachment_of_covers" /%}
 
 <image: "mir250\_maintenance\_covers.png">
 

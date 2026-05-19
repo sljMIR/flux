@@ -1,4 +1,4 @@
-# Bogie with motor {% tag="replace_bogie_with_motor_mir600_1350" %}
+# Bogie with motor {% tag "replace_bogie_with_motor_mir600_1350" /%}
 
 <image: "bogie.png">
 

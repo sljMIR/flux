@@ -1,1 +1,1 @@
-Turn off the robot and disconnect it from the battery power source—see {% tagref tag="power_connection" /%}.
+Turn off the robot and disconnect it from the battery power source—see {% tagref "power_connection" /%}.

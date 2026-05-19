@@ -1,12 +1,12 @@
-﻿# Connect to the web-interface{% tag="connect_to_interface" %}
+﻿# Connect to the web-interface{% tag "connect_to_interface" /%}
 
 When the robot is turned on, you can connect a PC or tablet to the robot's internal network to access the web-interface. In the web-interface, you can configure the robot's settings and connect it to a wireless network.
 
-{% if $has_inbuilt_display %}You can also control and configure the robot directly using the display—see {% tagref tag="control_panel" /%}. {% /if %}
+{% if $has_inbuilt_display %}You can also control and configure the robot directly using the display—see {% tagref "control_panel" /%}. {% /if %}
 
 ## Connect to network
 
-You can connect to the robot using an Ethernet cable or an access point. If you are located in North America, the EU, or a part of the EAC, you can purchase a MiR Access Point from MiR. Outside these areas, you need to use your own access point that is approved for use in your region. If you choose to use an access point, you must ensure that the robot is disconnected from the wireless network before attaching the access point to remain compliant—see {% tagref tag="connect_to_wi-fi_network" /%}.
+You can connect to the robot using an Ethernet cable or an access point. If you are located in North America, the EU, or a part of the EAC, you can purchase a MiR Access Point from MiR. Outside these areas, you need to use your own access point that is approved for use in your region. If you choose to use an access point, you must ensure that the robot is disconnected from the wireless network before attaching the access point to remain compliant—see {% tagref "connect_to_wi-fi_network" /%}.
 
 {% if not($has_power_over_ethernet_service_port) %}The RJ45 Ethernet port does not support Power over Ethernet. If you connect an access point to the robot, you must connect another cable to power the access point.
 {% / if %}

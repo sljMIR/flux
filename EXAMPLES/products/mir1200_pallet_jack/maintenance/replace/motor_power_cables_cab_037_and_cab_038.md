@@ -1,4 +1,4 @@
-# Motor power cables (CAB-037 and CAB-038) {% tag="replace_motor_power_cables_cab_037_and_cab_038_mir250" %}
+# Motor power cables (CAB-037 and CAB-038) {% tag "replace_motor_power_cables_cab_037_and_cab_038_mir250" /%}
 
 Date: 2025-07-21
 

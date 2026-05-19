@@ -2,6 +2,6 @@ The battery is generally maintenance-free but should be cleaned if it gets very 
 
 Batteries that show mechanical damage or signs of gaseous or liquid discharge must immediately be removed from service.
 
-For battery storage, see {% tagref tag="storage" /%}
+For battery storage, see {% tagref "storage" /%}
 
-For battery disposal, see {% tagref tag="disposal" /%}
+For battery disposal, see {% tagref "disposal" /%}

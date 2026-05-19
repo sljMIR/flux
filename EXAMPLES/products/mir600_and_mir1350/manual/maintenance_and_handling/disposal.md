@@ -1,4 +1,4 @@
-# Disposal {% tag="disposal" %}
+# Disposal {% tag "disposal" /%}
 
 According to the European directive 2012/19/EU, Article 2, paragraph 4) d) and 4) e) (WEEE directive), MiR robots are not in scope of the directive.
 

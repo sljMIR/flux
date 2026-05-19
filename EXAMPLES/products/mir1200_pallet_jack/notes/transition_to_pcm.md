@@ -18,7 +18,7 @@ products:
 - "MiR250"
 ---
 
-# Transition to partly completed machinery (PCM) {% tag="transition_to_pcm_mir250" %}
+# Transition to partly completed machinery (PCM) {% tag "transition_to_pcm_mir250" /%}
 
 {% table %}
 

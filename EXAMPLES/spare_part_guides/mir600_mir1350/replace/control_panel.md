@@ -1,4 +1,4 @@
-# Control panel {% tag="replace_control_panel_mir600_1350" %}
+# Control panel {% tag "replace_control_panel_mir600_1350" /%}
 
 Date: 2025-07-28
 

@@ -1,4 +1,4 @@
-# Check tiller Safety stop position {% tag="check_tiller_safety_stop_position" %}
+# Check tiller Safety stop position {% tag "check_tiller_safety_stop_position" /%}
 
 <image: "emergency_stop_position.png">
 

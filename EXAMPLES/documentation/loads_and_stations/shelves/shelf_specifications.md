@@ -9,7 +9,7 @@ firstReleaseDate: "2025-11-04"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---
-# Shelf specifications {% tag="shelf_specifications" %}
+# Shelf specifications {% tag "shelf_specifications" /%}
 
 The shelf specifications depend on your robot type. The following section give a brief overview of required dimensions and leg placement. For the full shelf requirements, see the manual for MiR250 Shelf Carrier, MiR500 Shelf Lift, MiR600 Shelf Lift, MiR1000 Shelf Lift, or MiR1350 Shelf Lift.
 

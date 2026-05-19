@@ -1,4 +1,4 @@
-﻿# Turn on the robot{% tag="turn_on" %}
+﻿# Turn on the robot{% tag "turn_on" /%}
 
 {% partial file="products/_manual_partials/control_panel/instructions_turn_on.md" /%}
 

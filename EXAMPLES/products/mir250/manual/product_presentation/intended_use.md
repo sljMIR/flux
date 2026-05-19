@@ -1,4 +1,4 @@
-# Intended use{% tag="intended_use" %}
+# Intended use{% tag "intended_use" /%}
 
 {% partial file="products/_manual_partials/product_properties/text_intended_use.md" /%}
 

@@ -15,7 +15,7 @@ tags:
 - "network"
 ---
 
-# MiR system {% tag="mir_system" %}
+# MiR system {% tag "mir_system" /%}
 
 A MiR system can consist of many MiR products and compatible modules. The base MiR components are:
 

@@ -1,4 +1,4 @@
-﻿# Foreseeable misuse {% tag="forseeable_miuse" %}
+﻿# Foreseeable misuse {% tag "forseeable_miuse" /%}
 
 {% partial file="products/_manual_partials/safety/list_forseeable_miuse.md" /%}
 
@@ -16,6 +16,6 @@ It is also foreseeable misuse to make the robot transporting unsupported loads o
 
 * Making the robot tow loads
 * Using the robot to stack pallets or to pick up pallets from stacks
-* Transporting pallets not fulfilling the technical specifications—see {% tagref tag="payload_distribution" /%}
+* Transporting pallets not fulfilling the technical specifications—see {% tagref "payload_distribution" /%}
 
 {% /if %}

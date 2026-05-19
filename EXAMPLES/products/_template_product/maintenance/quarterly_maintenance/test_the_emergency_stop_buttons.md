@@ -1,4 +1,4 @@
-# Test the Emergency stop buttons {% tag="test_the_emergency_stop_buttons" %}
+# Test the Emergency stop buttons {% tag "test_the_emergency_stop_buttons" /%}
 
 <image: "mir250\_maintenance\_test\_emergency\_stop\_button.png">
 

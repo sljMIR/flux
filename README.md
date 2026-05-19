@@ -549,6 +549,7 @@ In the EXAMPLES folder there are the following files as examples of each documen
 * "article"
   There are assorted articles under EXAMPLES\documentation.
   The content has not been revised.
+  I have inlcuded one file with various languages to ensure that we can handle special charachters. 
 
 * "faq"
   There are no FAQ examples

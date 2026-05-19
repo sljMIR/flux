@@ -1,4 +1,4 @@
-# SICK module {% tag="replace_sick_module_mir600_1350" %}
+# SICK module {% tag "replace_sick_module_mir600_1350" /%}
 
 <image: "SICK_stack_clean.png">
 

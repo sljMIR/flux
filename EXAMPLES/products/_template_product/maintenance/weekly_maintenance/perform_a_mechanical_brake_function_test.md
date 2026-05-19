@@ -1,4 +1,4 @@
-# Perform a mechanical brake function test {% tag="perform_a_mechanical_brake_function_test" %}
+# Perform a mechanical brake function test {% tag "perform_a_mechanical_brake_function_test" /%}
 
 <image: "mir250\_mech\_brake\_function.png">
 

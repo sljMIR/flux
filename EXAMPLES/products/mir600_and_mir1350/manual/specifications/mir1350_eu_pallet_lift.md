@@ -1,4 +1,4 @@
-# MiR1350 EU pallet lift specifications {% tag="specifications" %}
+# MiR1350 EU pallet lift specifications {% tag "specifications" /%}
 
 ## Compliance and approvals
 

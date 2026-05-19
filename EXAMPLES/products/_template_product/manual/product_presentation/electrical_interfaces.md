@@ -1,4 +1,4 @@
-﻿# Electrical interfaces{% tag="electrical_interfaces" %}
+﻿# Electrical interfaces{% tag "electrical_interfaces" /%}
 
 The robot has xx electrical interfaces in xx compartments:
 
@@ -14,9 +14,9 @@ The robot has xx electrical interfaces in xx compartments:
 
 {% partial file="products/_manual_partials/references/text_electrical_interfaces_location.md" /%}
 
-## Emergency stop {% tag="electrical_interfaces_auxiliary_emergency_stop" %}
+## Emergency stop {% tag "electrical_interfaces_auxiliary_emergency_stop" /%}
 
-For more information on how to use the Emergency stop interface, see {% tagref tag="emergency_stop" /%}.
+For more information on how to use the Emergency stop interface, see {% tagref "emergency_stop" /%}.
 
 {% image src="/images/mir250/interfaces/aux_e_stop.webp" alt="Emergency stop interface pins" /%}
 
@@ -388,7 +388,7 @@ If the GPIO pins are not working as expected, ensure that the **Shelf** feature 
 
 {% /table %}
 
-## Auxiliary Safety Functions A and B {% tag="electrical_interfaces_auxiliary_safety_functions" %}
+## Auxiliary Safety Functions A and B {% tag "electrical_interfaces_auxiliary_safety_functions" /%}
 
 {% partial file="products/_manual_partials/interfaces/text_aux_safety_functions_interface_supports_safety_function_section'.md" /%}
 

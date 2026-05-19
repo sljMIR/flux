@@ -20,7 +20,7 @@ products:
 ---
 
 
-# Hardware version 2.0 {% tag="Hardware_version_2-0_mir250" %}
+# Hardware version 2.0 {% tag "Hardware_version_2-0_mir250" /%}
 
 {% table %}
 

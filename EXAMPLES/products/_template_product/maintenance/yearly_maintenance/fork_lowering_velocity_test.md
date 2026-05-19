@@ -1,4 +1,4 @@
-# Fork lowering velocity test {% tag="fork_lowering_velocity_test" %}
+# Fork lowering velocity test {% tag "fork_lowering_velocity_test" /%}
 
 <image: "hw_health.png">
 

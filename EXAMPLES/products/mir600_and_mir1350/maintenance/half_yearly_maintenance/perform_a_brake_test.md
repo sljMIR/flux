@@ -1,4 +1,4 @@
-# Perform a brake test {% tag="perform_a_brake_test" %}
+# Perform a brake test {% tag "perform_a_brake_test" /%}
 
 <image: "mir250\_braking\_distance.png">
 

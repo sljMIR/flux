@@ -1,4 +1,4 @@
-# Maintenance and handling {% tag="maintenance_and_handling" %}
+# Maintenance and handling {% tag "maintenance_and_handling" /%}
 
 {% partial file="products/_manual_partials/service_maintenance/text_guidelines_environmental_effect_disclaimer.md" /%}
 

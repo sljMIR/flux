@@ -1,4 +1,4 @@
-# Check the forks and fork console {% tag="check_the_forks_and_fork_console" %}
+# Check the forks and fork console {% tag "check_the_forks_and_fork_console" /%}
 
 <image: "forks_maintenance.png">
 

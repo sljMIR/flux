@@ -1,4 +1,4 @@
-﻿# Payload distribution{% tag="payload_distribution" %}
+﻿# Payload distribution{% tag "payload_distribution" /%}
 
 {% partial file="products/_manual_partials/safety/warning_load_falling_if_incorrectly_fastened.md" /%}
 
@@ -24,7 +24,7 @@ The specifications apply to total payloads of up to 250 kg.
 {% gridimage image="/images/mir250/payload/2.0_ms_top.webp" alt="Top view of the allowed CoM for the payload at 2.0 m/s" headline="Top" bodytext="" /%}
 {% /imagegrid %}
 
-# Pallet and payload specifications {% tag="payload_distribution" %}
+# Pallet and payload specifications {% tag "payload_distribution" /%}
 
 The robot is only intended to transport pallets within the supported dimensions and overhang. You must ensure that the correct SICK configuration is applied for the pallet type your robot transports.
 
@@ -34,11 +34,11 @@ The robot's safety system, docking procedure, and intended use are designed and 
 
 MiR does not provide pallets.
 
-The robot uses the top boards on the pallet as markers to dock to the pallet correctly—see {% tagref tag="pallet_specifications" /%}. Top boards must be within the requirements. The robot can dock to either side of the pallet. The robot can only pick up or place pallets from the side without pallet openings if the pallet or rack is raised from the ground.
+The robot uses the top boards on the pallet as markers to dock to the pallet correctly—see {% tagref "pallet_specifications" /%}. Top boards must be within the requirements. The robot can dock to either side of the pallet. The robot can only pick up or place pallets from the side without pallet openings if the pallet or rack is raised from the ground.
 
 If the robot has issues docking to a pallet, coat the end of the pallet with a non-reflective material that has a light, neutral color and maximum 10 GU (gloss). We recommend using a matte light gray.
 
-## Pallet specifications {% tag="pallet_specifications" %}
+## Pallet specifications {% tag "pallet_specifications" /%}
 
 {% $model %} is designed for pallets and payloads with the dimensions described in this section.
 

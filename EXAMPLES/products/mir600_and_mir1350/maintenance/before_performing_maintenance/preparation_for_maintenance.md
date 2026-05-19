@@ -1,4 +1,4 @@
-# Preparation for  maintenance {% tag="preparation_for_maintenance" %}
+# Preparation for  maintenance {% tag "preparation_for_maintenance" /%}
 
 This section describes the preparation before performing maintenance of the robot.
 

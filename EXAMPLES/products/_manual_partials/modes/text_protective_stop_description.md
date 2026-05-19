@@ -14,7 +14,7 @@ When the robot is in Protective stop, the status lights of the robot turn red, a
 
 * **A safety laser scanner detects an object in its active Protective field**
 
-    Remove the object from the active Protective field—see {% tagref tag="field_switching_and_personnel_detection" /%}. The robot will resume its operating state after two seconds.
+    Remove the object from the active Protective field—see {% tagref "field_switching_and_personnel_detection" /%}. The robot will resume its operating state after two seconds.
 
 * **The safety system detects a fault, or the motor control system detects a discrepancy**
 
@@ -24,7 +24,7 @@ When the robot is in Protective stop, the status lights of the robot turn red, a
 
 * **A safety laser scanner detects an object in its active Protective field**
 
-    Remove the object from the active Protective field—see {% tagref tag="field_switching_and_personnel_detection" /%}. The robot will resume its operating state after two seconds.
+    Remove the object from the active Protective field—see {% tagref "field_switching_and_personnel_detection" /%}. The robot will resume its operating state after two seconds.
 
 * **The safety system detects a fault, or the motor control system detects a discrepancy**
 
@@ -32,6 +32,6 @@ When the robot is in Protective stop, the status lights of the robot turn red, a
 
 * **The tiller is put into Home position or Safety stop position**
 
-    The robot goes into Protective stop when the tiller is put into Home position or Safety stop position—see {% tagref tag="operate_manually" /%}. Press the Restart button to bring the robot out of Protective stop.
+    The robot goes into Protective stop when the tiller is put into Home position or Safety stop position—see {% tagref "operate_manually" /%}. Press the Restart button to bring the robot out of Protective stop.
 
 {% /if %}

@@ -1,4 +1,4 @@
-# Product presentation {% tag="product_presentation" %}
+# Product presentation {% tag "product_presentation" /%}
 
 {% partial file="products/_manual_partials/product_properties/text_base_robot_component.md" /%}
 

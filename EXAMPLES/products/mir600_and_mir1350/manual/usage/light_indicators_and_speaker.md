@@ -1,4 +1,4 @@
-# Light indicators and speaker{% tag="light_indicator_and_speaker" %}
+# Light indicators and speaker{% tag "light_indicator_and_speaker" /%}
 
 {% partial file="products/_manual_partials/sounds_lights/text_sounds_and_light_adjusted_during_commissioing.md" /%}
 

@@ -1,4 +1,4 @@
-# Motor harness (HARN-05) {% tag="replace_motor_harness_harn_05_mir600_1350" %}
+# Motor harness (HARN-05) {% tag "replace_motor_harness_harn_05_mir600_1350" /%}
 
 Date: 2025-07-28
 

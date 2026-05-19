@@ -1,4 +1,4 @@
-# Access the internal parts{% tag="access_internal_parts" %}
+# Access the internal parts{% tag "access_internal_parts" /%}
 
 {% partial file="products/_manual_partials/service_maintenance/text_remove_covers_access_internal_parts.md" /%}
 

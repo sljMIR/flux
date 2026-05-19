@@ -1,4 +1,4 @@
-# Shutting down the robot {% tag="shutting_down_the_robot" %}
+# Shutting down the robot {% tag "shutting_down_the_robot" /%}
 
 Follow this procedure to shut down the robot:
 

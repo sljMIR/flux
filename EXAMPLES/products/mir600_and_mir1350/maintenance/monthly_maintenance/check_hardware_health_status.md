@@ -1,4 +1,4 @@
-# Check hardware health status {% tag="check_hardware_health_status" %}
+# Check hardware health status {% tag "check_hardware_health_status" /%}
 
 <image: "hardware\_health\_monthly\_maintenance.png">
 

@@ -1,4 +1,4 @@
-# Safety laser scanner Ethernet cables {% tag="replace_safety_laser_scanner_ethernet_cables_mir600_1350" %}
+# Safety laser scanner Ethernet cables {% tag "replace_safety_laser_scanner_ethernet_cables_mir600_1350" /%}
 
 Date: 2025-07-28
 

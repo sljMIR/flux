@@ -1,4 +1,4 @@
-# Replace the caster wheels {% tag="replace_the_caster_wheels" %}
+# Replace the caster wheels {% tag "replace_the_caster_wheels" /%}
 
 <image: "mir250\_maintenance\_caster\_wheels.png">
 

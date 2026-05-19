@@ -1,4 +1,4 @@
-# Status light LED bands {% tag="replace_status_light_led_bands_mir250" %}
+# Status light LED bands {% tag "replace_status_light_led_bands_mir250" /%}
 
 Date: 2025-07-21
 

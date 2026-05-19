@@ -1,4 +1,4 @@
-# Inspect and clean the battery {% tag="inspect_and_clean_the_battery" %}
+# Inspect and clean the battery {% tag "inspect_and_clean_the_battery" /%}
 
 <image: "mir250\_maintenance\_inspect\_battery.png">
 

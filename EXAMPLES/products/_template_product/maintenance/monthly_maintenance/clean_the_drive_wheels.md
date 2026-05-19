@@ -1,4 +1,4 @@
-# Clean the drive wheels {% tag="clean_the_drive_wheels" %}
+# Clean the drive wheels {% tag "clean_the_drive_wheels" /%}
 
 <image: "mir250\_maintenance\_drive\_wheel.png">
 

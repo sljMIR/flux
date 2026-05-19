@@ -1,4 +1,4 @@
-# MOC cable {% tag="replace_moc_cable_mir250" %}
+# MOC cable {% tag "replace_moc_cable_mir250" /%}
 
 Date: 2025-07-21
 

@@ -1,4 +1,4 @@
-﻿# Foreseeable misuse {% tag="forseeable_miuse" %}
+﻿# Foreseeable misuse {% tag "forseeable_miuse" /%}
 
 {% partial file="products/_manual_partials/safety/list_forseeable_miuse.md" /%}
 

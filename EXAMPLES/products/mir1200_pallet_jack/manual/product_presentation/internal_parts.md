@@ -1,4 +1,4 @@
-﻿# Internal parts {% tag="internal_parts" %}
+﻿# Internal parts {% tag "internal_parts" /%}
 
 {% partial file="products/_manual_partials/service_maintenance/text_remove_covers_access_internal_parts.md" /%}
 
@@ -111,7 +111,7 @@ The right rear compartment holds the robot's batteries.
 
 {% image src="/images/mir1200_pallet_jack/battery_charging/batteries_connected.webp" alt="The three batteries in the rear compartment"  /%}
 
-## Left rear compartment {% tag="internal_electrical_interfaces" %}
+## Left rear compartment {% tag "internal_electrical_interfaces" /%}
 
 {% image src="/images/mir1200_pallet_jack/overview/electrical_interfaces.webp" alt=""  /%}
 
@@ -177,7 +177,7 @@ The right rear compartment holds the robot's batteries.
 
 ## Top compartment
 
-The top compartment holds no components. The Emergency stop buttons are placed on top of the compartment cover—see {% tagref tag="emergency_stop" /%}).
+The top compartment holds no components. The Emergency stop buttons are placed on top of the compartment cover—see {% tagref "emergency_stop" /%}).
 
 ## Halo
 

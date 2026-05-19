@@ -1,4 +1,4 @@
-# Ethernet service port cable (CAB-064) {% tag="replace_ethernet_service_port_cable_cab_064_mir250" %}
+# Ethernet service port cable (CAB-064) {% tag "replace_ethernet_service_port_cable_cab_064_mir250" /%}
 
 Date: 2025-07-21
 

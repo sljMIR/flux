@@ -1,4 +1,4 @@
-# Field switching and Personnel detection {% tag="field_switching_and_personnel_detection" %}
+# Field switching and Personnel detection {% tag "field_switching_and_personnel_detection" /%}
 
 {% partial file="products/_manual_partials/safety/warning_drive_over_feet_wear_safety_shoes.md" /%}
 

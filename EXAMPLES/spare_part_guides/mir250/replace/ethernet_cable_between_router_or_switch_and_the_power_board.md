@@ -1,4 +1,4 @@
-# Ethernet cable between router or switch and the power board {% tag="replace_ethernet_cable_between_router_or_switch_and_the_power_board_mir250" %}
+# Ethernet cable between router or switch and the power board {% tag "replace_ethernet_cable_between_router_or_switch_and_the_power_board_mir250" /%}
 
 Date: 2025-07-21
 

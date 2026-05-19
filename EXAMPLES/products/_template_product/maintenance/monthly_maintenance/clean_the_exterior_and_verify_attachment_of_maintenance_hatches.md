@@ -1,4 +1,4 @@
-# Clean the  exterior and verify attachment of maintenance hatches {% tag="clean_the_exterior_and_verify_attachment_of_maintenance_hatches" %}
+# Clean the  exterior and verify attachment of maintenance hatches {% tag "clean_the_exterior_and_verify_attachment_of_maintenance_hatches" /%}
 
 <image: "mir600_1350_maintain_covers.png">
 

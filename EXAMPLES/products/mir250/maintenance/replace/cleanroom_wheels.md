@@ -1,4 +1,4 @@
-# Cleanroom wheels {% tag="replace_cleanroom_wheels_mir250" %}
+# Cleanroom wheels {% tag "replace_cleanroom_wheels_mir250" /%}
 
 <image: "cleanroom\_wheels.png">
 

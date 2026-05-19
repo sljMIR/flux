@@ -1,4 +1,4 @@
-﻿# System emergency stop interface {% tag="system_emergency_stop_interface" %}
+﻿# System emergency stop interface {% tag "system_emergency_stop_interface" /%}
 
 {% partial file="products/_manual_partials/functions_features/text_system_emergency_stop.md" /%}
 

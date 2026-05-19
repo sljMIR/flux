@@ -1,6 +1,6 @@
 To remove a battery, follow these steps:
 
-1.  Remove the left rear cover—see {% tagref tag="access_internal_parts" /%}.
+1.  Remove the left rear cover—see {% tagref "access_internal_parts" /%}.
 2.  Open the top compartment.
 3.  Open the left front hatch.
 4.  Lift off the left front hatch from the hinges.

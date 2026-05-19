@@ -10,7 +10,7 @@ updateDate: "2025-11-04"
 accessLevel: "public"
 ---
 
-# Pallet transfer stations for MiR Pallet Jack {% tag="pallet_transfer_stations" %}
+# Pallet transfer stations for MiR Pallet Jack {% tag "pallet_transfer_stations" /%}
 
 MiR1200 Pallet Jack can pick up and place pallets from four different station types: floor positions, MiR pallet racks, custom stations, or floor conveyors. The requirements and setup for these stations are described in the following sections.
 

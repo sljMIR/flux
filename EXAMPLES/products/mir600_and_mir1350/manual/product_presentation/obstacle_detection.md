@@ -1,4 +1,4 @@
-# Obstacle detection {% tag="obstacle_detection" %}
+# Obstacle detection {% tag "obstacle_detection" /%}
 
 {% partial file="products/_manual_partials/navigation/text_detects_obstacles_while_driving.md" /%}
 
@@ -6,7 +6,7 @@
 
 {% notice type="info" %}
 
-For more information about the sensors and obstacles detection, see {% tagref tag="deckload_robot_technical_guide" /%}.
+For more information about the sensors and obstacles detection, see {% tagref "deckload_robot_technical_guide" /%}.
 
 {% /notice %}
 

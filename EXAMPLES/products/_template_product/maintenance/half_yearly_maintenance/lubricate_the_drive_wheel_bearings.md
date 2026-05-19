@@ -1,4 +1,4 @@
-# Lubricate the drive wheel bearings {% tag="lubricate_the_drive_wheel_bearings" %}
+# Lubricate the drive wheel bearings {% tag "lubricate_the_drive_wheel_bearings" /%}
 
 <image: "mir600_1350_grease_nip.png">
 

@@ -1,4 +1,4 @@
-# Antenna cables {% tag="replace_antenna_cables_mir600_1350" %}
+# Antenna cables {% tag "replace_antenna_cables_mir600_1350" /%}
 
 Date: 2025-07-28
 

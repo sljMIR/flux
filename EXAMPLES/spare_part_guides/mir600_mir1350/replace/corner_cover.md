@@ -1,4 +1,4 @@
-# Corner cover {% tag="replace_corner_cover_mir600_1350" %}
+# Corner cover {% tag "replace_corner_cover_mir600_1350" /%}
 
 Date: 2025-07-28
 

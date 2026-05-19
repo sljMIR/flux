@@ -24,7 +24,8 @@ orderNumber: 450314
 hwVersionRobot: "All"
 ---
 
-# 3D cameras {% tag="replace_3d_cameras_mir250" %}
+# 3D cameras {% tag "replace_3d_cameras_mir250" /%}
+
 
 <image: "Intel D435\_camera.png">
 

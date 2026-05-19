@@ -1,4 +1,4 @@
-﻿# Locomotion interface {% tag="locomotion" %}
+﻿# Locomotion interface {% tag "locomotion" /%}
 
 The Locomotion function indicates to the top module safety device when the robot is moving. Use this function to ensure that the top module is not powered while the robot is driving.
 

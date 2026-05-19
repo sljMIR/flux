@@ -1,4 +1,4 @@
-# Safety functions and interfaces {% tag="safety_functions" %}
+# Safety functions and interfaces {% tag "safety_functions" /%}
 
 {% partial file="products/_manual_partials/functions_features/text_safety_function_reduce_hazards_iso_ref.md" /%}
 

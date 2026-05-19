@@ -1,4 +1,4 @@
-# Bogie with motor {% tag="replace_bogie_with_motor_mir250" %}
+# Bogie with motor {% tag "replace_bogie_with_motor_mir250" /%}
 
 Date: 2025-04-24
 

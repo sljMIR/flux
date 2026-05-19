@@ -1,4 +1,4 @@
-# Check the drive wheel shaft nuts {% tag="check_the_drive_wheel_shaft_nuts" %}
+# Check the drive wheel shaft nuts {% tag "check_the_drive_wheel_shaft_nuts" /%}
 
 <image: "mir250\_inspect\_drive\_wheel\_shaft\_nuts\_intro.png">
 

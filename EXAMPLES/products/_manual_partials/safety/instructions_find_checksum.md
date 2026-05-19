@@ -1,6 +1,6 @@
 To find the current checksums, follow these steps:
 
-1. Connect to your robot's network as described in {% tagref tag="connect_to_interface" /%}.
+1. Connect to your robot's network as described in {% tagref "connect_to_interface" /%}.
 2. Open SICK Safety Designer.
 3. Select **Search for devices**.
 

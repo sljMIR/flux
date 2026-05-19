@@ -1,4 +1,4 @@
-# Inspect the battery connection {% tag="inspect_the_battery_connection" %}
+# Inspect the battery connection {% tag "inspect_the_battery_connection" /%}
 
 <image: "mir250\_maintenance\_inspect\_battery\_connection.png">
 

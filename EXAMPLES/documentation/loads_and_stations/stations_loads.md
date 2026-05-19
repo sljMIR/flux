@@ -10,7 +10,7 @@ updateDate: "2025-11-04"
 accessLevel: "public"
 ---
 
-# Loads and stations {% tag="design_load_transfer_stations_carts_and_shelves" %}
+# Loads and stations {% tag "design_load_transfer_stations_carts_and_shelves" /%}
 
 The following sections describe general requirements for:
 
@@ -24,4 +24,4 @@ If you are designing transfer stations or load carriers for a top module purchas
 
 If you are designing transfer stations or load carriers for a custom top module, it is your responsibility to determine suitable requirements. You can base your requirements on those provided for MiR top modules, but we do not guarantee compatibility or safety when used with other top modules.
 
-See the section {% tagref tag="interfaces" /%} for an overview of communication methods you can use to make MiR robots communicate with transfer stations. 
+See the section {% tagref "interfaces" /%} for an overview of communication methods you can use to make MiR robots communicate with transfer stations. 

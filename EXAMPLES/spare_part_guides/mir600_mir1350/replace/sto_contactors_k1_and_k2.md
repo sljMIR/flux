@@ -1,4 +1,4 @@
-# STO contactors (K1 and K2) {% tag="replace_sto_contactors_k1_and_k2_mir600_1350" %}
+# STO contactors (K1 and K2) {% tag "replace_sto_contactors_k1_and_k2_mir600_1350" /%}
 
 Date: 2025-07-28
 

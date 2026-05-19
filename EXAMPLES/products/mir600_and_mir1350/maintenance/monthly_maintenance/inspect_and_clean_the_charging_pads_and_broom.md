@@ -1,4 +1,4 @@
-# Inspect and clean the charging pads and broom {% tag="inspect_and_clean_the_charging_pads_and_broom" %}
+# Inspect and clean the charging pads and broom {% tag "inspect_and_clean_the_charging_pads_and_broom" /%}
 
 <image: "mir250\_maintenance\_inspect\_charging\_pads.png">
 

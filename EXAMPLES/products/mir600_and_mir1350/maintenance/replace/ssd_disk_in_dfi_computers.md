@@ -1,4 +1,4 @@
-# SSD disk in DFI computers {% tag="replace_ssd_disk_in_dfi_computers_mir250" %}
+# SSD disk in DFI computers {% tag "replace_ssd_disk_in_dfi_computers_mir250" /%}
 
 Date: 2025-07-21
 

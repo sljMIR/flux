@@ -1,4 +1,4 @@
-# Inspect the antennas {% tag="inspect_the_antennas" %}
+# Inspect the antennas {% tag "inspect_the_antennas" /%}
 
 <image: "mir250\_maintenance\_antennas.png">
 <image: "mir600_1350\_maintenance\_antennas.png">

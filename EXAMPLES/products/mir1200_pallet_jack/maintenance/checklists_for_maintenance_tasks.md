@@ -1,4 +1,4 @@
-# Checklists for maintenance tasks {% tag="checklists_for_maintenance_tasks" %}
+# Checklists for maintenance tasks {% tag "checklists_for_maintenance_tasks" /%}
 
 Use these checklists as a convenient overview of all tasks and their intervals while performing maintenance on:
 

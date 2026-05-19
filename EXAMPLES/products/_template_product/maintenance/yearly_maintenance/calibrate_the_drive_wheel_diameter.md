@@ -1,4 +1,4 @@
-# Calibrate the drive wheel diameter {% tag="calibrate_the_drive_wheel_diameter" %}
+# Calibrate the drive wheel diameter {% tag "calibrate_the_drive_wheel_diameter" /%}
 
 <image: "drive_wheel_diameter_setting.png">
 

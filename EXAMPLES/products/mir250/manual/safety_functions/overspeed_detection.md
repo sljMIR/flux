@@ -1,4 +1,4 @@
-# Overspeed detection {% tag="overspeed_detection" %}
+# Overspeed detection {% tag "overspeed_detection" /%}
 
 {% partial file="products/_manual_partials/functions_features/text_overspeed.md" /%}
 

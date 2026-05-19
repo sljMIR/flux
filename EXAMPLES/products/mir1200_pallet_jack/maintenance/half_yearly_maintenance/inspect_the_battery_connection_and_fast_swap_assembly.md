@@ -1,4 +1,4 @@
-# Inspect the battery connection and fast-swap assembly {% tag="inspect_the_battery_connection_and_fast_swap_assembly" %}
+# Inspect the battery connection and fast-swap assembly {% tag "inspect_the_battery_connection_and_fast_swap_assembly" /%}
 
 <image: "mir250\_maintenance\_inspect\_battery\_connection.png">
 

@@ -24,7 +24,7 @@
 ---
 
 * Brake test
-* Conduct a brake test as described in {% tagref tag="test_braking_distance" /%}.
+* Conduct a brake test as described in {% tagref "test_braking_distance" /%}.
 
     Adjust the environment, payload, or Protective field sets if necessary.
 

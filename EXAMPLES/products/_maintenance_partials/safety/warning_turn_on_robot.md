@@ -10,7 +10,7 @@ When performing maintenance, you risk electrical shock from exposed electrical w
 
 {% if $is_deckload %}
 
-* Make sure the drive wheels are not in contact with the ground—see {% tagref tag="lifting_the_robot" /%}.
+* Make sure the drive wheels are not in contact with the ground—see {% tagref "lifting_the_robot" /%}.
 
 {% /if %}
 

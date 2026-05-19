@@ -1,4 +1,4 @@
-# Control panel {% tag="control_panel" %}
+# Control panel {% tag "control_panel" /%}
 
 {% partial file="products/_manual_partials/control_panel/text_location_rear_left_corner.md" /%}
 

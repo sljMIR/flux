@@ -1,4 +1,4 @@
-# Ethernet port {% tag="replace_ethernet_port_mir600_1350" %}
+# Ethernet port {% tag "replace_ethernet_port_mir600_1350" /%}
 
 <image: "MiR600.jpg">
 

@@ -1,4 +1,4 @@
-# Replace the drive wheels {% tag="replace_the_drive_wheels" %}
+# Replace the drive wheels {% tag "replace_the_drive_wheels" /%}
 
 <image: "mir250\_maintenance\_drive\_wheel.png">
 

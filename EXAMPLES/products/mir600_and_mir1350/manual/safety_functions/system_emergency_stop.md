@@ -1,4 +1,4 @@
-﻿# System emergency stop interface {% tag="system_emergency_stop_interface" %}
+﻿# System emergency stop interface {% tag "system_emergency_stop_interface" /%}
 
 The System emergency stop function can be used if the top module has its own Emergency stop circuit. Use this function to make it so both the robot and the top module are brought into Emergency stop when either system is triggered.
 

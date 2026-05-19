@@ -1,4 +1,4 @@
-﻿# Unpack the robot {% tag="unpack_the_robot" %}
+﻿# Unpack the robot {% tag "unpack_the_robot" /%}
 
 {% partial file="products/_manual_partials/packaging/text_store_packaging.md" /%}
 

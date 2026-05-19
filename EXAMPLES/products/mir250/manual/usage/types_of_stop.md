@@ -1,4 +1,4 @@
-# Types of stop {% tag="types_of_stop" %}
+# Types of stop {% tag "types_of_stop" /%}
 
 ## Normal stop
 

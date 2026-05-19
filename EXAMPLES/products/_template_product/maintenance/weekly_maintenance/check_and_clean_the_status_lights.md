@@ -1,4 +1,4 @@
-# Check and clean the status lights {% tag="check_and_clean_the_status_lights" %}
+# Check and clean the status lights {% tag "check_and_clean_the_status_lights" /%}
 
 <image: "mir250\_base\_robot\_inspect\_status\_light.png">
 

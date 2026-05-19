@@ -1,4 +1,4 @@
-# Clean the heat sink {% tag="clean_the_heat_sink" %}
+# Clean the heat sink {% tag "clean_the_heat_sink" /%}
 
 <image: "mir600_1350_heatsink.png">
 

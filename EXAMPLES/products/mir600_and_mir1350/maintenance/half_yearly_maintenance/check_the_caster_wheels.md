@@ -1,4 +1,4 @@
-# Check the caster wheels {% tag="check_the_caster_wheels" %}
+# Check the caster wheels {% tag "check_the_caster_wheels" /%}
 
 <image: "mir250\_maintenance\_caster\_wheels.png">
 

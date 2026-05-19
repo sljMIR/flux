@@ -9,7 +9,7 @@ firstReleaseDate: "2025-11-04"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---
-# Cart specifications {% tag="cart_specifications" %}
+# Cart specifications {% tag "cart_specifications" /%}
 
 This section describes the requirements for the carts that MiR robots can tow.
 

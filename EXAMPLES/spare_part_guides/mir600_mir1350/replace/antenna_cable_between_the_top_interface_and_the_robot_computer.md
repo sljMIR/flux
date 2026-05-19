@@ -1,4 +1,4 @@
-# Antenna cable between the top interface and the robot computer {% tag="replace_antenna_cable_between_the_top_interface_and_the_robot_computer_mir600_1350" %}
+# Antenna cable between the top interface and the robot computer {% tag "replace_antenna_cable_between_the_top_interface_and_the_robot_computer_mir600_1350" /%}
 
 Date: 2025-07-28
 

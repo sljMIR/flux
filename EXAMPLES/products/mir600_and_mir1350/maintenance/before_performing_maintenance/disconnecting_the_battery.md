@@ -1,4 +1,4 @@
-# Disconnecting the battery {% tag="disconnecting_the_battery" %}
+# Disconnecting the battery {% tag "disconnecting_the_battery" /%}
 
 Prior to disconnecting the battery, shut down the robot as described under [Shutting down the robot](How to shut down the robot.htm). Ensure that the robot is not connected to any charging device.
 

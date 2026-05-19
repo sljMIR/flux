@@ -1,4 +1,4 @@
-# Manual brake release switch {% tag="replace_manual_brake_release_switch_mir250" %}
+# Manual brake release switch {% tag "replace_manual_brake_release_switch_mir250" /%}
 
 Date: 2025-07-21
 

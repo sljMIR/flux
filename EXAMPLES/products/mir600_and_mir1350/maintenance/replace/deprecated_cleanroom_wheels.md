@@ -1,4 +1,4 @@
-# Deprecated cleanroom wheels {% tag="replace_deprecated_cleanroom_wheels_mir250" %}
+# Deprecated cleanroom wheels {% tag "replace_deprecated_cleanroom_wheels_mir250" /%}
 
 [<image: "cleanroom\_wheels.png">](../../_Resources/graphics_how_to_guides/HW/250_cleanroom_wheels/cleanroom_wheels.png)
 

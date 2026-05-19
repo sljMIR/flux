@@ -1,4 +1,4 @@
-# Check the intake filter {% tag="check_the_intake_filter" %}
+# Check the intake filter {% tag "check_the_intake_filter" /%}
 
 <image: "air_filter_location.png">
 

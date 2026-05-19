@@ -1,4 +1,4 @@
-# Robot computer {% tag="replace_robot_computer_mir600_1350" %}
+# Robot computer {% tag "replace_robot_computer_mir600_1350" /%}
 
 <image: "DFI.png">
 

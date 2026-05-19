@@ -3,7 +3,7 @@ The robot can drive automatically in the following ways:
 * **Schedule an order**
 
     Orders are active instances of a mission where it is assigned and executed by a robot. Orders are scheduled through MiR Fleet.
-    For more information about creating missions and to see {% tagref tag="mission_examples" /%}
+    For more information about creating missions and to see {% tagref "mission_examples" /%}
 
 * **Send the robot to a location on the active map**
 

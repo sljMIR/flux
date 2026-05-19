@@ -1,4 +1,4 @@
-# Check the hydraulic oil level {% tag="check_the_hydraulic_oil_level" %}
+# Check the hydraulic oil level {% tag "check_the_hydraulic_oil_level" /%}
 
 <image: "hydraulic_oil_level.png">
 

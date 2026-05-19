@@ -1,4 +1,4 @@
-# Ethernet bracket {% tag="replace_ethernet_bracket_mir600_1350" %}
+# Ethernet bracket {% tag "replace_ethernet_bracket_mir600_1350" /%}
 
 Date: 2025-07-28
 

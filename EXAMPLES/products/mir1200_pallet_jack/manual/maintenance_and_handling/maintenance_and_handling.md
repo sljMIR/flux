@@ -1,4 +1,4 @@
-# Maintenance and handling {% tag="maintenance_and_handling" %}
+# Maintenance and handling {% tag "maintenance_and_handling" /%}
 
 Make a maintenance plan to make sure that all maintenance tasks are done and that those responsible are aware of their tasks.
 
@@ -16,6 +16,6 @@ Mobile Industrial Robots disclaims any and all liability if unapproved spare par
 
 ## Before performing maintenance
 
-Before performing maintenance, turn off the robot and disconnect it from the battery power source—see {% tagref tag="power_connection" /%}.
+Before performing maintenance, turn off the robot and disconnect it from the battery power source—see {% tagref "power_connection" /%}.
 
-If a maintenance task requires the robot to be powered, set the robot to Locked mode—see {% tagref tag="locked_mode" /%}.
+If a maintenance task requires the robot to be powered, set the robot to Locked mode—see {% tagref "locked_mode" /%}.

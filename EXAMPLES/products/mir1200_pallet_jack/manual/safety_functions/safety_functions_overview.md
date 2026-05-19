@@ -1,4 +1,4 @@
-﻿# Safety functions overview {% tag="safety_functions_overview" %}
+﻿# Safety functions overview {% tag "safety_functions_overview" /%}
 
 This section lists all safety functions and their associated triggering event, reaction, reliability, and how it is realized.
 
@@ -19,7 +19,7 @@ The following terms are used in the table:
 ---
 
 * Emergency stop
-*   **Triggering event** : Pressing an Emergency stop button connected to the robot—see {% tagref tag="emergency_stop" /%}.
+*   **Triggering event** : Pressing an Emergency stop button connected to the robot—see {% tagref "emergency_stop" /%}.
 
     **Reaction** : Category 0 stop (IEC 60204-1) and mechanical spring-applied brakes engage. The robot enters Emergency stop.
 
@@ -40,7 +40,7 @@ The following terms are used in the table:
 ---
 
 * Overspeed
-*   **Triggering event** : The speed of the robot exceeding the defined values in {% tagref tag="overspeed_detection" /%}.
+*   **Triggering event** : The speed of the robot exceeding the defined values in {% tagref "overspeed_detection" /%}.
 
     **Reaction** : Category 0 stop (IEC 60204-1) and mechanical spring-applied brakes engage. The robot enters Protective stop.
 
@@ -62,7 +62,7 @@ The following terms are used in the table:
 
 * Field switching
 
-*   **Triggering event** : Activate the relevant Protective field according to the robot's speed and state—see {% tagref tag="field_switching_and_personnel_detection" /%}.
+*   **Triggering event** : Activate the relevant Protective field according to the robot's speed and state—see {% tagref "field_switching_and_personnel_detection" /%}.
 
     **Reaction** : A predefined Protective field is selected.
 
@@ -83,7 +83,7 @@ The following terms are used in the table:
 ---
 
 * Personnel detection
-*   **Triggering event** : Safety laser scanners detecting an unexpected object in the active Protective field—see {% tagref tag="field_switching_and_personnel_detection" /%}. The robot enters Protective stop.
+*   **Triggering event** : Safety laser scanners detecting an unexpected object in the active Protective field—see {% tagref "field_switching_and_personnel_detection" /%}. The robot enters Protective stop.
 
     **Reaction** : The robot will stop within the active Protective field if the payload, CoM, mass inertia moment, and friction coefficient are within specifications.
 
@@ -126,7 +126,7 @@ The following terms are used in the table:
 
 * Safeguard stop
 
-*   **Triggering event** : External device delivering 0 V to the Safeguard stop input pins—see {% tagref tag="safeguarded_stop" /%}.
+*   **Triggering event** : External device delivering 0 V to the Safeguard stop input pins—see {% tagref "safeguarded_stop" /%}.
 
     **Reaction** : Category 0 stop (IEC 60204-1) and mechanical spring-applied brakes engage. The robot enters Protective stop.
 
@@ -148,7 +148,7 @@ The following terms are used in the table:
 
 * Locomotion
 
-* **Triggering event** : The speed of the robot exceeding 0.1 m/s—see {% tagref tag="locomotion" /%}.
+* **Triggering event** : The speed of the robot exceeding 0.1 m/s—see {% tagref "locomotion" /%}.
 
     **Reaction** : Locomotion pins deliver 0 V.
 
@@ -170,7 +170,7 @@ The following terms are used in the table:
 
 * Mode selection
 
-* **Triggering event** : Changing the operating mode of the robot by turning the Operating mode key—see {% tagref tag="control_panel" /%}.
+* **Triggering event** : Changing the operating mode of the robot by turning the Operating mode key—see {% tagref "control_panel" /%}.
 
     **Reaction** : Category 0 stop (IEC 60204-1) and mechanical spring-applied brakes engage. The robot enters Protective stop.
 
@@ -192,7 +192,7 @@ The following terms are used in the table:
 
 * System emergency stop
 
-* **Triggering event** : External device delivering 0 V to the System emergency stop input pins—{% tagref tag="system_emergency_stop_interface" /%}.
+* **Triggering event** : External device delivering 0 V to the System emergency stop input pins—{% tagref "system_emergency_stop_interface" /%}.
 
     **Reaction** : Category 0 stop (IEC 60204-1) and mechanical spring-applied brakes engage. The robot enters Emergency stop.
 
@@ -214,7 +214,7 @@ The following terms are used in the table:
 
 * Manual stop
 
-* **Triggering event** : Pressing the Manual stop button on the control panel—see {% tagref tag="control_panel" /%}.
+* **Triggering event** : Pressing the Manual stop button on the control panel—see {% tagref "control_panel" /%}.
 
     **Reaction** : Category 0 stop (IEC 60204-1) and mechanical spring-applied brakes engage. The robot enters Manual stop.
 
@@ -236,7 +236,7 @@ The following terms are used in the table:
 
 * Manual restart
 
-* **Triggering event** : Pressing the Restart button on the control panel—see {% tagref tag="control_panel" /%}.
+* **Triggering event** : Pressing the Restart button on the control panel—see {% tagref "control_panel" /%}.
 
     **Reaction** : Re-enables the robot by releasing it from the Category 0 stop (IEC 60204-1) and by disengaging mechanical spring-applied brakes.
 
@@ -258,7 +258,7 @@ The following terms are used in the table:
 
 * Manual brake release
 
-* **Triggering event** : Turning the Manual brake release switch on the robot—see {% tagref tag="manual_brake_release_switch" /%}.
+* **Triggering event** : Turning the Manual brake release switch on the robot—see {% tagref "manual_brake_release_switch" /%}.
 
     **Reaction** : Category 0 stop (IEC 60204). The robot enters Protective stop.
 

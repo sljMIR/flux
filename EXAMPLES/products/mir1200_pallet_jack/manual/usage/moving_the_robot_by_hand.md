@@ -1,10 +1,10 @@
-# Move the robot by hand {% tag="move_robot_by_hand" %}
+# Move the robot by hand {% tag "move_robot_by_hand" /%}
 
 Before moving the robot by hand, raise the drive wheel.
 
 ## Raise the drive wheel
 
-The drive wheel height screw is located in the bottom compartment—see {% tagref tag="access_internal_parts" /%}.
+The drive wheel height screw is located in the bottom compartment—see {% tagref "access_internal_parts" /%}.
 
 Screw the inner nut on the drive wheel height screw clockwise to raise the drive wheel. Use a 24 mm open-end wrench. Only screw the inner nut on the drive wheel height screw when raising or lowering the drive wheel.
 

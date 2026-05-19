@@ -1,4 +1,4 @@
-﻿# Electrical interfaces{% tag="electrical_interfaces" %}
+﻿# Electrical interfaces{% tag "electrical_interfaces" /%}
 
 The robot has seven electrical interfaces in the left and right top compartments:
 
@@ -35,7 +35,7 @@ The robot has seven electrical interfaces in the left and right top compartments
 
 	42–54 V, with reference to pins 2 and 4
 
-* Active when robot is on. Turns off during Protective and Emergency stops by default—see {% tagref tag="top_fuse" /%}. Intended for high-power loads like motors and actuators.
+* Active when robot is on. Turns off during Protective and Emergency stops by default—see {% tagref "top_fuse" /%}. Intended for high-power loads like motors and actuators.
 
 ---
 
@@ -95,7 +95,7 @@ The robot has seven electrical interfaces in the left and right top compartments
 
 {% /table %}
 
-### Turn off TOP FUSE feature {% tag="top_fuse" %}
+### Turn off TOP FUSE feature {% tag "top_fuse" /%}
 
 You can use the Turn off TOP FUSE feature to disable the TOP FUSE to the Power interface during a Protective or Emergency stop. This is the fuse that cuts power to the TOP 48V pin and the TOP-Safe 48V.
 
@@ -294,9 +294,9 @@ If the GPIO pins are not working as expected, ensure that the **Shelf** and **Pa
 
 {% /table %}
 
-## Auxiliary emergency stop {% tag="electrical_interfaces_auxiliary_emergency_stop" %}
+## Auxiliary emergency stop {% tag "electrical_interfaces_auxiliary_emergency_stop" /%}
 
-The Auxiliary emergency stop interface supports the Emergecny stop safety function—see {% tagref tag="emergency_stop" /%}.
+The Auxiliary emergency stop interface supports the Emergecny stop safety function—see {% tagref "emergency_stop" /%}.
 
 {% image src="/images/mir600_1350/interfaces/aux_e_stop.webp" alt="Pin overview of the Auxiliary emergency stop interface."  /%}
 
@@ -367,7 +367,7 @@ The Auxiliary emergency stop interface supports the Emergecny stop safety functi
 
 {% /table %}
 
-## Auxiliary safety functions {% tag="electrical_interfaces_auxiliary_safety_functions" %}
+## Auxiliary safety functions {% tag "electrical_interfaces_auxiliary_safety_functions" /%}
 
 {% partial file="products/_manual_partials/interfaces/text_aux_safety_functions_interface_supports_safety_function_section'.md" /%}
 
@@ -518,9 +518,9 @@ If you choose to use the Wi‑Fi antenna interface, you must disconnect one of t
 
 To swap which antenna is connected to the robot computer, follow these steps:
 
-1. Open the electronics drawer—see {% tagref tag="access_internal_parts" /%}.
+1. Open the electronics drawer—see {% tagref "access_internal_parts" /%}.
 
-2. Locate the robot computer—see {% tagref tag="internal_electronics_drawer" /%}.
+2. Locate the robot computer—see {% tagref "internal_electronics_drawer" /%}.
 
 3. Locate the loose RP-SMA antenna cable that is not yet connected. The cable will be nearby the robot computer.
 

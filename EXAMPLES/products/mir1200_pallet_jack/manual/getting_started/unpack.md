@@ -1,4 +1,4 @@
-# Unpack the robot {% tag="unpack_the_robot" %}
+# Unpack the robot {% tag "unpack_the_robot" /%}
 
 {% partial file="products/_manual_partials/packaging/text_store_packaging.md" /%}
 
@@ -79,12 +79,12 @@
 
     {% image src="/images/mir1200_pallet_jack/packaging/fork_fastening.webp" alt="Fork fastening removal" /%}
 
-5. Open the two front hatches—see {% tagref tag="access_internal_parts" /%}.
+5. Open the two front hatches—see {% tagref "access_internal_parts" /%}.
 6. Remove the support foam.
 
     {% image src="/images/mir1200_pallet_jack/packaging/support_foam.webp" alt="Support foam removal" /%}
 
-7. Open the top hatch—see {% tagref tag="access_internal_parts" /%}.
+7. Open the top hatch—see {% tagref "access_internal_parts" /%}.
 8. Unscrew the two screws holding the electronics box shipping brace. Use a 6 mm Hex socket.
 
     {% image src="/images/mir1200_pallet_jack/packaging/support_bracket.webp" alt="Electronics box shipping brace" /%}
@@ -94,9 +94,9 @@
 ## Drive the robot off the ramp
 
 1. Close the top hatch and the two front hatches.
-2. Connect the batteries—see {% tagref tag="connect_batteries" /%}
-3. Connect the main battery connector—see {% tagref tag="power_connection" /%}.
-4. Turn on the robot—see {% tagref tag="turn_on" /%}.
-5. Drive the robot off the ramp using the tiller—see {% tagref tag="operate_manually" /%}
+2. Connect the batteries—see {% tagref "connect_batteries" /%}
+3. Connect the main battery connector—see {% tagref "power_connection" /%}.
+4. Turn on the robot—see {% tagref "turn_on" /%}.
+5. Drive the robot off the ramp using the tiller—see {% tagref "operate_manually" /%}
 
     {% image src="/images/mir1200_pallet_jack/packaging/down_the_ramp.webp" alt="Robot driving down the ramp" /%}

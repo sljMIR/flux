@@ -1,4 +1,4 @@
-﻿# Locomotion interface {% tag="locomotion" %}
+﻿# Locomotion interface {% tag "locomotion" /%}
 
 {% partial file="products/_manual_partials/functions_features/text_locomotion.md" /%}
 

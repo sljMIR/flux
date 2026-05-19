@@ -20,7 +20,7 @@ products:
 - "MiR250 Hook"
 ---
 
-# Hardware version overview {% tag="hardware_version_overview" %}
+# Hardware version overview {% tag "hardware_version_overview" /%}
 
 ## MiR250 (100016) and MiR250 Base Robot (100151) + (100156)
 
@@ -123,7 +123,7 @@ products:
 ---
 
 * Misc. notes
-* {% tagref tag="Hardware_version_2-0_mir250" /%}
+* {% tagref "Hardware_version_2-0_mir250" /%}
 
 {% /table %}
 
@@ -170,7 +170,7 @@ products:
 ---
 
 * Misc. notes
-* First version of MiR250 Base Robot, which succeeds the CE marked MiR250. However, the hardware platform carries over, which means that MiR250 Base Robot is released on the same hardware version 2.0 as the previous MiR250 hardware version 2.0, but with a documentation package intended for partly completed machinery. {% tagref tag="transition_to_pcm_mir250" /%}.
+* First version of MiR250 Base Robot, which succeeds the CE marked MiR250. However, the hardware platform carries over, which means that MiR250 Base Robot is released on the same hardware version 2.0 as the previous MiR250 hardware version 2.0, but with a documentation package intended for partly completed machinery. {% tagref "transition_to_pcm_mir250" /%}.
 
     MiR250 hardware version 2.0 and MiR250 Base Robot hardware version 2.0 are identical, apart from the product name, order number, product type and documentation package. Order number is now changed from 100016 to 100151 (software 3.x) and 100156 (software 2.x)
 
@@ -219,6 +219,6 @@ products:
 ---
 
 * Misc. notes
-* {% tagref tag="hardware_version_2-1_mir250" /%}
+* {% tagref "hardware_version_2-1_mir250" /%}
 
 {% /table %}

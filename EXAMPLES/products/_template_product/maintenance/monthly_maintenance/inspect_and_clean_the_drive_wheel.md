@@ -1,4 +1,4 @@
-# Inspect and clean the drive wheel {% tag="inspect_and_clean_the_drive_wheel" %}
+# Inspect and clean the drive wheel {% tag "inspect_and_clean_the_drive_wheel" /%}
 
 <image: "drive_wheel_location.png">
 

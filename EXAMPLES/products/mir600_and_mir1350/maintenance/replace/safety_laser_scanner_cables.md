@@ -1,4 +1,4 @@
-# Safety laser scanner cables {% tag="replace_safety_laser_scanner_cables_mir250" %}
+# Safety laser scanner cables {% tag "replace_safety_laser_scanner_cables_mir250" /%}
 
 Date: 2025-07-21
 

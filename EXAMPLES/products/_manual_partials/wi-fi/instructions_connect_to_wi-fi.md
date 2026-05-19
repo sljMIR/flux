@@ -1,7 +1,7 @@
 
 To connect the robot to a Wi-Fi network, follow these steps:
 
-1. Connect to your robot as described in {% tagref tag="connect_to_interface" /%}.
+1. Connect to your robot as described in {% tagref "connect_to_interface" /%}.
 
    To comply with the robot's certification, you must use an Ethernet cable to avoid simultaneously active radio transmitters while setting up the connection to the local Wi-Fi network.
 

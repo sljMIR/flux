@@ -1,8 +1,8 @@
-# Operating the robot {% tag="operating_the_robot" %}
+# Operating the robot {% tag "operating_the_robot" /%}
 
 {% partial file="products/_manual_partials/modes/text_switch_between_modes.md" /%}
 
-## Manual mode {% tag="operate_manually" %}
+## Manual mode {% tag "operate_manually" /%}
 
 {% partial file="products/_manual_partials/modes/text_manual_mode_usage.md" /%}
 
@@ -17,6 +17,6 @@
 
 {% partial file="products/_manual_partials/modes/list_automatic_mode_options.md" /%}
 
-## Locked mode{% tag="locked_mode" %}
+## Locked mode{% tag "locked_mode" /%}
 
 {% partial file="products/_manual_partials/modes/text_locked_mode_description.md" /%}

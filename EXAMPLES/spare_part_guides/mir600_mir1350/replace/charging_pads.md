@@ -1,4 +1,4 @@
-# Charging pads {% tag="replace_charging_pads_mir600_1350" %}
+# Charging pads {% tag "replace_charging_pads_mir600_1350" /%}
 
 <image: "charging_pad.png">
 

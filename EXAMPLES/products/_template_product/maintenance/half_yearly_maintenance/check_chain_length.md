@@ -1,4 +1,4 @@
-# Check chain length {% tag="check_chain_length" %}
+# Check chain length {% tag "check_chain_length" /%}
 
 <image: "measure_chain.png">
 

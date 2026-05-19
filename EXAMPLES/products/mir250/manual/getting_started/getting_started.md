@@ -1,4 +1,4 @@
-# Getting started {% tag="getting_started" %}
+# Getting started {% tag "getting_started" /%}
 
 {% partial file="products/_manual_partials/common/instructions_get_started.md" /%}
 

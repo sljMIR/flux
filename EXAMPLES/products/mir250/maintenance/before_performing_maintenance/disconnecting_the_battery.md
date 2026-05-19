@@ -1,10 +1,10 @@
-# Disconnecting the battery {% tag="disconnecting_the_battery" %}
+# Disconnecting the battery {% tag "disconnecting_the_battery" /%}
 
 To disconnect the battery, follow these steps:
 
 1. Disconnect the robot from any charging stations or charging cables. 
 
-1. Turn off the robot—see {% tagref tag="turn_off_the_robot" /%}
+1. Turn off the robot—see {% tagref "turn_off_the_robot" /%}
 
 1. Push the two white buttons on the rear cover at the same time.
 

@@ -1,4 +1,4 @@
-# MiR1350 US pallet lifter specifications {% tag="specifications" %}
+# MiR1350 US pallet lifter specifications {% tag "specifications" /%}
 
 ## Compliance and approvals
 

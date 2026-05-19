@@ -1,4 +1,4 @@
-﻿# Internal parts {% tag="internal_parts" %}
+﻿# Internal parts {% tag "internal_parts" /%}
 
 {% partial file="products/_manual_partials/service_maintenance/text_remove_covers_access_internal_parts.md" /%}
 
@@ -32,7 +32,7 @@
 
 {% partial file="products/_manual_partials/product_properties/table_right_compartment_mir250.md" /%}
 
-## Top compartments {% tag="internal_electrical_interfaces" %}
+## Top compartments {% tag "internal_electrical_interfaces" /%}
 
 {% partial file="products/_manual_partials/references/text_electrical_interfaces_more_info.md" /%}
 

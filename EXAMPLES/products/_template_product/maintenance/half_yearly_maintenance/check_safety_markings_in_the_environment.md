@@ -1,4 +1,4 @@
-# Check safety markings in the environment {% tag="check_safety_markings_in_the_environment" %}
+# Check safety markings in the environment {% tag "check_safety_markings_in_the_environment" /%}
 
 <image: "safety\_markings\_environment.png">
 

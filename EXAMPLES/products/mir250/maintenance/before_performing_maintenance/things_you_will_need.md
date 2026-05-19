@@ -1,4 +1,4 @@
-# Things you will need {% tag="things_you_will_need" %}
+# Things you will need {% tag "things_you_will_need" /%}
 
 This section lists which items are needed for different tasks and what to prepare before performing maintenance on the robot.
 

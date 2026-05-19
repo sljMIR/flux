@@ -1,4 +1,4 @@
-# Operating the tiller{% tag="operate_manually" %}
+# Operating the tiller{% tag "operate_manually" /%}
 
 MiR1200 Pallet Jack can be controlled manually using the foldable tiller located at the front of the robot. You cannot use the tiller when the robot is turned off. Always have the tiller in Home position when starting up the robot—see [Home position](#home-position).
 

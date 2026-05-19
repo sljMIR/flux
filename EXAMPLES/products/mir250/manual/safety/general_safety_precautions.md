@@ -1,4 +1,4 @@
-﻿# General safety precautions {% tag="general_safety_precautions" %}
+﻿# General safety precautions {% tag "general_safety_precautions" /%}
 
 {% partial file="products/_manual_partials/safety/warning_drive_over_feet_wear_safety_shoes.md" /%}
 

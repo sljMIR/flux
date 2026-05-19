@@ -1,4 +1,4 @@
-# Lifting the robot {% tag="lifting_the_robot" %}
+# Lifting the robot {% tag "lifting_the_robot" /%}
 
 Suspended robots may fall during lifting. Personnel risk serious crush injury.
 

@@ -1,4 +1,4 @@
-﻿# Electrical interfaces{% tag="electrical_interfaces" %}
+﻿# Electrical interfaces{% tag "electrical_interfaces" /%}
 
 The robot has three electrical interfaces:
 
@@ -35,7 +35,7 @@ The robot has three electrical interfaces:
 
 Standard RJ45 Ethernet port. Does not support Power over Ethernet.
 
-Use to connect to the robot' network—see {% tagref tag="connect_to_interface" /%}
+Use to connect to the robot' network—see {% tagref "connect_to_interface" /%}
 
 ## USB
 

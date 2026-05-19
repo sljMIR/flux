@@ -1,4 +1,4 @@
-# In case of fire {% tag="in_case_of_fire" %}
+# In case of fire {% tag "in_case_of_fire" /%}
 
 {% partial file="products/_manual_partials/safety/text_include_in_contingency_plan.md" /%}
 

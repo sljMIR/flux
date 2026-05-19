@@ -1,7 +1,7 @@
-﻿# Emergency stop{% tag="emergency_stop" %}
+﻿# Emergency stop{% tag "emergency_stop" /%}
 
 {% if $has_estop_box %}
-The robot is delivered with an Emergency stop box that you connect to the Auxiliary emergency stop interface—see {% tagref tag="unpack_the_robot" /%}. When you press the button, the robot enters Emergency stop—see {% tagref tag="types_of_stop" /%}.
+The robot is delivered with an Emergency stop box that you connect to the Auxiliary emergency stop interface—see {% tagref "unpack_the_robot" /%}. When you press the button, the robot enters Emergency stop—see {% tagref "types_of_stop" /%}.
 {% else / %}
 {% partial file="products/_manual_partials/safety/text_estop_button_triggers_estop.md" /%}
 {% /if %}
@@ -10,7 +10,7 @@ You can connect a circuit of any number of Emergency stop buttons to the Auxilia
 
 If you do not connect a closed circuit from your top module, you must connect a dummy plug or Emergency stop box that connects the appropriate pins in Auxiliary emergency stop interface to close the circuit.
 
-To see which pins in the electrical interface support this function, see {% tagref tag="electrical_interfaces_auxiliary_emergency_stop" /%}
+To see which pins in the electrical interface support this function, see {% tagref "electrical_interfaces_auxiliary_emergency_stop" /%}
 
 {% imagegrid %}
 {% gridimage image="/images/graphical/safety_system/estop_released.webp" alt="Emergency stop button released" headline="Emergency stop button released" bodytext="If the input pins deliver 24 V to the robot, it can operate." /%}

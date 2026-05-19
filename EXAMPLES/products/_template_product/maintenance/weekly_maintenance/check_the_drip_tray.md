@@ -1,4 +1,4 @@
-# Check the drip tray {% tag="check_the_drip_tray" %}
+# Check the drip tray {% tag "check_the_drip_tray" /%}
 
 <image: "drip_tray.png">
 

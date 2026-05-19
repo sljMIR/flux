@@ -1,8 +1,8 @@
-﻿# Connect to the web-interface{% tag="connect_to_interface" %}
+﻿# Connect to the web-interface{% tag "connect_to_interface" /%}
 
 {% partial file="products/_manual_partials/web_interface/text_connect_interface_to_configure.md" /%}
 
-{% if $has_inbuilt_display %}You can also control and configure the robot directly using the display—see {% tagref tag="control_panel" /%}. {% /if %}
+{% if $has_inbuilt_display %}You can also control and configure the robot directly using the display—see {% tagref "control_panel" /%}. {% /if %}
 
 
 ## Connect to network

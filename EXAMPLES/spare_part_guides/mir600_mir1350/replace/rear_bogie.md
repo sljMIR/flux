@@ -1,4 +1,4 @@
-# Rear bogie {% tag="replace_rear_bogie_mir600_1350" %}
+# Rear bogie {% tag "replace_rear_bogie_mir600_1350" /%}
 
 Date: 2025-07-28
 

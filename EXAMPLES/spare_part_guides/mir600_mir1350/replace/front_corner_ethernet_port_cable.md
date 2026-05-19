@@ -1,4 +1,4 @@
-# Front corner Ethernet port cable {% tag="replace_front_corner_ethernet_port_cable_mir600_1350" %}
+# Front corner Ethernet port cable {% tag "replace_front_corner_ethernet_port_cable_mir600_1350" /%}
 
 Date: 2025-07-28
 

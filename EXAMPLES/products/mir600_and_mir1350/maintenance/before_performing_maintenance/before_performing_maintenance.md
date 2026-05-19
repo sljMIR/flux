@@ -1,4 +1,4 @@
-# Before performing maintenance {% tag="before_performing_maintenance" %}
+# Before performing maintenance {% tag "before_performing_maintenance" /%}
 
 {% partial file="_partials/intro/list_before_maintenance" /%}
 

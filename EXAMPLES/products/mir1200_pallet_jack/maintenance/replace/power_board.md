@@ -1,4 +1,4 @@
-# Power board {% tag="replace_power_board_mir250" %}
+# Power board {% tag "replace_power_board_mir250" /%}
 
 <image: "power\_board.png">
 

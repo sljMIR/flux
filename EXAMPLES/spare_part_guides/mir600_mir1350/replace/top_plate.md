@@ -1,4 +1,4 @@
-# Top plate {% tag="replace_top_plate_mir600_1350" %}
+# Top plate {% tag "replace_top_plate_mir600_1350" /%}
 
 <image: "MiR600.jpg">
 

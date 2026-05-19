@@ -1,4 +1,4 @@
-# Power connection {% tag="power_connection" %}
+# Power connection {% tag "power_connection" /%}
 
 {% partial file="products/_manual_partials/power/text_power_main_connection_lever.md" /%}
 

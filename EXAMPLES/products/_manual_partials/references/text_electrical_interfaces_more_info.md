@@ -1,1 +1,1 @@
-For more information on electrical interfaces, see {% tagref tag="electrical_interfaces" /%}.
+For more information on electrical interfaces, see {% tagref "electrical_interfaces" /%}.

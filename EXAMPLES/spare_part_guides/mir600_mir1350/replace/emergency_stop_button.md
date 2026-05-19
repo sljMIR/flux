@@ -1,4 +1,4 @@
-# Emergency stop button {% tag="replace_emergency_stop_button_mir600_1350" %}
+# Emergency stop button {% tag "replace_emergency_stop_button_mir600_1350" /%}
 
 Date: 2025-07-28
 

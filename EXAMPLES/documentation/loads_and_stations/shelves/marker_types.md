@@ -9,7 +9,7 @@ firstReleaseDate: "2025-11-04"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---
-# Marker types {% tag="marker_types" %}
+# Marker types {% tag "marker_types" /%}
 
 A marker type is a description of a shelf that MiR robots can dock to. You must have a marker type for each type and size of shelf you want your robot to be able to transport.
 

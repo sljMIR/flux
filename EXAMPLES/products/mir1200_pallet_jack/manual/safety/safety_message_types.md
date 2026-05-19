@@ -1,4 +1,4 @@
-﻿# Safety message types {% tag="safety_message_types" %}
+﻿# Safety message types {% tag "safety_message_types" /%}
 
 This document uses the following safety message types.
 

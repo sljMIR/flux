@@ -1,4 +1,4 @@
-# Power cable {% tag="replace_power_cable_mir600_1350" %}
+# Power cable {% tag "replace_power_cable_mir600_1350" /%}
 
 Date: 2025-07-28
 

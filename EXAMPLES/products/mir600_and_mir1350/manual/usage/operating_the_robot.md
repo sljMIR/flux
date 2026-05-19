@@ -1,16 +1,16 @@
-# Operating the robot {% tag="operating_the_robot" %}
+# Operating the robot {% tag "operating_the_robot" /%}
 
 The robot has three operating modes: Manual mode, Autonomous mode, and Locked mode.
 
 {% partial file="products/_manual_partials/modes/text_switch_between_modes.md" /%}
 
-## Manual mode {% tag="operate_manually" %}
+## Manual mode {% tag "operate_manually" /%}
 
 In this mode, you can drive the robot manually using the joystick in the robot interface. Only one person can control the robot manually at a time.
 
 Manual mode is only intended for initial setup, maintenance situations, or deadlocks.
 
-To control the robot manually, you must connect to the robot interface—see {% tagref tag="connect_to_interface" /%}
+To control the robot manually, you must connect to the robot interface—see {% tagref "connect_to_interface" /%}
 
 {% notice type="warning" %}
 
@@ -40,6 +40,6 @@ To drive the robot in Manual mode, follow these steps:
 
 {% partial file="products/_manual_partials/modes/list_automatic_mode_options.md" /%}
 
-## Locked mode{% tag="locked_mode" %}
+## Locked mode{% tag "locked_mode" /%}
 
 {% partial file="products/_manual_partials/modes/text_locked_mode_description.md" /%}

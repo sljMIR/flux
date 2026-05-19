@@ -1,4 +1,4 @@
-# Front status light cable {% tag="replace_front_status_light_cable_mir600_1350" %}
+# Front status light cable {% tag "replace_front_status_light_cable_mir600_1350" /%}
 
 Date: 2025-07-28
 

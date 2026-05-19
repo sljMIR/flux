@@ -1,4 +1,4 @@
-﻿# Emergency stop{% tag="emergency_stop" %}
+﻿# Emergency stop{% tag "emergency_stop" /%}
 
 
 {% partial file="products/_manual_partials/product_properties/text_e-stop_box.md" /%}

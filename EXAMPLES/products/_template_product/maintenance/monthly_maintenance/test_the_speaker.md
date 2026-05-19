@@ -1,4 +1,4 @@
-# Test the speaker {% tag="test_the_speaker" %}
+# Test the speaker {% tag "test_the_speaker" /%}
 
 <image: "mir250\_base\_robot\_test\_speaker.png">
 

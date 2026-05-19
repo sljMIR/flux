@@ -1,4 +1,4 @@
-# Inspect and clean the support leg rollers {% tag="inspect_and_clean_the_support_leg_rollers" %}
+# Inspect and clean the support leg rollers {% tag "inspect_and_clean_the_support_leg_rollers" /%}
 
 <image: "support_leg_rollers.png">
 

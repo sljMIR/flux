@@ -1,4 +1,4 @@
-﻿# External parts {% tag="external_parts" %}
+﻿# External parts {% tag "external_parts" /%}
 
 {% image src="/images/mir250/overview/external_parts.webp" alt="Identification of the robots external parts."  /%}
 
@@ -16,35 +16,35 @@
 * 1
 * Corner bumper: four pcs., one on each corner
 * 2
-* Signal light: eight pcs., two on each corner—see {% tagref tag="light_indicator_and_speaker" /%}
+* Signal light: eight pcs., two on each corner—see {% tagref "light_indicator_and_speaker" /%}
 
 ---
 
 * 3
-* 3D depth camera: two pcs., both in the front—see {% tagref tag="obstacle_detection" /%}
+* 3D depth camera: two pcs., both in the front—see {% tagref "obstacle_detection" /%}
 * 4
 * Caster wheel with foot guard: four pcs., one in each corner
 
 ---
 
 * 5
-* nanoScan3 safety laser scanner: two pcs., in opposite corners—see {% tagref tag="obstacle_detection" /%}
+* nanoScan3 safety laser scanner: two pcs., in opposite corners—see {% tagref "obstacle_detection" /%}
 * 6
 * Drive wheel: two pcs., one on each side of the robot
 
 ---
 
 * 7
-* Status light: on all four sides of the robot—{% tagref tag="light_indicator_and_speaker" /%}
+* Status light: on all four sides of the robot—{% tagref "light_indicator_and_speaker" /%}
 * 8
-* Proximity sensor: eight pcs., two in each corner behind corner covers—see {% tagref tag="obstacle_detection" /%}
+* Proximity sensor: eight pcs., two in each corner behind corner covers—see {% tagref "obstacle_detection" /%}
 
 ---
 
 * 9
-* Control panel—see {% tagref tag="control_panel" /%}
+* Control panel—see {% tagref "control_panel" /%}
 * 10
-* Manual brake release switch—see {% tagref tag="control_panel" /%}
+* Manual brake release switch—see {% tagref "control_panel" /%}
 
 ---
 
@@ -58,12 +58,12 @@
 * 13
 * Antenna: two pcs., one on each top compartment cover
 * 14
-* Left top compartment—see {% tagref tag="internal_electrical_interfaces" /%}
+* Left top compartment—see {% tagref "internal_electrical_interfaces" /%}
 
 ---
 
 * 15
-* Right top compartment—see {% tagref tag="internal_electrical_interfaces" /%}
+* Right top compartment—see {% tagref "internal_electrical_interfaces" /%}
 
 *
 *

@@ -1,4 +1,4 @@
-﻿# In the box {% tag="in_the_box" %}
+﻿# In the box {% tag "in_the_box" /%}
 
 The box contains:
 

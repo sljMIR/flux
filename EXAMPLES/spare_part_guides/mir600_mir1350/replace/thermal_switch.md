@@ -1,4 +1,4 @@
-# Thermal switch {% tag="replace_thermal_switch_mir600_1350" %}
+# Thermal switch {% tag "replace_thermal_switch_mir600_1350" /%}
 
 Date: 2025-07-28
 

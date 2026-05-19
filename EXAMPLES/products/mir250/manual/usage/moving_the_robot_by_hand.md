@@ -1,4 +1,4 @@
-# Move the robot by hand {% tag="move_robot_by_hand" %}
+# Move the robot by hand {% tag "move_robot_by_hand" /%}
 
 {% partial file="products/_manual_partials/service_maintenance/text_move_robot_by_hand.md" /%}
 

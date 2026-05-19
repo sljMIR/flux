@@ -1,4 +1,4 @@
-# Motor controller carrier board {% tag="replace_motor_controller_carrier_board_mir600_1350" %}
+# Motor controller carrier board {% tag "replace_motor_controller_carrier_board_mir600_1350" /%}
 
 <image: "Carrier-board.png">
 

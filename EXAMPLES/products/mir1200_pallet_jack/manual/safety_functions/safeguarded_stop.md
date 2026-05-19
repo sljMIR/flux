@@ -1,4 +1,4 @@
-﻿# Safeguarded stop interface {% tag="safeguarded_stop" %}
+﻿# Safeguarded stop interface {% tag "safeguarded_stop" /%}
 
 The Safeguarded stop function brings the robot into Protective stop when the top module safety device sends the appropriate signal. Use this function to enable the top module safety device to trigger a Protective stop.
 

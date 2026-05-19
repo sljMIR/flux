@@ -1,4 +1,4 @@
-# Safety laser scanners {% tag="replace_safety_laser_scanners_mir250" %}
+# Safety laser scanners {% tag "replace_safety_laser_scanners_mir250" /%}
 
 <image: "MiR250.png">
 

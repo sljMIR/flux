@@ -1,4 +1,4 @@
-# Inspect and clean the safety laser scanners {% tag="inspect_and_clean_the_safety_laser_scanners" %}
+# Inspect and clean the safety laser scanners {% tag "inspect_and_clean_the_safety_laser_scanners" /%}
 
 <image: "mir250\_maintenance\_safety\_laser\_scanner.png">
 

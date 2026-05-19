@@ -1,4 +1,4 @@
-# Charging pads {% tag="replace_charging_pads_mir250" %}
+# Charging pads {% tag "replace_charging_pads_mir250" /%}
 
 Date: 2025-07-21
 

@@ -25,7 +25,7 @@ order_number: "450312 (right side bogie) and 450346 (left side bogie)"
 hwVersionRobot: "All"
 ---
 
-# Bogie with motor {% tag="replace_bogie_with_motor_mir250" %}
+# Bogie with motor {% tag "replace_bogie_with_motor_mir250" /%}
 
 
 <image: "motor\_and\_bogie.png">

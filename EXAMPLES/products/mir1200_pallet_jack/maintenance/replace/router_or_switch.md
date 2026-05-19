@@ -1,4 +1,4 @@
-# Router or switch {% tag="replace_router_or_switch_mir250" %}
+# Router or switch {% tag "replace_router_or_switch_mir250" /%}
 
 <image: "Router 2 1.png">
 

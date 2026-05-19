@@ -1,4 +1,4 @@
-# Light indicators and speaker{% tag="light_indicator_and_speaker" %}
+# Light indicators and speaker{% tag "light_indicator_and_speaker" /%}
 
 {% partial file="products/_manual_partials/sounds_lights/text_sounds_and_light_adjusted_during_commissioing.md" /%}
 
@@ -39,7 +39,7 @@ The robot uses its speaker and light indicators to communicate its status and in
 
 {% partial file="products/_manual_partials/sounds_lights/list_signal_light_behavior.md" /%}
 
-## Sounds {% tag="sounds" %}
+## Sounds {% tag "sounds" /%}
 
 {% partial file="products/_manual_partials/sounds_lights/text_sound_configuration.md" /%}
 

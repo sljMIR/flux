@@ -9,7 +9,7 @@ firstReleaseDate: "2025-11-04"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---
-# ID tags {% tag="id_tags" %}
+# ID tags {% tag "id_tags" /%}
 
 An AprilTag or a QR code is needed for the robot to identify the individual carts. We recommend using AprilTags.
 

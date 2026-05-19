@@ -1,4 +1,4 @@
-# Rear Ethernet port {% tag="replace_rear_ethernet_port_mir250" %}
+# Rear Ethernet port {% tag "replace_rear_ethernet_port_mir250" /%}
 
 Date: 2025-07-21
 

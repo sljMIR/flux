@@ -1,4 +1,4 @@
-﻿# Safeguarded stop interface {% tag="safeguarded_stop" %}
+﻿# Safeguarded stop interface {% tag "safeguarded_stop" /%}
 
 {% partial file="products/_manual_partials/functions_features/text_safeguard_stop.md" /%}
 

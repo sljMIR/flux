@@ -9,7 +9,7 @@ firstReleaseDate: "2025-11-04"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---
-# Carts {% tag="carts" %}
+# Carts {% tag "carts" /%}
 
 A cart in the user interface is a description of a physical cart that MiR robots can pick up and place. You must define every individual cart that you want the robot to be able to transport.
 

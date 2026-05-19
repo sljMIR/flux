@@ -1,4 +1,4 @@
-﻿# Reduced speed interface {% tag="reduced_speed" %}
+﻿# Reduced speed interface {% tag "reduced_speed" /%}
 
 {% notice type="caution" %}
 The Reduced speed function is not a safety-rated function. Using this function with a top module and expecting the robot to enter a safe state when the Reduced speed function is active can lead to injury of personnel.

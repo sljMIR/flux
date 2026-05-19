@@ -1,4 +1,4 @@
-﻿# General safety precautions {% tag="general_safety_precautions" %}
+﻿# General safety precautions {% tag "general_safety_precautions" /%}
 
 {% partial file="products/_manual_partials/safety/warning_drive_over_feet_wear_safety_shoes.md" /%}
 
@@ -39,7 +39,7 @@ If a load is  positioned incorrectly, the load may fall off causing serious inj
 Personnel standing in the blind spot of the robot when it is pivoting with a shelf risk being struck and injured.
 
 * Ensure that all nearby personnel are instructed not to stand close to the robot when it is pivoting. 
-* Inform personnel that the signal lights indicate when the robot is intending to turn or pivot—see {% tagref tag="light_indicator_and_speaker" /%} 
+* Inform personnel that the signal lights indicate when the robot is intending to turn or pivot—see {% tagref "light_indicator_and_speaker" /%} 
 {% /notice %}
 
 {% /if %}
@@ -59,7 +59,7 @@ Use extreme caution when handling hydraulic fluid.
 
 If the robot transports a pallet or load that does not meet MiR specifications, the load may become unstable and collide with personnel or equipment causing injury or damage respectively.
 
-* Ensure the robot only transports pallets that meet MiR specifications and match the currently applied SICK configuration file—see {% tagref tag="payload_distribution" /%}
+* Ensure the robot only transports pallets that meet MiR specifications and match the currently applied SICK configuration file—see {% tagref "payload_distribution" /%}
 
 {% /notice %}
 
@@ -104,7 +104,7 @@ Driving over sills, gaps, or holes in the floor causes the robot to become unsta
 If the robot starts up unexpectedly, there is a risk of injury to nearby personnel or damage to equipment.
 
 * Inform personnel that robot flashes its signal lights and emits warning sounds before is starts moving after being at standstill for longer than 10 seconds.
-* Adjust the volume of the warning sounds if they cannot be heard—see {% tagref tag="light_indicator_and_speaker" /%}.
+* Adjust the volume of the warning sounds if they cannot be heard—see {% tagref "light_indicator_and_speaker" /%}.
 * Do not disable the Motion warning feature in the robot settings. This will also void certification for the following standards: ISO 3691-4, UL3100, and RIA 15.08
 
 {% /notice %}

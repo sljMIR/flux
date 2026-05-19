@@ -1,4 +1,4 @@
-﻿# Residual risks {% tag="residual_risks" %}
+﻿# Residual risks {% tag "residual_risks" /%}
 
 {% partial file="products/_manual_partials/safety/list_residual_risks.md" /%}
 

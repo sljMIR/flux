@@ -1,4 +1,4 @@
-﻿# Reduced speed interface {% tag="reduced_speed" %}
+﻿# Reduced speed interface {% tag "reduced_speed" /%}
 
 {% partial file="products/_manual_partials/functions_features/warning_reduced_speed_not_safety_function.md" /%}
 

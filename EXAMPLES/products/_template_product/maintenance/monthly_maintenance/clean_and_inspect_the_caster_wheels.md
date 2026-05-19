@@ -1,4 +1,4 @@
-# Clean and inspect the caster wheels {% tag="clean_and_inspect_the_caster_wheels" %}
+# Clean and inspect the caster wheels {% tag "clean_and_inspect_the_caster_wheels" /%}
 
 <image: "mir250\_maintenance\_caster\_wheels.png">
 

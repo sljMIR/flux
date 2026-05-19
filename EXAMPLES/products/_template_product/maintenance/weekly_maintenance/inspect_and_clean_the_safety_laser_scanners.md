@@ -1,4 +1,4 @@
-# Inspect and clean the safety laser scanners {% tag="inspect_and_clean_the_safety_laser_scanners" %}
+# Inspect and clean the safety laser scanners {% tag "inspect_and_clean_the_safety_laser_scanners" /%}
 
 <image: "mir250\_maintenance\_safety\_laser\_scanner.png">
 
@@ -44,6 +44,6 @@ See a [video](https://vimeo.com/896457318) of the process on the Mobile Industri
 ---
 
  * The robot keeps reporting contamination errors.
- * See {% tagref tag="check_safety_laser_scanner_contamination" /%}.
+ * See {% tagref "check_safety_laser_scanner_contamination" /%}.
 
 {% /table %}

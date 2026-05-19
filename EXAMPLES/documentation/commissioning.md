@@ -10,7 +10,7 @@ updateDate: "2025-11-04"
 accessLevel: "public"
 ---
 
-Commissioning consists of defining, installing, creating, integrating, testing, documenting, and verifying your site and robot system. .The following sections give key points and step-by-step guidance to commission your site and robot system. {% tagref tag="" external_flag=true /%}
+Commissioning consists of defining, installing, creating, integrating, testing, documenting, and verifying your site and robot system. .The following sections give key points and step-by-step guidance to commission your site and robot system. {% tagref "" external_flag=true /%}
 
 Use the commissioning checklist to keep an overview of your commissioning progress—see [Commissioning checklist](commissioning_checklist.htm).
 
@@ -44,7 +44,7 @@ Do not load the robot, keep a safe distance to the robot, and always keep a visu
 
   * **Standalone robot** : You can use a robot in Standalone mode to create the site directly on the robot—see [Interfaces and modes](../../mirfleet/features/standalone_robot.htm). This is useful if you do not want to jump between the robot and MiR Fleet interface while creating the site.
 
-## Desigen review {% tag="review_design" %}
+## Desigen review 
 
 Before implementing any robot setup, ensure that the design plans for the project have been reviewed and verified.
 

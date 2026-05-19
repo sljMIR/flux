@@ -1,4 +1,4 @@
-# Check the drive wheels {% tag="check_the_drive_wheels" %}
+# Check the drive wheels {% tag "check_the_drive_wheels" /%}
 
 <image: "mir250\_maintenance\_drive\_wheel.png">
 

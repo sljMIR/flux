@@ -1,11 +1,11 @@
-﻿# Connect to the web-interface{% tag="connect_to_interface" %}
+﻿# Connect to the web-interface{% tag "connect_to_interface" /%}
 
 When the robot is turned on, you can connect a PC or tablet to the robot's internal network to access the web-interface. In the web-interface, you can configure the robot's settings and connect it to a wireless network.
 
 
 ## Connect to network
 
-You can connect to the robot using an Ethernet cable or an access point. If you are located in North America, the EU, or a part of the EAC, you can purchase a MiR Access Point from MiR. Outside these areas, you need to use your own access point that is approved for use in your region. If you choose to use an access point, you must ensure that the robot is disconnected from the wireless network before attaching the access point to remain compliant—see {% tagref tag="connect_to_wi-fi_network" /%}.
+You can connect to the robot using an Ethernet cable or an access point. If you are located in North America, the EU, or a part of the EAC, you can purchase a MiR Access Point from MiR. Outside these areas, you need to use your own access point that is approved for use in your region. If you choose to use an access point, you must ensure that the robot is disconnected from the wireless network before attaching the access point to remain compliant—see {% tagref "connect_to_wi-fi_network" /%}.
 
 
 It is recommended that your device is configured to DHCP. If you require a static IP on your device, assign an address above 192.168.12.150, and set the DNS server and Gateway address to 192.168.12.1.

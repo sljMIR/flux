@@ -1,4 +1,4 @@
-# Inspect and test the signal lights {% tag="inspect_and_test_the_signal_lights" %}
+# Inspect and test the signal lights {% tag "inspect_and_test_the_signal_lights" /%}
 
 <image: "mir250\_base\_robot\_signal lights.png">
 

@@ -1,4 +1,4 @@
-# Check mast rollers {% tag="check_mast_rollers" %}
+# Check mast rollers {% tag "check_mast_rollers" /%}
 
 <image: "mast_roller_maintenance.png">
 

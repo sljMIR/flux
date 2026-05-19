@@ -18,7 +18,7 @@ products:
 - "MiR250"
 ---
 
-# Hardware version 2.1 {% tag="hardware_version_2-1_mir250" %}
+# Hardware version 2.1 {% tag "hardware_version_2-1_mir250" /%}
 
 {% table %}
 

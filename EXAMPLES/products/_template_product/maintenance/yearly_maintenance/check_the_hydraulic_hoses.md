@@ -1,4 +1,4 @@
-# Check the hydraulic hoses {% tag="check_the_hydraulic_hoses" %}
+# Check the hydraulic hoses {% tag "check_the_hydraulic_hoses" /%}
 
 <image: "check_hydraulic_hose.png">
 

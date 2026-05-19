@@ -1,4 +1,4 @@
-# Battery connector handle {% tag="replace_battery_connector_handle_mir250" %}
+# Battery connector handle {% tag "replace_battery_connector_handle_mir250" /%}
 
 Date: 2025-07-21
 

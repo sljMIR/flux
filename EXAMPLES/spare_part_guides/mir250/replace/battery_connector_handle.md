@@ -24,7 +24,7 @@ orderNumber: 450731
 hwVersionRobot: "All"
 ---
 
-# Battery connector handle {% tag="replace_battery_connector_handle_mir250" %}
+# Battery connector handle {% tag "replace_battery_connector_handle_mir250" /%}
 
 
 <image: "battery\_connector\_handle.png">

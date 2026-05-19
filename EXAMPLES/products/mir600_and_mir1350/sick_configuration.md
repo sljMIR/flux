@@ -26,7 +26,7 @@ products:
 - "MiR1350 Pallet Lift"
 - "MiR1350 Shelf Lift"
 ---
-# MiR600/MiR1350 SICK Configuration {% tag="mir600_mir1350_sick_configuration" %}
+# MiR600/MiR1350 SICK Configuration {% tag "mir600_mir1350_sick_configuration" /%}
 
 ## Safety Configuration Overview
 

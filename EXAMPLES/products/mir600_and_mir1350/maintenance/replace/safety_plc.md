@@ -1,4 +1,4 @@
-# Safety PLC {% tag="replace_safety_plc_mir250" %}
+# Safety PLC {% tag "replace_safety_plc_mir250" /%}
 
 Date: 2025-07-21
 

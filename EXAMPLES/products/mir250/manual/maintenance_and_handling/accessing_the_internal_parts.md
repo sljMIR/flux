@@ -1,10 +1,10 @@
-# Accessing the internal parts {% tag="access_internal_parts" %}
+# Accessing the internal parts {% tag "access_internal_parts" /%}
 
 {% partial file="products/_manual_partials/service_maintenance/text_remove_covers_access_internal_parts.md" /%}
 
 {% partial file="products/_manual_partials/service_maintenance/caution_remove_covers_exposes_parts.md" /%}
 
-## Front compartment {% tag="front_compartment" %}
+## Front compartment {% tag "front_compartment" /%}
 
 1. Unscrew the two screws holding the front cover. Use a T30 screwdriver.
 
@@ -22,7 +22,7 @@
 
     {% image src="/images/mir250/covers/front_cover_remove.webp" alt="Removing front cover" /%}
 
-## Rear compartment{% tag="rear_compartment" %}
+## Rear compartment{% tag "rear_compartment" /%}
 
 1. Push the two white buttons on the rear cover at the same time.
 
@@ -42,7 +42,7 @@
 
 ## Side compartments
 
-1. Open the front and rear compartments first see {% tagref tag="front_compartment" /%} and {% tagref tag="rear_compartment" /%}.
+1. Open the front and rear compartments first see {% tagref "front_compartment" /%} and {% tagref "rear_compartment" /%}.
 
 2. Turn the two screws counterclockwise. Use a T30 bit.
 
