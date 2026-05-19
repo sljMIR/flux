@@ -1,6 +1,6 @@
 ---
 id: "item-xxx"
-type: "article"
+doc_type: "article"
 title: ""
 status: "review"
 version: "1"

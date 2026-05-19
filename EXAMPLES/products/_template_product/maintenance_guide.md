@@ -1,6 +1,6 @@
 ---
 id: "item-2025-11-04-003"
-type: "manual"
+doc_type: "manual"
 title: "PRODUCT Maintenance Guide"
 documentNumber: null
 status: "draft"

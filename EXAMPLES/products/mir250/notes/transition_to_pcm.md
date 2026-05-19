@@ -1,6 +1,6 @@
 ---
 id: "item-0008"
-type: "product_note"
+doc_type: "product_note"
 title: "MiR250 Transition to partly completed machinery (PCM)"
 status: "published"
 version: "1"

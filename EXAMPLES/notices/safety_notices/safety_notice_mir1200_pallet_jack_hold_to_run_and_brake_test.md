@@ -1,6 +1,6 @@
 ---
 id: ""
-type: "notice"
+doc_type: "notice"
 title: "MiR1200 Pallet Jack Hold-to-run and brake test"
 status: "published"
 version: "1"

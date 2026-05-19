@@ -110,7 +110,7 @@ Every document begins with a YAML frontmatter block:
 ```yaml
 ---
 id: "item-2025-11-04-001"
-type: "release_item"
+doc_type: "release_item"
 title: "Fix voltage regulator instability"
 documentNumber : 12345678
 status: "published"

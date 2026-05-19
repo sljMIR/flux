@@ -1,6 +1,6 @@
 ---
 id: ""
-type: "manual"
+doc_type: "manual"
 title: "PRODUCT Manual"
 documentNumber: 75371702
 status: "published"

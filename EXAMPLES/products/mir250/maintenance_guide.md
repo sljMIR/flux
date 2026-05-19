@@ -1,6 +1,6 @@
 ---
 id: "item-2025-11-04-003"
-type: "manual"
+doc_type: "manual"
 title: "MiR250 Maintenance Guide"
 documentNumber: null
 status: "published"

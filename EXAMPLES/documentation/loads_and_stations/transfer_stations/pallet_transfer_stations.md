@@ -1,6 +1,6 @@
 ---
 id: "item-xxx"
-type: "article"
+doc_type: "article"
 title: "Pallet transfer stations for MiR Pallet Jack"
 status: "published"
 version: "1"

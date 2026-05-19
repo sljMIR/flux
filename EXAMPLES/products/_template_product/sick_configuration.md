@@ -1,6 +1,6 @@
 ---
 id: "item-xx"
-type: "article"
+doc_type: "article"
 title: "PRODUCT SICK configuration files and compatibility"
 status: "draft"
 version: "1"

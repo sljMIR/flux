@@ -1,6 +1,6 @@
 ---
 id: "item-0007"
-type: "product_note"
+doc_type: "product_note"
 title: "MiR250 hardware version 2.1"
 status: "published"
 version: "1"

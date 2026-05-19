@@ -1,6 +1,6 @@
 ---
 id: ""
-type: "manual"
+doc_type: "manual"
 title: "MiR250 Manual"
 documentNumber: 75371700
 status: "published"

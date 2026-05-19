@@ -1,6 +1,6 @@
 ---
 id: ""
-type: "article"
+doc_type: "article"
 title: "MiR600 and MiR1350 SICK configuration files and compatibility"
 status: "published"
 version: "1"

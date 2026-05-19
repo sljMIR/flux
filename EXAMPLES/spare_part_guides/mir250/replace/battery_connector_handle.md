@@ -1,6 +1,6 @@
 ---
 id: "item-xx"
-type: "article"
+doc_type: "article"
 documentNumber: null
 title: "Replace battery connector handle"
 status: "draft"

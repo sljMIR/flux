@@ -1,6 +1,6 @@
 ---
 id: "item-xxx"
-type: "article"
+doc_type: "article"
 title: "Loads and stations"
 status: "published"
 version: "1"

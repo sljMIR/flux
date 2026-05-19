@@ -1,6 +1,6 @@
 ---
 id: "item-xxx"
-type: "article"
+doc_type: "article"
 title: "还有四个 M12 孔，用于固定运输吊环螺栓 TEST"
 status: "published"
 version: "1"

@@ -1,6 +1,6 @@
 ---
 id: "item-0005"
-type: "article"
+doc_type: "article"
 title: "MiR250 hardware version overview"
 status: "published"
 version: "1"

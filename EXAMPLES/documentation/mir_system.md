@@ -1,6 +1,6 @@
 ---
 id: "item-xx"
-type: "article"
+doc_type: "article"
 title: "MiR system"
 status: "published"
 version: "1"

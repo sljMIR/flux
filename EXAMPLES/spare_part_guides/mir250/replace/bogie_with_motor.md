@@ -1,6 +1,6 @@
 ---
 id: "item-xx"
-type: "article"
+doc_type: "article"
 document_number: 300092
 title: "Replace bogie with motor"
 status: "review"

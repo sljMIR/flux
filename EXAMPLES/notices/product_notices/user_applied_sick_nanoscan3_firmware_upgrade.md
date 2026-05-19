@@ -1,6 +1,6 @@
 ---
 id: "item-2025-11-04-002"
-type: "notice"
+doc_type: "notice"
 title: "User-applied SICK nanoScan3 firmware upgrade"
 status: "published"
 version: "2"

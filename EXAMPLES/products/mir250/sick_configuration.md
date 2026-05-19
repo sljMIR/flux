@@ -1,6 +1,6 @@
 ---
 id: "item-xx"
-type: "article"
+doc_type: "article"
 title: "MiR250 SICK configuration files and compatibility"
 status: "published"
 version: "1"

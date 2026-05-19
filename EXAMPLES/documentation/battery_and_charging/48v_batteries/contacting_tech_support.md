@@ -1,6 +1,6 @@
 ---
 id: "item-xxx"
-type: "article"
+doc_type: "article"
 title: "Report a battery issue to MiR Technical Support"
 status: "published"
 version: "1.0"

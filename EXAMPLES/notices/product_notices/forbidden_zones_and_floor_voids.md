@@ -1,6 +1,6 @@
 ---
 id: "item-2025-11-04-003"
-type: "notice"
+doc_type: "notice"
 title: "Forbidden zones and floor voids"
 status: "published"
 version: "1"

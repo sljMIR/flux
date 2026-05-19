@@ -1,6 +1,6 @@
 ---
 id: "item-xx"
-type: "article"
+doc_type: "article"
 documentNumber: 300091
 title: "Replace 3D cameras"
 status: "published"

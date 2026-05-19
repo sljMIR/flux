@@ -1,6 +1,6 @@
 ---
 id: ""
-type: "manual"
+doc_type: "manual"
 title: "MiR600 and MiR1350 Manual"
 documentNumber: 75372001
 status: "published"

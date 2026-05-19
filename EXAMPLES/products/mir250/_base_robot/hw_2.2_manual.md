@@ -1,6 +1,6 @@
 ---
 id: "item-2025-11-04-001"
-type: "manual"
+doc_type: "manual"
 title: "MiR250 Manual"
 documentNumber: 75371702
 status: "published"
