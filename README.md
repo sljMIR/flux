@@ -15,25 +15,34 @@ Originally conceived as a separate system for software release notes ("Flux"), t
 
 ## Document Types
 
-Adeptus supports nine document types, each with its own metadata schema defined in YAML frontmatter. All types share common fields (`id`, `type`, `title`, `print`, `status`, `language`, `creationDate`, `updateDate`, `accessLevel`, `tags`, `files`) and add type-specific fields as described below.
+Adeptus supports 7 document types. The following fields are shared across all document types. 
+
+** Required **
 
 | Field | Type | Description |
 |-------|------|-------------|
 | `id` | string | automatically assigned |
-| `type` | string | `releaseNote`, `manual`, `article`, `notice`, `productNote`, `faq`  |
+| `type` | string | "manual", "article", "faq", "releaseNote", "sparePartGuide", "notice", "productNote"  |
 | `title` | sting | document title |
 | `documentNumber` | int | Document number for all items that are printed (optional and triggers automated PDF generation in pipeline) |
-| `status` | string | `draft` / `review` / `published` / `archived` |
-| `version` | string | document version. default to 1.0 |
+| `status` | string | `draft` / `review` / `published` / `unpublished` / `archived` |
+| `version` | int | document version. default to 1 |
 | `language` | string | en-US |
 | `firstReleaseDate` | date | When the release was first published (auto filled by PR) |
 | `updateDate` | date | When the release was updated (auto filled by PR) |
 | `accessLevel` | string | SSO |
 | `tags` | string[] | array of tags to help categorize and search for articles |
-| `documentHistory` | object[ date , string] | array of entry objects that contain date of change and description of change |
-| `files` | string[] | (optional) associated download files |
 
 
+** Optional ** 
+| Field | Type | Description |
+|-------|------|-------------|
+| `documentHistory` | object[ date , version, string] | array of entry objects that contain date of change and description of change |
+| `files` | string[] | associated download files |
+| `products` | string[] | list of affected/relevant products |
+| `swVersion` | string | relevant SW version |
+| `hwVersionRobot` | string | relevant HW version of base product |
+| `hwVersionTopmodule` | string |  relevant HW version of Top module |
 
 ### Manuals (Composed)
 
@@ -41,25 +50,25 @@ Comprehensive user or service manuals. Always composed documents with an `index.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `hwVersionRobot`| string | (Optional) robot HW version |
-| `hwVersionTM`| string | (Optional) top module HW version |
-| `swVersion`| string | (Optional) SW version |
-| `products`| string[] | (Optional) the product the guide is relevant for |
+| `orderNumber`| int[] | List of robot order numbers the guide applies to |
 | `configFile` | string | Path to applicable config file |
-| `indexFile` | string[] | Path to applicable TOC file that reference and structures chapters|
+| `navFile` | string[] | Path to applicable TOC file that reference and structures chapters|
+| `documentNumber` | int | Teamcenter number. Only relevant for printed guides |
 
 ### Article (Atomic)
 
 How-to guides, tutorials, and feature documentation that are collected on one page
 
+There are no additional fields.
+
+### Spare part guide (Atomic)
+
+Guides that are to be printed and sent with spare parts. 
+
 | Field | Type | Description |
 |-------|------|-------------|
-| `hwVersionRobot`| string | (Optional) robot HW version |
-| `hwVersionTM`| string | (Optional) top module HW version |
-| `swVersion`| string | (Optional) SW version |
-| `products`| string[] | (Optional) the product the guide is relevant for |
-| `orderNumber` | int | (optional) for spare part guides |
-
+| documentNumber | int | Teamcenter number. Only relevant for printed guides |
+| orderNumber | int[] |  |
 
 ### Notice (Atomic)
 
@@ -68,21 +77,9 @@ Technical service/safety bulletins and maintenance notices targeting field servi
 | Field | Type | Description |
 |-------|------|-------------|
 | `category` | string | `product` / `safety` |
-| `affectedProducts` | string[] | Product identifiers |
-| `affectedHwRanges` | object[] | (optional) HW or serial number ranges |
+| `effectiveDate` | date | (optional) When the note becomes relevant |
 | `expiryDate` | date | (optional) When the note becomes obsolete |
 
-
-### Product Notes (Atomic)
-
-Product announcements, transitions, end-of-life notices.
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `noteType` | string | `new_product` / `hw_update` / `replacement` / `retired` / `eol` |
-| `affectedProducts` | string[] | Products being changed |
-| `replacementProducts` | string[] | (optional) Replacement product identifiers |
-| `effectiveDate` | date | When the change takes effect |
 
 ### Release Notes (Atomic - but with automated component)
 
@@ -538,3 +535,34 @@ Flux and Adeptus are part of a larger enterprise platform. See the [platform REA
 - **Artemis** -- Software artifact distribution
 - **Genesis** -- Unit lifecycle and traceability
 - **Ory ecosystem** -- Authentication and authorisation (Kratos, Hydra, Keto, Oathkeeper)
+
+## Example overview
+
+In the EXAMPLES folder there are the following files as examples of each document type: 
+
+* "manual"
+  All four files under EXAMPLES\products\mir250\_base_robot are complete. 
+  The only HW difference that has been added in the content is different images used in EXAMPLES\products\mir250\manual\batteries_and_charging\power_connection.md
+
+  The manuals use images, partials, and conditional statements.
+
+* "article"
+  There are assorted articles under EXAMPLES\documentation.
+  The content has not been revised.
+
+* "faq"
+  There are no FAQ examples
+
+* "releaseNote"
+  There are two release notes under EXAMPLES\sw_release_notes.
+  They use a suggested format for a component that pulls release note description directly from JIRA. 
+
+* "sparePartGuide"
+  The only sparepart guide with front matter content are: 
+  * EXAMPLES\spare_part_guides\mir250\replace\3d_cameras.md
+  * EXAMPLES\spare_part_guides\mir250\replace\battery_connector_handle.md
+
+  The content is not revised. 
+
+* "notice"
+  There are three notices under EXAMPLES\notices

@@ -10,8 +10,6 @@ updateDate: "2025-11-04"
 accessLevel: "public"
 ---
 
-# Commissioning {% tag="commissioning" %}
-
 Commissioning consists of defining, installing, creating, integrating, testing, documenting, and verifying your site and robot system. .The following sections give key points and step-by-step guidance to commission your site and robot system. {% tagref tag="" external_flag=true /%}
 
 Use the commissioning checklist to keep an overview of your commissioning progress—see [Commissioning checklist](commissioning_checklist.htm).

@@ -1,7 +1,7 @@
 ---
 id: "item-xx"
 type: "article"
-document_number: null
+documentNumber: null
 title: "Replace battery connector handle"
 status: "draft"
 version: "1"
@@ -20,7 +20,7 @@ tags:
 files: []
 products:
 - "MiR250"
-order_number: 450731
+orderNumber: 450731
 hwVersionRobot: "All"
 ---
 

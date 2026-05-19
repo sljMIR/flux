@@ -1,7 +1,7 @@
 ---
 id: "item-xx"
 type: "article"
-document_number: 300091
+documentNumber: 300091
 title: "Replace 3D cameras"
 status: "published"
 version: "1"
@@ -20,7 +20,7 @@ tags:
 files: []
 products:
 - "MiR250"
-order_number: 450314
+orderNumber: 450314
 hwVersionRobot: "All"
 ---
 

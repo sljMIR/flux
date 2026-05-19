@@ -3,24 +3,22 @@ id: "item-2025-11-04-002"
 type: "notice"
 title: "User-applied SICK nanoScan3 firmware upgrade"
 status: "published"
-version: "1"
+version: "2"
 language: "en"
-firstReleaseDate: "2025-11-04"
-updateDate: "2025-11-04"
+firstReleaseDate: "2025-06-03"
+updateDate: "2025-07-10"
 tags:
 - "nanoScan3"
 - "safety laser scanner"
 accessLevel:
 - "partner"
 category: "product"
-affectedProducts:
+products:
 - "MiR250"
-affectedHwRanges: "All"
+hwVersionRobot: "All"
+expiryDate: null
+effectiveDate: "2025-06-03"
 ---
-
-# Product notice - User-applied SICK nanoScan3 firmware upgrade {% tag="product_notice_user_applied_sick_nanoscan3_firmware_upgrade" %}
-
-Updated: 2025-07-10
 
 SICK recently released firmware version 1.94 for the nanoScan3 safety laser scanners. These scanners are used in all MiR250 and MiR1200 Pallet Jack robots.
 
@@ -42,9 +40,7 @@ When upgrading, keep the following points in mind: 
     
 *   It can take a few minutes to upload the device driver and for the installation to start. If SICK AppSpace Suite is unresponsive at any time, wait a few minutes for it to finish the process.
     
-*   Added on 2025-07-10
-    
-    Once the upgrade is complete, restart the robot to refresh the connection to the scanners. The interface for SICK AppSpace Suite will indicate when the firmware upgrade is complete.
+*   Once the upgrade is complete, restart the robot to refresh the connection to the scanners. The interface for SICK AppSpace Suite will indicate when the firmware upgrade is complete.
     
     <image: "firmware_update_complete.png">
 

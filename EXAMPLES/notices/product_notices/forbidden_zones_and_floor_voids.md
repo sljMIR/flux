@@ -14,11 +14,11 @@ tags:
 accessLevel:
 - "partner"
 category: "product"
-affectedProducts: "All"
-affectedHwRanges: "All"
+Products: "All"
+hwVersionRobot: "All"
+expiryDate: null
+effectiveDate: "2025-11-04"
 ---
-
-# Product notice - Forbidden zones and floor voids {% tag="product_notice_forbidden_zones_and_floor_voids" %}
 
 A recent MiR application case revealed a mistaken reliance on Forbidden zones to prevent robots from driving over edges into floor voids. Forbidden zones are part of the robot's navigation system, which is not safety-rated. Forbidden zones are used by the navigation system for path planning only. There is a risk of robots driving into floor voids if you only rely on Forbidden zones to prevent robots driving into floor voids.
 

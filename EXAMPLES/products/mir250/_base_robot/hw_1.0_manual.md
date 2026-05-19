@@ -2,12 +2,12 @@
 id: ""
 type: "manual"
 title: "MiR250 Manual"
-documentNumber: 75371702
+documentNumber: 75371700
 status: "published"
-version: ""
+version: "6"
 language: "en"
-firstReleaseDate: ""
-updateDate: ""
+firstReleaseDate: "2020-06-26"
+updateDate: "2022-08-12"
 accessLevel: "public"
 tags:
 - "mir250"
@@ -16,13 +16,27 @@ tags:
 - "hardware"
 hwVersionRobot: "1.0"
 hwVersionTM: null
-
 products:
 - "MiR250"
 configFile: "manual_config.json"
 navFile: "manual_nav.json"
 documentHistory:
-- version: ""
-  date: ""
-  description: ""
+- version: "6"
+  date: "2022-08-12"
+  description: "* Added more information about storage of robots and batteries.New section: Storage. * Updated sections: Applications, Obstacle detection, Battery disposal, Disposal of robot, Interface specifications, Markers, and External parts. * Updated manual to ensure compliance with radio equipment directives. Affects sections: General safety precautions and Foreseeable misuse. * Added warning not to use two chargers to charge the robot simultaneously. * Added notice that cable chargers only charge the robot's battery to 80–90%. Affects section: Charging the robot. * Added information about laser scanner range.Affects section: Obstacle detection. * Added information about camera vertical angle. Affects section: Obstacle detection. * Added information about wheel wear down tolerance. Affects section: Maintenance. * General improvements throughout the manual."
+- version: "5"
+  date: "2022-03-31"
+  description: "* Added sections: Enabling fast swap and Swapping out the lithium-ion battery. * General improvements throughout the manual."
+- version: "4"
+  date: "2020-11-30"
+  description: "* Added sections: Warranty, Markers, and Positions. * Updated section: Battery storage with Power save mode and Deep sleep mode. * General improvements throughout the manual."
+- version: "3"
+  date: "2020-07-08"
+  description: "* Updated section: Operating hazard zones. * General improvements throughout the manual."
+- version: "2"
+  date: "2020-07-01"
+  description: "General improvements"
+- version: "1"
+  date: "2020-06-26"
+  description: "First edition"
 ---

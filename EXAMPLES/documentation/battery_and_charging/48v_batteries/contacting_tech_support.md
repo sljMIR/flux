@@ -1,7 +1,7 @@
 ---
 id: "item-xxx"
 type: "article"
-title: "Contacting technical support"
+title: "Report a battery issue to MiR Technical Support"
 status: "published"
 version: "1.0"
 language: "en-us"
@@ -13,8 +13,6 @@ tags:
 - "jira"
 accessLevel: "public"
 ---
-
-# Contacting technical support
 
 If you were not able to remedy any battery issues you are experiencing using this guide, contact technical supportn++see [How to create a technical support ticket](https://supportportal.mobile-industrial-robots.com/documentation/how-to-create/how-to-create-a-technical-support-ticket/).
 
@@ -56,6 +54,6 @@ To gain access to the robot interface to generate an error log, you have two opt
 
 If there is a hardware problem within the robot, you risk shutting down the second battery permanently when you connect it to the robot.
 
-- Check everything in [Troubleshooting the robot](troubleshooting/robot.htm#Low) before connecting another battery to the robot.
+- Check everything in [Troubleshooting the robot](troubleshooting) before connecting another battery to the robot.
 
 Include any reported error codes, images, or videos of the issue.

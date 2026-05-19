@@ -1,7 +1,7 @@
 ---
-id: "item-2025-11-04-001"
+id: ""
 type: "notice"
-title: "Software 3.8.0"
+title: "MiR1200 Pallet Jack Hold-to-run and brake test"
 status: "published"
 version: "1"
 language: "en"
@@ -13,12 +13,12 @@ tags:
 accessLevel:
 - "partner"
 category: "safety"
-affectedProducts:
+products:
 - "MiR1200 Pallet Jack"
-affectedHwRanges: "1"
+hwVersionRobot: "1"
+expiryDate: "2026-11-04"
+effectiveDate: "2025-11-04"
 ---
-
-# Safety notice - MiR1200 Pallet Jack Hold-to-run and brake test {% tag="safety_notice_mir1200_pallet_jack_hold_to_run_and_brake_test" %}
 
 Two issues have been discovered that can affect the during manual operation and commissioning. Solutions to these issues require new parts, new software, and/or support from MiR. All customers will be contacted by MiR when new parts and software are available.
 
