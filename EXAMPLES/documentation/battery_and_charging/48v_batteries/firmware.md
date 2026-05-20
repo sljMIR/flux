@@ -5,7 +5,7 @@ title: ""
 status: "published"
 version: "2"
 language: "en-us"
-firstReleaseDate: "2025-11-04"
+releaseYear: "2025"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---

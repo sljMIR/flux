@@ -5,7 +5,7 @@ title: "MiR system"
 status: "published"
 version: "1"
 language: "en"
-firstReleaseDate: "2001-01-01"
+releaseYear: "2001"
 updateDate: "2025-07-21"
 accessLevel: "public"
 tags:

@@ -5,7 +5,7 @@ title: "MiR1200 Pallet Jack Hold-to-run and brake test"
 status: "published"
 version: "1"
 language: "en"
-firstReleaseDate: "2025-11-04"
+releaseYear: "2025"
 updateDate: "2025-11-04"
 tags:
 - "hold-to-run"

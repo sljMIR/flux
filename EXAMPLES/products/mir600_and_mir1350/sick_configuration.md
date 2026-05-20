@@ -5,7 +5,7 @@ title: "MiR600 and MiR1350 SICK configuration files and compatibility"
 status: "published"
 version: "1"
 language: "en"
-firstReleaseDate: "2001-01-01"
+releaseYear: "2001"
 updateDate: "2025-07-21"
 accessLevel: "public"
 tags:

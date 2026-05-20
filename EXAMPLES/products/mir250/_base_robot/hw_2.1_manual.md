@@ -6,7 +6,7 @@ documentNumber: 75371701
 status: "published"
 version: "2"
 language: "en"
-firstReleaseDate: "2024-07-30"
+releaseYear: "2024"
 updateDate: "2025-11-10"
 accessLevel: "public"
 tags:

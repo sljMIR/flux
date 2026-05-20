@@ -5,7 +5,7 @@ title: "Forbidden zones and floor voids"
 status: "published"
 version: "1"
 language: "en"
-firstReleaseDate: "2025-11-04"
+releaseYear: "2025"
 updateDate: "2025-11-04"
 tags:
 - "forbidden"

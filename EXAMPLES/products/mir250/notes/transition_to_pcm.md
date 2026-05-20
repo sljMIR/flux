@@ -5,7 +5,7 @@ title: "MiR250 Transition to partly completed machinery (PCM)"
 status: "published"
 version: "1"
 language: "en"
-firstReleaseDate: "2024-07-30"
+releaseYear: "2024"
 updateDate: "2024-07-30"
 accessLevel: "public"
 tags:

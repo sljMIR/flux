@@ -6,7 +6,7 @@ documentNumber: null
 status: "published"
 version: "1.1"
 language: "en"
-firstReleaseDate: "2024-09-19"
+releaseYear: "2024"
 updateDate: "2024-12-06"
 accessLevel: "public"
 tags:

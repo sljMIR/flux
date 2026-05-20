@@ -6,7 +6,7 @@ documentNumber: 75371702
 status: "published"
 version: "2"
 language: "en"
-firstReleaseDate: "2025-11-10"
+releaseYear: "2025"
 updateDate: "2026-02-19"
 accessLevel: "public"
 tags:

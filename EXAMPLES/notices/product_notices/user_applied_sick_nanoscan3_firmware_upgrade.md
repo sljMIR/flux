@@ -5,7 +5,7 @@ title: "User-applied SICK nanoScan3 firmware upgrade"
 status: "published"
 version: "2"
 language: "en"
-firstReleaseDate: "2025-06-03"
+releaseYear: "2025"
 updateDate: "2025-07-10"
 tags:
 - "nanoScan3"

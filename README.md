@@ -28,7 +28,7 @@ Adeptus supports 7 document types. The following fields are shared across all do
 | `status` | string | `draft` / `review` / `published` / `unpublished` / `archived` |
 | `version` | int | document version. default to 1 |
 | `language` | string | en-US |
-| `firstReleaseDate` | date | When the release was first published (auto filled by PR) |
+| `releaseYear` | int | The year of the first release (auto filled by PR) |
 | `updateDate` | date | When the release was updated (auto filled by PR) |
 | `accessLevel` | string | SSO |
 | `tags` | string[] | array of tags to help categorize and search for articles |
@@ -116,7 +116,7 @@ documentNumber : 12345678
 status: "published"
 version: 1.0
 language: "en-us"
-firstReleaseDate: "2025-11-04"
+releaseYear: "2025"
 updateDate: ""
 tags: ["bugfix", "firmware", "power-system"]
 accessLevel: ["engineering", "public"]

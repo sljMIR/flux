@@ -5,7 +5,7 @@ title: "Report a battery issue to MiR Technical Support"
 status: "published"
 version: "1.0"
 language: "en-us"
-firstReleaseDate: "2025-11-04"
+releaseYear: "2025"
 updateDate: "2025-11-04"
 tags:
 - "technical support"

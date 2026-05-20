@@ -6,7 +6,7 @@ documentNumber: 75372001
 status: "published"
 version: "1"
 language: "en"
-firstReleaseDate: "2024-07-31"
+releaseYear: "2024"
 updateDate: "2024-07-31"
 accessLevel: "public"
 tags:
