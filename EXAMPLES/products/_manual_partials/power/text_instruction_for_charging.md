@@ -1,0 +1,1 @@
+Instructions for charging depend on the charger type and are described in the guides included with each charger.

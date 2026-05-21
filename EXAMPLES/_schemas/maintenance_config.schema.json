@@ -1,0 +1,159 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schemas.mir/support/config.schema.json",
+  "type": "object",
+  "title": "MiR Robot Configuration Schema",
+  "description": "Schema for MiR robot configuration files",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "The schema for the configuration file"
+    },
+    "model": {
+      "type": "string",
+      "description": "The model name of the robot"
+    },
+    "base_robot": {
+      "type": "string",
+      "enum": ["MiR250", "MiR600", "MiR1350", "MiR1200 Pallet Jack", "MiR600/MiR1350"],
+      "description": "The base robot model"
+    },
+
+    "has_broom": {
+      "type": "boolean",
+      "description": "Whether the robot has a broom attachment"
+    },
+    "has_proximity_sensors": {
+      "type": "boolean",
+      "description": "Whether the robot has proximity sensors"
+    },
+    "has_mechanical_brake_switch": {
+      "type": "boolean",
+      "description": "Whether the robot has a mechanical brake switch"
+    },
+    "has_top_plate": {
+      "type": "boolean",
+      "description": "Whether the robot has a top plate"
+    },
+    "has_contactors": {
+      "type": "boolean",
+      "description": "Whether the robot has contactors"
+    },
+    "has_mosfets": {
+      "type": "boolean",
+      "description": "Whether the robot has MOSFETs"
+    },
+    "has_inbuilt_display": {
+      "type": "boolean",
+      "description": "Whether the robot has an inbuilt display"
+    },
+    "has_power_over_ethernet_service_port": {
+      "type": "boolean",
+      "description": "Whether the robot has power over ethernet service port"
+    },
+    "has_estop_box": {
+      "type": "boolean",
+      "description": "Whether the robot is delivered with an emergency stop box"
+    },
+      "has_fast_swap": {
+      "type": "boolean",
+      "description": "Whether the robot has a fast swap feature"
+    },
+    "min_caster_wheel_diameter": {
+      "type": ["number", "null"],
+      "description": "Minimum caster wheel diameter in millimeters",
+      "minimum": 0
+    },
+    "min_drive_wheel_diameter": {
+      "type": ["number", "null"],
+      "description": "Minimum drive wheel diameter in millimeters",
+      "minimum": 0
+    },
+    "min_cleanroom_caster_wheel_diameter": {
+      "type": ["number", "null"],
+      "description": "Minimum cleanroom wheel diameter in mm",
+      "minimum": 0
+    },
+    "max_current_power_pins_1_and_3_standstill": {
+      "type": ["number", "null"],
+      "description": "Maximum current for power pins 1 and 3 in amperes when robot is at standstill",
+      "minimum": 0
+    },
+      "max_current_power_pins_1_and_3_driving": {
+      "type": ["number", "null"],
+      "description": "Maximum current for power pins 1 and 3 in amperes when robot is driving. If there is no difference between standstill and driving, set this to the same value as max_current_power_pins_1_and_3_standstill.",
+      "minimum": 0
+    },
+    "task_grease_drive_wheels": {
+      "type": "boolean",
+      "description": "Whether greasing drive wheels is a required maintenance task"
+    },
+    "task_check_drive_wheel_shaft": {
+      "type": "boolean",
+      "description": "Whether checking drive wheel shaft is a required maintenance task"
+    },
+    "task_clean_heat_sink": {
+      "type": "boolean",
+      "description": "Whether cleaning the heat sink is a required maintenance task"
+    },
+    "location_ethernet_service_port": {
+      "type": ["string", "null"],
+      "enum": ["left rear compartment", "front right corner", "rear compartment", null],
+      "description": "Location of the ethernet service port"
+    },
+    "location_battery_lever_compartment": {
+      "type": ["string", "null"],
+      "enum": ["power interface compartment", "left compartment", "rear compartment", null],
+      "description": "Location battery lever compartment"
+    },
+    "location_charging_port": {
+      "type": ["string", "null"],
+      "enum": ["rear compartment", "power interface compartment", null],
+      "description": "Location of the charging port"
+    },
+    "number_of_batteries": {
+      "type": "integer",
+      "description": "Number of batteries in the robot",
+      "minimum": 1
+    },
+    "is_deckload": {
+      "type": "boolean",
+      "description": "Whether the robot is a deckload variant"
+    },
+    "is_forklift": {
+      "type": "boolean",
+      "description": "Whether the robot is a forklift variant"
+    },
+    "is_shelf_lift": {
+      "type": "boolean",
+      "description": "Whether the robot is a shelf lift variant"
+    },
+    "year_first_release": {
+      "type": "integer",
+      "description": "Year of first release",
+      "minimum": 2000,
+      "maximum": 3000
+    },
+    "has_esd_variant": {
+      "type": "boolean",
+      "description": "Whether the robot has an ESD (Electrostatic Discharge) variant"
+    },
+    "eye_bolt_size_for_lifting": {
+      "type": "string",
+      "description": "Size of the eye bolts for lifting the robot. Generally in format MX × Y mm"
+    },
+    "min_lift_weight": {
+      "type": "number",
+      "description": "Minimum lift weight in kilograms",
+      "minimum": 0
+    },
+    "link_preventative_maintenance_inspection": {
+      "type": "string",
+      "description": "Link to the preventive maintenance inspection video"
+    }
+  },
+  "required": [
+    "model"
+  ],
+  "additionalProperties": false
+}

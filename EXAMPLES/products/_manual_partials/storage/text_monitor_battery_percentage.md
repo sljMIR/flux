@@ -1,0 +1,1 @@
+The main component affected by storage are batteries. Monitor the robot's battery percentage before and during storage to prevent damage from undercharging.

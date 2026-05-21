@@ -1,0 +1,1 @@
+It is recommended that your device is configured to DHCP. If you require a static IP on your device, assign an address above 192.168.12.150, and set the DNS server and Gateway address to 192.168.12.1.

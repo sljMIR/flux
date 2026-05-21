@@ -1,0 +1,1 @@
+You may need to adjust the localization of the robot after it has been moved manually. The robot's localization can be affected by mere millimeters of manual movement. See _How to use adjust localization_ for more information. You can find this guide on [MiR Support Portal](https://supportportal.mobile-industrial-robots.com/).

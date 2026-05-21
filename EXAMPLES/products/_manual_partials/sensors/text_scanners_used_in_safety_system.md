@@ -1,0 +1,1 @@
+The scanners are also used in the robot's safety system—see {% tagref "field_switching_and_personnel_detection" /%}.

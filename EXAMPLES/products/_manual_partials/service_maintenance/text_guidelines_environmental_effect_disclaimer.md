@@ -1,0 +1,1 @@
+The stated intervals are meant as guidelines and depend on the operating environment and frequency of usage of the robot. Environmental maintenance cannot be predefined by MiR.

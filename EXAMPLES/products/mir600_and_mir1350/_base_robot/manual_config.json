@@ -1,0 +1,164 @@
+{
+    "$schema": "../../_schemas/manual_config.schema.json",
+    "model": "MiR600/MiR1350 Base Robot",
+    "base_robot": "MiR600/MiR1350",
+    "top_module": null,
+    "compatible_products": [
+        "MiR EU Pallet Lift 1350",
+        "MiR Pallet Lift 1350",
+        "MiR EU Pallet Lift 600",
+        "MiR Pallet Lift 600",
+        "MiR Fleet",
+        "MiR Shelf Lift"
+    ],
+    "has_broom": true,
+    "has_proximity_sensors": true,
+    "has_mechanical_brake_switch": true,
+    "has_top_plate": true,
+    "has_contactors": true,
+    "has_mosfets": false,
+    "has_inbuilt_display": false,
+    "has_power_over_ethernet_service_port": true,
+    "has_estop_box": false,
+    "has_fast_swap": false,
+    "has_pull_handles": false,
+    "min_caster_wheel_diameter": 95,
+    "min_drive_wheel_diameter": 190,
+    "min_cleanroom_caster_wheel_diameter": null,
+    "max_current_power_pins_1_and_3_standstill": 2,
+    "max_current_power_pins_1_and_3_driving": 20,
+    "task_grease_drive_wheels": true,
+    "task_check_drive_wheel_shaft": true,
+    "task_clean_heat_sink": true,
+    "location_ethernet_service_port": "front right corner",
+    "location_battery_lever_compartment": "left compartment",
+    "location_charging_port": null,
+    "number_of_batteries": 1,
+    "is_deckload": true,
+    "is_forklift": false,
+    "is_shelf_lift": false,
+    "year_first_release": 2021,
+    "has_esd_variant": true,
+    "is_pcm": true,
+    "is_ce": false,
+    "spec_payload": 250,
+    "name_sick_configuration_file": "MiR600_SICK_V6.07.spd2 / MiR1350_SICK_V6.07.spd2",
+    "checksum_safety_plc": "0x525C8B6D / 0x06913DC7",
+    "checksum_rear_scanner_function": "0x12B33254 / 0xCFF7ECCE",
+    "checksum_rear_scanner_function_network": "0x0B40FDCA / 0xD5D3523B",
+    "checksum_front_scanner_function": "0xE0F4A187 / 0x215A2714",
+    "checksum_front_scanner_function_network": "0x82626DD5 / 0xA59134A7",
+    "checksum_front_left_scanner_function": null,
+    "checksum_front_left_scanner_function_network": null,
+    "checksum_front_right_scanner_function": null,
+    "checksum_front_right_scanner_function_network": null,
+    "min_sick_supported_software_version": "3.5.0",
+    "has_optional_motion_warning": true,
+    "has_two_pins_for_reduced_speed_function": false,
+    "image_declaration_of_conformity": "",
+    "image_declaration_of_incorporation": "",
+    "image_battery_remove": "",
+    "image_ethernet_port": "",
+    "image_power_button": "/images/mir600_1350/control_panel/turned_off_power_button.webp",
+    "image_power_button_turn_on": "/images/mir600_1350/control_panel/running_power_button.webp",
+    "image_start_up_lights": "/images/mir600_1350/control_panel/starting_up.webp",
+    "image_restart_button": "/images/mir600_1350/control_panel/e_stop_resume_button.webp",
+    "image_packaging_material": "",
+    "safety_function_emergency_stop": {
+        "active": true,
+        "pfhd": "4.0 × 10-8",
+        "pl": "d",
+        "architecture": "Category 3"
+    },
+    "safety_function_overspeed_detection": {
+        "active": true,
+        "pfhd": "5.2 × 10-8",
+        "pl": "c",
+        "architecture": "Category 3"
+    },
+    "safety_function_field_switching": {
+        "active": true,
+        "pfhd": "1.9 × 10-7",
+        "pl": "d",
+        "architecture": "Category 3"
+    },
+    "safety_function_personnel_detection": {
+        "active": true,
+        "pfhd": "1.2 × 10-7",
+        "pl": "d",
+        "architecture": "Category 3"
+    },
+    "safety_function_speed_monitor": {
+        "active": true,
+        "pfhd": "5.2 × 10-8",
+        "pl": "d",
+        "architecture": "Category 3"
+    },
+    "safety_function_safeguarded_stop": {
+        "active": true,
+        "pfhd": "3.6 × 10-8",
+        "pl": "d",
+        "architecture": "Category 3"
+    },
+    "safety_function_locomotion": {
+        "active": true,
+        "pfhd": "4.4 × 10-8",
+        "pl": "d",
+        "architecture": "Category 3"
+    },
+    "safety_function_mode_selection": {
+        "active": true,
+        "pfhd": "1.2 × 10-6",
+        "pl": "c",
+        "architecture": "Category 1"
+    },
+    "safety_function_system_emergency_stop": {
+        "active": true,
+        "pfhd": "3.6 × 10-8",
+        "pl": "d",
+        "architecture": "Category 3"
+    },
+    "safety_function_manual_stop": {
+        "active": false,
+        "pfhd": "",
+        "pl": "a",
+        "architecture": "Category 1"
+    },
+    "safety_function_manual_restart": {
+        "active": false,
+        "pfhd": "",
+        "pl": "a",
+        "architecture": "Category 1"
+    },
+    "safety_function_manual_brake_release": {
+        "active": false,
+        "pfhd": "",
+        "pl": "a",
+        "architecture": "Category 1"
+    },
+    "safety_function_pallet_lift_position_monitor": {
+        "active": false,
+        "pfhd": "",
+        "pl": "a",
+        "architecture": "Category 1"
+    },
+    "safety_function_shelf_lift_position_monitor": {
+        "active": false,
+        "pfhd": "",
+        "pl": "a",
+        "architecture": "Category 1"
+    },
+    "safety_function_shelf_detection": {
+        "active": false,
+        "pfhd": "",
+        "pl": "a",
+        "architecture": "Category 1"
+    },
+    "safety_function_pin_position_monitor": {
+        "active": false,
+        "pfhd": "",
+        "pl": "a",
+        "architecture": "Category 1"
+    },
+    "link_preventative_maintenance_inspection": "https://vimeo.com/930228590?p=1s"
+}

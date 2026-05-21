@@ -1,0 +1,1 @@
+When the robot is turned on, you can connect a PC or tablet to the robot's internal network to access the web-interface. In the web-interface, you can configure the robot's settings and connect it to a wireless network.

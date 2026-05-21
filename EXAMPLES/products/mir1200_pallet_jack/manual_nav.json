@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Introduction",
+    "slug": "manual/intro/intro"
+  },
+  {
+    "title": "Safety",
+    "slug": "manual/safety/safety",
+    "children": [
+      { "title": "Safety message types", "slug": "manual/safety/safety_message_types" },
+      { "title": "General safety precautions", "slug": "manual/safety/general_safety_precautions" },
+      { "title": "Foreseeable misuse", "slug": "manual/safety/foreseeable_misuse" },
+      { "title": "In case of fire", "slug": "manual/safety/in_case_of_fire" },
+      { "title": "Warning labels", "slug": "manual/safety/warning_labels" },
+      { "title": "Residual risks", "slug": "manual/safety/residual_risks" }
+    ]
+  },
+    {
+    "title": "Getting started",
+    "slug": "manual/getting_started/getting_started",
+    "children": [
+      { "title": "In the box", "slug": "manual/getting_started/in_the_box" },
+      { "title": "Check the robot", "slug": "manual/getting_started/checking_the_robot" },
+      { "title": "Unpack", "slug": "manual/getting_started/unpack" },
+      { "title": "Turn on", "slug": "manual/getting_started/turn_on_robot" },
+      { "title": "Turn off", "slug": "manual/getting_started/turn_off_robot" },
+      { "title": "Connect to the robot interface", "slug": "manual/getting_started/connecting_to_the_robot_interface" },
+      { "title": "Connect to wi-fi", "slug": "manual/getting_started/connecting_the_robot_to_a_wifi_network" }
+    ]
+  },
+    {
+    "title": "Product presentation",
+    "slug": "manual/product_presentation/product_presentation",
+    "children": [ 
+      { "title": "Intended use", "slug": "manual/product_presentation/intended_use" },
+      { "title": "Compatible products", "slug": "manual/product_presentation/compatible_products" },
+      { "title": "MiR1200 specifications", "slug": "manual/specifications/mir1200_pallet_jack" },
+      { "title": "Required space", "slug": "manual/product_presentation/required_space" },
+      { "title": "Obstacle detection", "slug": "manual/product_presentation/obstacle_detection.md" },
+      { "title": "Pallet and payload specifications", "slug": "manual/product_presentation/payload_dstribution" },
+      { "title": "External parts", "slug": "manual/product_presentation/external_parts" },
+      { "title": "Internal parts", "slug": "manual/product_presentation/internal_parts" },
+      { "title": "Electrical interfaces", "slug": "manual/product_presentation/electrical_interfaces" },
+      { "title": "System overview", "slug": "manual/product_presentation/system_overview" },
+      { "title": "Warranty", "slug": "manual/product_presentation/warranty" },
+      { "title": "System manufacturer", "slug": "manual/product_presentation/system_manufacturer" }
+    ]
+  },
+    {
+    "title": "Batteries and charging",
+    "slug": "manual/batteries_and_charging/batteries_and_charging",
+    "children": [
+      { "title": "Power connection", "slug": "manual/batteries_and_charging/power_connection" },
+      { "title": "Connect batteries", "slug": "manual/batteries_and_charging/connect_batteries" },
+      { "title": "Remove the battery", "slug": "manual/batteries_and_charging/remove_the_battery" }
+    ]
+  },
+  {
+    "title": "Usage",
+    "slug": "manual/usage/operating_the_robot",
+    "children": [
+      { "title": "Operating the robot", "slug": "manual/usage/operating_the_robot" },
+      { "title": "Control panel and display", "slug": "manual/usage/control_panel_and_display" },
+      { "title": "Operating the tiller", "slug": "manual/usage/operating_the_tiller" },
+      { "title": "Types of stop", "slug": "manual/usage/types_of_stop" },
+      { "title": "Preventing unauthorized use", "slug": "manual/usage/preventing_unauthorized_use" },
+      { "title": "Manual brake release", "slug": "manual/usage/manual_brake_release" },
+      { "title": "Light indicators and speaker", "slug": "manual/usage/light_indicators_and_speaker" },
+      { "title": "Move by hand", "slug": "manual/usage/moving_the_robot_by_hand" },
+      { "title": "Error handling", "slug": "manual/usage/error_handling" }
+    ]
+  },
+  {
+    "title": "Safety functions",
+    "slug": "manual/safety_functions/safety_functions",
+    "children": [
+      { "title": "Safety configuration file", "slug": "manual/safety_functions/safety_configuration_file" },
+      { "title": "Emergency stop", "slug": "manual/safety_functions/emergency_stop" },
+      { "title": "Overspeed detection", "slug": "manual/safety_functions/overspeed_detection" },
+      { "title": "Field switching and Personnel detection", "slug": "manual/safety_functions/field_switching_and_personnel_detection" }
+    ]
+  },
+ {
+    "title": "Maintenance and handling",
+    "slug": "manual/maintenance_and_handling/maintenance_and_handling",
+    "children": [
+      { "title": "Periodic tasks for all users", "slug": "manual/maintenance_and_handling/periodic_tasks_all_users" },
+      { "title": "Periodic tasks for operators", "slug": "manual/maintenance_and_handling/periodic_tasks_operators" },
+      { "title": "Battery maintenance", "slug": "manual/maintenance_and_handling/battery_maintenance" },
+      { "title": "Access internal parts", "slug": "manual/maintenance_and_handling/accessing_the_internal_parts" },
+      { "title": "Transportation", "slug": "manual/maintenance_and_handling/transportation.md" },
+      { "title": "Disposal", "slug": "manual/maintenance_and_handling/disposal" },
+      { "title": "Storage", "slug": "manual/maintenance_and_handling/storage" },
+      { "title": "Train users", "slug": "manual/maintenance_and_handling/train_users" }
+    ]
+  },
+  {
+    "title": "Appendix",
+    "slug": "manual/appendix/appendix",
+    "children": [
+      { "title": "Received product inspection checklist", "slug": "manual/appendix/received_product_inspection_checklist" },
+      { "title": "Declaration of Conformity example", "slug": "manual/appendix/declaration_of_conformity_example.md" },
+       { "title": "Declaration of Incorporation example", "slug": "manual/appendix/declaration_of_incorporation_example.md" }
+    ]
+  }
+]
