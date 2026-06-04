@@ -2,7 +2,7 @@
 id: "item-xxx"
 doc_type: "article"
 title: "还有四个 M12 孔，用于固定运输吊环螺栓 TEST"
-status: "published"
+status: "draft"
 version: "1"
 language: "ko-ko"
 releaseYear: "2025"

@@ -1,6 +1,6 @@
 # Transportation
 
-{% partial file="products/_manual_partials/packaging/text_lift_and_packing_section_intro.md" /%}
+{% partial file="manual_partials/packaging/text_lift_and_packing_section_intro.md" /%}
 
 ## Lift the robot
 
@@ -20,10 +20,10 @@ To lift the robot:
 
 ## Pack the robot for transportation
 
-{% partial file="products/_manual_partials/packaging/text_package_for_transport.md" /%}
+{% partial file="manual_partials/packaging/text_package_for_transport.md" /%}
 
 ## Battery transport
 
-{% partial file="products/_manual_partials/power/text_battery_transport.md" /%}
+{% partial file="manual_partials/power/text_battery_transport.md" /%}
 
-{% partial file="products/_manual_partials/power/warning_battery_handling.md" /%}
+{% partial file="manual_partials/power/warning_battery_handling.md" /%}

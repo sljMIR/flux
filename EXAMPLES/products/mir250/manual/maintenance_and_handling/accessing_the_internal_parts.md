@@ -1,8 +1,8 @@
 # Accessing the internal parts {% tag "access_internal_parts" /%}
 
-{% partial file="products/_manual_partials/service_maintenance/text_remove_covers_access_internal_parts.md" /%}
+{% partial file="manual_partials/service_maintenance/text_remove_covers_access_internal_parts.md" /%}
 
-{% partial file="products/_manual_partials/service_maintenance/caution_remove_covers_exposes_parts.md" /%}
+{% partial file="manual_partials/service_maintenance/caution_remove_covers_exposes_parts.md" /%}
 
 ## Front compartment {% tag "front_compartment" /%}
 

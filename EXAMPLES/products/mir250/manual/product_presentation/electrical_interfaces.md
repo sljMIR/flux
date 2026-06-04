@@ -12,7 +12,7 @@ The robot has seven electrical interfaces in the left and right top compartments
 	* Auxiliary Safety Functions A
 	* Auxiliary Safety Functions B
 
-{% partial file="products/_manual_partials/references/text_electrical_interfaces_location.md" /%}
+{% partial file="manual_partials/references/text_electrical_interfaces_location.md" /%}
 
 ## Emergency stop {% tag "electrical_interfaces_auxiliary_emergency_stop" /%}
 
@@ -110,7 +110,7 @@ For more information on how to use the Emergency stop interface, see {% tagref "
 
 {% image src="/images/mir250/interfaces/power.webp" alt="Power interface pins"  /%}
 
-{% partial file="products/_manual_partials/interfaces/caution_power_interface_usage.md" /%}
+{% partial file="manual_partials/interfaces/caution_power_interface_usage.md" /%}
 
 
 {% table %}
@@ -200,7 +200,7 @@ For more information on how to use the Emergency stop interface, see {% tagref "
 
 ## Ethernet
 
-{% partial file="products/_manual_partials/interfaces/text_ethernet_supported_protocols_and_speed.md" /%}
+{% partial file="manual_partials/interfaces/text_ethernet_supported_protocols_and_speed.md" /%}
 
 {% image src="/images/mir250/interfaces/ethernet.webp" alt="Ethernet pins"  /%}
 
@@ -230,11 +230,11 @@ For more information on how to use the Emergency stop interface, see {% tagref "
 
 ## GPIO A and B
 
-{% partial file="products/_manual_partials/interfaces/list_gpio_pin_usage.md" /%}
+{% partial file="manual_partials/interfaces/list_gpio_pin_usage.md" /%}
 
 If the GPIO pins are not working as expected, ensure that the **Shelf** feature is disabled under **System > Settings > Features**. This feature uses the GPIO with specific MiR features.
 
-{% partial file="products/_manual_partials/interfaces/text_gpio_24v_to_in_ground_to_out.md" /%}
+
 
 {% image src="/images/mir250/part_identification/right_compartment-2.webp" alt="GPIO interface pins" /%}
 
@@ -392,7 +392,7 @@ If the GPIO pins are not working as expected, ensure that the **Shelf** feature 
 
 ## Auxiliary Safety Functions A and B {% tag "electrical_interfaces_auxiliary_safety_functions" /%}
 
-{% partial file="products/_manual_partials/interfaces/text_aux_safety_functions_interface_supports_safety_function_section'.md" /%}
+{% partial file="manual_partials/interfaces/text_aux_safety_functions_interface_supports_safety_function_section'.md" /%}
 
 {% image src="/images/mir250/interfaces/safety.webp" alt="Auxiliary safety interface pins"  /%}
 

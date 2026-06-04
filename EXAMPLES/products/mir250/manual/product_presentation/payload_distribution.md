@@ -1,6 +1,6 @@
 ﻿# Payload distribution{% tag "payload_distribution" /%}
 
-{% partial file="products/_manual_partials/safety/warning_load_falling_if_incorrectly_fastened.md" /%}
+{% partial file="manual_partials/safety/warning_load_falling_if_incorrectly_fastened.md" /%}
 
 The specifications apply to total payloads of up to 250 kg.
 
