@@ -1,14 +1,14 @@
 # Field switching and Personnel detection {% tag "field_switching_and_personnel_detection" /%}
 
-{% partial file="products/_manual_partials/safety/warning_drive_over_feet_wear_safety_shoes.md" /%}
+{% partial file="manual_partials/safety/warning_drive_over_feet_wear_safety_shoes.md" /%}
 
-{% partial file="products/_manual_partials/functions_features/text_personnel_detection_field_switching_description.md" /%}
+{% partial file="manual_partials/functions_features/text_personnel_detection_field_switching_description.md" /%}
 
-{% partial file="products/_manual_partials/sensors/text_scanner_tolerance_distance.md" /%}
+{% partial file="manual_partials/sensors/text_scanner_tolerance_distance.md" /%}
 
 ## Protective fields when driving forward
 
-{% partial file="products/_manual_partials/functions_features/text_personnel_detection_table_field_size_description.md" /%}
+{% partial file="manual_partials/functions_features/text_personnel_detection_table_field_size_description.md" /%}
 
 {% table %}
 
@@ -89,7 +89,7 @@
 
 ## Protective fields when driving backward
 
-{% partial file="products/_manual_partials/functions_features/text_personnel_detection_table_field_size_description.md" /%}
+{% partial file="manual_partials/functions_features/text_personnel_detection_table_field_size_description.md" /%}
 
 {% table %}
 
@@ -154,7 +154,7 @@
 
 ## Protective fields when pivoting or at standstill
 
-{% partial file="products/_manual_partials/functions_features/text_personnel_detection_table_field_size_description.md" /%}
+{% partial file="manual_partials/functions_features/text_personnel_detection_table_field_size_description.md" /%}
 
 {% table %}
 
@@ -184,20 +184,20 @@
 
 ## Muted Protective fields
 
-{% partial file="products/_manual_partials/functions_features/text_mute_protective_fields_description.md" /%}
+{% partial file="manual_partials/functions_features/text_mute_protective_fields_description.md" /%}
 
-{% partial file="products/_manual_partials/safety/warning_muted_protective_field_areas_must_be_marked_as_operating_hazard_zones.md" /%}
+{% partial file="manual_partials/safety/warning_muted_protective_field_areas_must_be_marked_as_operating_hazard_zones.md" /%}
 
-{% partial file="products/_manual_partials/functions_features/list_mute_protective_field_behavior.md" /%}
+{% partial file="manual_partials/functions_features/list_mute_protective_field_behavior.md" /%}
 
 ## User-configured muting of the Protective fields
 
-{% partial file="products/_manual_partials/functions_features/instructions_mute_protective_field_mission.md" /%}
+{% partial file="manual_partials/functions_features/instructions_mute_protective_field_mission.md" /%}
 
-{% partial file="products/_manual_partials/functions_features/instructions_mute_protective_field_manual_mode.md" /%}
+{% partial file="manual_partials/functions_features/instructions_mute_protective_field_manual_mode.md" /%}
 
 ## Pre-configured muting of the Protective fields
 
-{% partial file="products/_manual_partials/functions_features/text_mute_protective_fields_pre_configured.md" /%}
+{% partial file="manual_partials/functions_features/text_mute_protective_fields_pre_configured.md" /%}
 
-{% partial file="products/_manual_partials/references/info_markers_docking_undocking.md" /%}
+{% partial file="manual_partials/references/info_markers_docking_undocking.md" /%}

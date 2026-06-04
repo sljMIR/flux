@@ -1,6 +1,6 @@
 ﻿# Unpack the robot {% tag "unpack_the_robot" /%}
 
-{% partial file="products/_manual_partials/packaging/text_store_packaging.md" /%}
+{% partial file="manual_partials/packaging/text_store_packaging.md" /%}
 
 To unpack the robot, follow these steps:
 

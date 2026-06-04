@@ -13,4 +13,4 @@ Personnel operating the robot risk injury if they cannot stop the robot in an em
 
 {% /notice %}
 
-{% partial file="products/_manual_partials/safety/caution_robot_tipping_if_not_in_specs.md" /%}
+{% partial file="manual_partials/safety/caution_robot_tipping_if_not_in_specs.md" /%}
