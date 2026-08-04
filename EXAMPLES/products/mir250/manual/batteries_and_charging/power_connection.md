@@ -3,11 +3,11 @@
 {% partial file="manual_partials/power/text_power_main_connection_lever.md" /%}
 
 {% if equals($hwVersionRobot, "1.0") %}
-{% image src="/images/mir250/battery_charging/connect_battery_hw1.0.webp" alt="Battery connection" /%}
+{% image id="2e4a3b4a-4b23-46d0-915d-a8460d083396" alt="Battery connection" /%}
 
 {% else /%}
 
-{% image src="/images/mir250/battery_charging/connect_battery.webp" alt="Battery connection" /%}
+{% image id="56e910a5-89e6-4f45-8210-fe39544ee175" alt="Battery connection" /%}
 
 {% /if %}
 

@@ -1,8 +1,8 @@
 ﻿# External parts {% tag "external_parts" /%}
 {% if equals($model, "MiR250") %}
-{% image src="/images/mir250/overview/external_parts.webp" alt="Identification of the robots external parts."  /%}
+{% image id="04ce38ec-72c4-48af-9345-b1c3ed551083" alt="Identification of the robots external parts." /%}
 {% else equals($model, "MiR250 Shelf Carrier") /%}
-{% image src="/images/mir250/overview/external_parts_shelf_carrier.webp" alt="Identification of the robots external parts."  /%}
+{% image id="6d179723-a849-4bb3-848b-80ef9f2380e7" alt="Identification of the robots external parts." /%}
 {% /if %}
 
 

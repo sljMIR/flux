@@ -14,6 +14,6 @@
 
 The Ethernet port to connect to your robot is in the rear compartment.
 
-{% image src=/images/mir250/interfaces/ethernet_port.webp alt="Ethernet port location" /%}
+{% image id="2f75b988-480d-40ad-a2a6-03aa02f9fcd6" alt="Ethernet port location" /%}
 
 {% partial file="manual_partials/web_interface/instructions_connect_to_robot_web_interface.md" /%}

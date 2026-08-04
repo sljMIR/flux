@@ -11,7 +11,8 @@ Originally conceived as a separate system for software release notes ("Flux"), t
 | Path | Description |
 |------|-------------|
 | `ARCHITECTURE.md` | Architectural diagram |
-| `EXAMPLES/` | Sample Markdoc documents for every supported document type, including a complete multi-file composed manual |
+| `EXAMPLES/` | Sample Markdoc documents for every supported document type, including a complete multi-file MiR250 manual |
+| `scripts/` | Utility scripts (nav migration, bulk frontmatter updates) |
 
 ## Document Types
 
@@ -22,16 +23,15 @@ Adeptus supports 7 document types. The following fields are shared across all do
 | Field | Type | Description |
 |-------|------|-------------|
 | `id` | string | automatically assigned |
-| `type` | string | "manual", "article", "faq", "releaseNote", "sparePartGuide", "notice", "productNote"  |
-| `title` | sting | document title |
-| `documentNumber` | int | Document number for all items that are printed (optional and triggers automated PDF generation in pipeline) |
+| `doc_type` | string | `"manual"`, `"article"`, `"faq"`, `"releaseNote"`, `"sparePartGuide"`, `"notice"`, `"productNote"` |
+| `title` | string | Document title |
 | `status` | string | `draft` / `review` / `published` / `unpublished` / `archived` |
-| `version` | int | document version. default to 1 |
-| `language` | string | en-US |
-| `releaseYear` | int | The year of the first release (auto filled by PR) |
-| `updateDate` | date | When the release was updated (auto filled by PR) |
-| `accessLevel` | string | SSO |
-| `tags` | string[] | array of tags to help categorize and search for articles |
+| `version` | string | Document version |
+| `language` | string | BCP 47 language tag, e.g. `en` or `en-us` |
+| `firstReleaseDate` | date | Date of the first release, e.g. `"2021-01-01"` |
+| `updateDate` | date | When the document was last updated |
+| `accessLevel` | string | SSO access group, e.g. `public` |
+| `tags` | string[] | Tags for categorisation and search |
 
 
 ** Optional ** 
@@ -41,19 +41,84 @@ Adeptus supports 7 document types. The following fields are shared across all do
 | `files` | string[] | associated download files |
 | `products` | string[] | list of affected/relevant products |
 | `swVersion` | string | relevant SW version |
-| `hwVersionRobot` | string | relevant HW version of base product |
-| `hwVersionTopmodule` | string |  relevant HW version of Top module |
+| `hwVersionRobot` | string | Relevant HW version of base product |
+| `hwVersionTM` | string | Relevant HW version of top module |
 
 ### Manuals (Composed)
 
-Comprehensive user or service manuals. Always composed documents with an `index.markdoc` entry point referencing chapters and partials.
+Comprehensive user or service manuals. Flux supports two assembly models:
+
+**Multi-page manuals (MiR Support Documentation)** — the production model used today. Each chapter is a separate Markdoc file. An edition manifest (`hw_2.2_manual.md`) holds document metadata and references a config file and nav JSON. Pages live under a shared tree such as `products/mir250/manual/`. The site resolves nav paths, derives sidebar titles from each page's H1, and routes individual pages.
+
+**Single-file composed manuals (Adeptus target)** — an `index.markdoc` entry point stitches chapters via `{% partial %}` tags before upload. PDF generation can also use a frontmatter `sections:` list to merge files into one book.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `orderNumber`| int[] | List of robot order numbers the guide applies to |
-| `configFile` | string | Path to applicable config file |
-| `navFile` | string[] | Path to applicable TOC file that reference and structures chapters|
-| `documentNumber` | int | Teamcenter number. Only relevant for printed guides |
+| `orderNumber` | int[] | Robot order numbers the guide applies to |
+| `configFile` | string | Path to the product config JSON (feature flags and variables) |
+| `navFile` | string | Path to the nav JSON that structures the table of contents |
+| `documentNumber` | int | Teamcenter number (printed guides) |
+| `hwVersionRobot` | string | Base robot hardware version for this edition |
+| `hwVersionTM` | string | Top-module hardware version, if applicable |
+| `products` | string[] | Product names covered by this edition |
+
+#### Nav JSON (`*_nav.json`)
+
+Nav files define the table of contents. Sidebar labels are **not** stored in nav JSON — they are derived from the first H1 in each linked page.
+
+```json
+{
+  "root": [
+    "/docs/products/mir250",
+    "/docs/products/mir250/_base_robot"
+  ],
+  "sections": [
+    ["intro/intro", []],
+    ["safety/safety", ["safety/safety_message_types", "safety/general_safety_precautions"]],
+    ["getting_started/getting_started", ["getting_started/in_the_box", "getting_started/unpack"]]
+  ]
+}
+```
+
+Each section is a tuple `[relativePath, children]`:
+
+- `relativePath` — path under `manual/` or `maintenance/` **without** that prefix (the runtime adds it).
+- `children` — flat array of child path strings, or `[]` for a leaf section.
+- `root` — URL prefixes used to match nav to a route.
+
+Nav file naming:
+
+| File | Content prefix |
+|------|----------------|
+| `manual_nav.json` | `manual/` |
+| `manual_hw1.0_nav.json` | `manual/` (edition-specific override) |
+| `maintenance_nav.json` | `maintenance/` |
+
+#### Product folder layout
+
+```
+products/mir250/
+  manual/                         # shared manual pages
+    intro/intro.md
+    safety/safety.md
+    ...
+  maintenance/                    # maintenance guide pages
+    intro/intro.md
+    weekly_maintenance/...
+  maintenance_guide.md            # maintenance manifest
+  maintenance_config.json
+  maintenance_nav.json
+  _base_robot/
+    hw_2.2_manual.md              # edition manifest (metadata)
+    manual_config.json
+    manual_nav.json
+  _hook/
+    hw_2.2_2.0_manual.md
+    manual_config.json
+    manual_nav.json
+```
+
+Config JSON files (`manual_config.json`, `maintenance_config.json`) expose product feature flags as Markdoc variables (`{% $has_broom %}`, `{% $model %}`). Schemas live in `EXAMPLES/_schemas/`.
 
 ### Article (Atomic)
 
@@ -101,7 +166,7 @@ Frequently asked questions, individually authored and independently searchable.
 
 ## Content Format
 
-All documents are authored in [Markdoc](https://markdoc.dev/) -- a Markdown superset with structured extensions. Metadata is expressed as YAML frontmatter at the top of each `.markdoc` file.
+All documents are authored in [Markdoc](https://markdoc.dev/) — a Markdown superset with structured extensions. In the MiR Support Documentation project, source files use the `.md` extension. Adeptus ingestion may also accept `.markdoc`; the two extensions are equivalent. Metadata is expressed as YAML frontmatter at the top of each file.
 
 ### Frontmatter
 
@@ -110,23 +175,26 @@ Every document begins with a YAML frontmatter block:
 ```yaml
 ---
 id: "item-2025-11-04-001"
-doc_type: "release_item"
-title: "Fix voltage regulator instability"
-documentNumber : 12345678
+doc_type: "manual"
+title: "MiR250 Manual"
+documentNumber: 75371702
+orderNumber: [100151, 100152, 110070]
 status: "published"
-version: 1.0
-language: "en-us"
-releaseYear: "2025"
-updateDate: ""
-tags: ["bugfix", "firmware", "power-system"]
-accessLevel: ["engineering", "public"]
-files:
-  - path: "assets/power-graph-screenshot.png"
-    type: "image"
-    description: "Screenshot of new interactive power graph"
-  - url: "https://design.example.com/specs/power-graph-v2"
-    type: "link"
-    description: "Complete UI/UX design specification"
+version: "1"
+language: "en"
+firstReleaseDate: "2021-01-01"
+updateDate: "2026-02-19"
+accessLevel: "public"
+tags: ["mir250", "manual"]
+products: ["MiR250"]
+configFile: "manual_config.json"
+navFile: "manual_nav.json"
+hwVersionRobot: "2.2"
+hwVersionTM: null
+documentHistory:
+  - version: "1"
+    date: "2026-02-19"
+    description: "Updated battery charging warnings."
 ---
 ```
 ### JIRA ticket component
@@ -138,64 +206,78 @@ Release notes use JIRA ticket component that fetches JIRA tickets with selected 
 
 ### Partials
 
-Reusable content fragments are included with the `partial` tag:
+Reusable content fragments are included with the `partial` tag. Partials live under `partials/manual_partials/` or `partials/maintenance_partials/` and are referenced relative to that folder:
 
 ```markdoc
-{% partial file="partials/safety-banner.markdoc" /%}
-{% partial file="chapters/01-introduction.markdoc" /%}
+{% partial file="manual_partials/common/text_about_this_document.md" /%}
+{% partial file="maintenance_partials/safety/list_before_maintenance_safety.md" /%}
 ```
 
 Partials can themselves include other partials. The CI/CD pipeline resolves them recursively.
 
-### Callouts
+### Notice blocks
 
 Structured callout blocks for warnings, notes, and other highlighted content:
 
 ```markdoc
-{% callout type="warning" %}
+{% notice type="warning" %}
 **HIGH VOLTAGE**: Installation must be performed by qualified personnel only.
-{% /callout %}
-
-{% callout type="caution" %}
-Do not interrupt the firmware update process.
-{% /callout %}
-
-{% callout type="note" %}
-Current limiting is a safety feature, not a fault condition.
-{% /callout %}
-
-{% callout type="info" %}
-Remote sensing compensates for voltage drop in output cables.
-{% /callout %}
-
+{% /notice %}
 ```
 
-Supported types: `caution`, `warning`, `note`, `info`
+Supported types: `caution`, `warning`, `note`, `info`.
 
 ### Template Variables
 
-Frontmatter values are accessible within the document body:
+Config JSON values and edition frontmatter are merged into a flat variable context accessible in page bodies:
 
 ```markdoc
-**Version:** {% $markdoc.frontmatter.version %}
-**Last Updated:** {% $markdoc.frontmatter.updateDate %}
-**Severity:** {% $markdoc.frontmatter.severity.toUpperCase() %}
+# {% $model %} manual
+
+Robot hardware version: {% $hwVersionRobot %}
+
+{% if equals($hwVersionRobot, "1.0") %}
+Content specific to hardware 1.0.
+{% /if %}
+
+{% if $has_broom %}
+The robot is equipped with a broom.
+{% /if %}
 ```
 
-Global variables are also accessible
+Variables from `manual_config.json` / `maintenance_config.json` are exposed directly (`{% $model %}`, `{% $has_broom %}`). 
 
-{% $global.mir100 %}
-{% $global.companyName %}
+Conditional branches support `equals()` for comparisons:
 
+```markdoc
+{% if equals($model, "MiR250 Hook") %}
+Hook-specific content.
+{% else equals($hwVersionRobot, "2.2") /%}
+Hardware 2.2 content.
+{% /if %}
+```
 
-Config variables are also accessible and can be used in conditional statements and image paths
+Images in MiR Support Documentation reference the asset catalog by GUID (alt text comes from the catalog):
 
-{% $config.modelName %}
-{% if $config.isForklift %}
-{% img src="img/path/file_name_{$config.model}.png" %}
+```markdoc
+{% image id="9ab4d3e6-369c-4041-85d8-89b4a4812af4" size="medium" /%}
+```
+
+Config JSON can also expose image path variables used in partials:
+
+```markdoc
+{% image src=$image_power_button_turn_on alt="The Power button." /%}
+```
+
+Some documentation article examples still use legacy `src="/images/..."` tags where the asset is not yet in the catalog. PDF and Adeptus pipelines may also accept path-based images:
+
+```markdoc
+{% image src="/images/example.png" size="medium" /%}
+```
 
 ### File References
 
+(NOT 100% CERTAIN IF THIS ACTUALLY APPLIES)
 Documents reference local or external files declared in frontmatter. Within the document body, CDN URLs for local files are resolved using expression syntax:
 
 ```markdoc
@@ -205,14 +287,12 @@ See the [design specification]({{ files.find(f => f.description.includes('design
 ```
 
 
-Documents reference to other tags within the project. In the case the same tag is used (e.g. if used in a partial and is used several places) the reference should use the tag with "shortest folder distance". 
+Documents reference anchors within the same manual using tag declarations and references:
+
 ```markdoc
-# Header 1 {% tag id="header1"%}
+# Safety functions {% tag "safety_functions_overview" /%}
 
- ...
-
-For more info see {% tagref id="header1" %}
-
+For emergency stop details, see {% tagref "emergency_stop" /%}.
 ```
 
 ## Atomic vs Composed Documents
@@ -221,57 +301,39 @@ Flux defines two fundamental document structures.
 
 ### Atomic Documents
 
-A single `.markdoc` file containing all content and metadata. No external file dependencies beyond optional media assets and partials.
+A single Markdoc file containing all content and metadata. No external file dependencies beyond optional media assets and partials.
 
-**Types that are always atomic:** Everything except manuals
-
-```
-release-items/
-    item-2025-11-04-001.markdoc
-```
-
-### Composed Documents
-
-A directory containing an `index.markdoc` entry point that declares chapters, partials, and assets. The entry point's frontmatter includes `chapters[]` and `partials[]` arrays listing the constituent files. The body uses `{% partial %}` tags to assemble the full document.
-
-**Types that are always composed:** Manuals.
+**Types that are always atomic:** articles, FAQs, release notes, spare part guides, notices, product notes.
 
 ```
-manual-composed/
-    index.markdoc                          # Metadata + chapter/partial assembly
-    chapters/
-        01-introduction.markdoc
-        03-basic-operation.markdoc
-    partials/
-        safety-banner.markdoc
-        front-panel-ref.markdoc
-        specs-table.markdoc
-        footer.markdoc
-    assets/
-        front-panel-diagram.svg
-        rear-panel-diagram.svg
+documentation/
+  battery_and_charging/48v_batteries/intro.md
+spare_part_guides/
+  3d_cameras.md
 ```
 
-The `index.markdoc` body typically looks like:
+### Multi-Page Manuals (MiR production model)
 
-```markdoc
-{% partial file="partials/safety-banner.markdoc" /%}
+A product manual is a tree of `.md` files plus metadata manifests and nav JSON. Each page is routed and rendered individually. Edition manifests select which config and nav apply for a hardware version.
 
-{% partial file="chapters/01-introduction.markdoc" /%}
-{% partial file="chapters/03-basic-operation.markdoc" /%}
-
-{% partial file="partials/footer.markdoc" /%}
+```
+products/mir250/
+  manual/intro/intro.md
+  manual/safety/safety.md
+  _base_robot/hw_2.2_manual.md
+  _base_robot/manual_config.json
+  _base_robot/manual_nav.json
 ```
 
-During CI/CD processing, all partials are resolved recursively and merged into a single document before upload to Adeptus.
 
 ## CI/CD Integration
+
 
 Tech writers author documents in Git repositories. On commit, a CI/CD pipeline validates content against the Flux specification and pushes it to the Adeptus backend. The pipeline performs these steps:
 
 ### 1. Change Detection
 
-The pipeline monitors paths for `.markdoc` file changes. For composed documents, any file change within the document directory triggers reprocessing of the entire document. Changes to shared partials trigger reprocessing of all documents that include them. (Ideally this should also chekc for changes in images... not sure if this is too much to ask)
+The pipeline monitors paths for `.md` and `.markdoc` file changes. For composed documents, any file change within the document directory triggers reprocessing of the entire document. Changes to shared partials trigger reprocessing of all documents that include them. (Ideally this should also chekc for changes in images... not sure if this is too much to ask)
 
 If a file change is detected: 
 * The `updatedDate` is updated to the current date
@@ -280,7 +342,7 @@ If a file change is detected:
 
 ### 2. Document Resolution
 
-For composed documents, the pipeline reads `index.markdoc` to obtain metadata and file references, then resolves all `{% partial %}` tags by reading the referenced files recursively. The result is a single merged document.
+For single-file composed documents, the pipeline reads `index.markdoc` to obtain metadata and file references, then resolves all `{% partial %}` tags by reading the referenced files recursively. Multi-page manuals validate nav JSON paths and edition manifests instead.
 
 ### 3. Partial Resolution
 
@@ -302,7 +364,8 @@ All files referenced in frontmatter `files[]` arrays and inline image syntax are
 
 Before upload, the pipeline validates:
 
-- **Metadata completeness**: All required fields present, valid values for enums (status, severity, etc.), valid language-country codes.
+- **Metadata completeness**: All required fields present, valid values for enums (status, severity, etc.), valid language codes.
+- **Nav JSON**: `sections` tuples resolve to existing pages; paths use the correct `manual/` or `maintenance/` prefix at runtime.
 - **Chapter/partial resolution**: All referenced files exist, no circular dependencies, valid Markdoc syntax.
 - **Asset validation**: All referenced local files exist, file sizes within limits, supported MIME types.
 - **Content validation**: Valid Markdoc syntax, no broken internal links, all document ID references resolve.
@@ -495,7 +558,7 @@ Flux defines the format; the rest of the platform consumes it.
 ```
   Tech Writers (Git)
         |
-        |  Author .markdoc files with Flux metadata schemas
+        |  Author .md / .markdoc files with Flux metadata schemas
         v
   CI/CD Pipeline
         |
@@ -520,6 +583,7 @@ Flux defines the format; the rest of the platform consumes it.
 
 ### Key integration points
 
+- **MiR Support Documentation** is the current production implementation of the Flux content model for MiR product manuals, maintenance guides, and documentation articles. It validates content in the `content/` Git submodule and renders pages via Next.js.
 - **Adeptus** ingests and serves content authored in Flux format. It stores raw Markdoc (not pre-rendered HTML) and delegates rendering to frontends.
 - **Frontends** receive raw Markdoc from the Adeptus GraphQL API and render it locally, enabling conditional content based on device type, user role, and platform.
 - **Media** referenced in documents is delegated to a Digital Asset Management system (DAM) and served through a CDN. Adeptus stores references (GUIDs, hashes, CDN URLs) but does not host binary media itself.
@@ -538,32 +602,47 @@ Flux and Adeptus are part of a larger enterprise platform. See the [platform REA
 
 ## Example overview
 
-In the EXAMPLES folder there are the following files as examples of each document type: 
+The `EXAMPLES/` folder contains worked samples aligned with the [MiR Support Documentation](https://github.com/MobileIndustrialRobotsWeb/SupportDocumentation) content model.
 
-* "manual"
-  All four files under EXAMPLES\products\mir250\_base_robot are complete. 
-  The only HW difference that has been added in the content is different images used in EXAMPLES\products\mir250\manual\batteries_and_charging\power_connection.md
+### Manual (`doc_type: "manual"`)
 
-  The manuals use images, partials, and conditional statements.
+| Path | Description |
+|------|-------------|
+| `EXAMPLES/products/mir250/_base_robot/` | Edition manifests (`hw_*_manual.md`), `manual_config.json`, `manual_nav.json` |
+| `EXAMPLES/products/mir250/_hook/` | Hook variant editions and nav |
+| `EXAMPLES/products/mir250/_shelf_carrier/` | Shelf carrier variant editions and nav |
+| `EXAMPLES/products/mir250/manual/` | Shared manual pages (partials, conditionals, config variables) |
+| `EXAMPLES/products/mir250/maintenance_guide.md` | Maintenance guide manifest |
+| `EXAMPLES/products/mir250/maintenance_nav.json` | Maintenance TOC (`sections` format) |
+| `EXAMPLES/products/mir250/maintenance/` | Maintenance guide pages |
+| `EXAMPLES/partials/manual_partials/` | Reusable manual fragments |
+| `EXAMPLES/partials/maintenance_partials/` | Reusable maintenance fragments |
 
-* "article"
-  There are assorted articles under EXAMPLES\documentation.
-  The content has not been revised.
-  I have inlcuded one file with various languages to ensure that we can handle special charachters. 
+Nav JSON uses the `sections` tuple format. Sidebar titles come from page H1 headings, not from nav JSON. The only intentional HW difference in the base-robot examples is different images in `manual/batteries_and_charging/power_connection.md`.
 
-* "faq"
-  There are no FAQ examples
+### Article (`doc_type: "article"`)
 
-* "releaseNote"
-  There are two release notes under EXAMPLES\sw_release_notes.
-  They use a suggested format for a component that pulls release note description directly from JIRA. 
+Assorted articles under `EXAMPLES/documentation/`. Collection landing pages use the `_{name}.md` convention (e.g. `_documentation.md`, `_battery_and_charging.md`). `language_tester.md` exercises special characters.
 
-* "sparePartGuide"
-  The only sparepart guide with front matter content are: 
-  * EXAMPLES\spare_part_guides\mir250\replace\3d_cameras.md
-  * EXAMPLES\spare_part_guides\mir250\replace\battery_connector_handle.md
+### FAQ (`doc_type: "faq"`)
 
-  The content is not revised. 
+No FAQ examples yet.
 
-* "notice"
-  There are three notices under EXAMPLES\notices
+### Release note (`doc_type: "releaseNote"`)
+
+Two release notes under `EXAMPLES/sw_release_notes/`. They demonstrate a suggested JIRA ticket component (Adeptus runtime only — not evaluated by the MiR web renderer).
+
+### Spare part guide (`doc_type: "sparePartGuide"`)
+
+Examples with frontmatter:
+
+- `EXAMPLES/spare_part_guides/3d_cameras.md`
+- `EXAMPLES/spare_part_guides/battery_connector_handle.md`
+
+### Notice (`doc_type: "notice"`)
+
+No notice examples in this repository yet.
+
+### Schemas
+
+JSON schemas for config files: `EXAMPLES/_schemas/manual_config.schema.json`, `EXAMPLES/_schemas/maintenance_config.schema.json`.

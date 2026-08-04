@@ -2,7 +2,7 @@
 
 The robot has four M8 holes for mounting top modules as shown in [Figure 9.1](#top). The tightening torque is 18 Nm. The mounting screws must have a length between 23-33 mm from the top of the top cover.
 
-{% image src="/images/mir250/dimensions/mounting_holes.webp" alt=""  /%}
+{% image id="bf64098a-c456-4be4-bd07-6947aedcd4b2" alt="" /%}
 
 The mounting holes are in the chassis, so the top cover does not need to be on the robot when you mount a top module.
 

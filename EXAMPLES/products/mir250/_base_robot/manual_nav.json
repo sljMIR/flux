@@ -3,282 +3,105 @@
     "/docs/products/mir250",
     "/docs/products/mir250/_base_robot"
   ],
-  "items": [
-    {
-      "title": "Introduction",
-      "path": "manual/intro/intro"
-    },
-    {
-      "title": "Safety",
-      "path": "manual/safety/safety",
-      "children": [
-        {
-          "title": "Safety message types",
-          "path": "manual/safety/safety_message_types"
-        },
-        {
-          "title": "General safety precautions",
-          "path": "manual/safety/general_safety_precautions"
-        },
-        {
-          "title": "Foreseeable misuse",
-          "path": "manual/safety/foreseeable_misuse"
-        },
-        {
-          "title": "In case of fire",
-          "path": "manual/safety/in_case_of_fire"
-        },
-        {
-          "title": "Warning labels",
-          "path": "manual/safety/warning_labels"
-        },
-        {
-          "title": "Residual risks",
-          "path": "manual/safety/residual_risks"
-        }
+  "sections": [
+    [
+      "intro/intro",
+      []
+    ],
+    [
+      "safety/safety",
+      [
+        "safety/safety_message_types",
+        "safety/general_safety_precautions",
+        "safety/foreseeable_misuse",
+        "safety/in_case_of_fire",
+        "safety/warning_labels",
+        "safety/residual_risks"
       ]
-    },
-    {
-      "title": "Getting started",
-      "path": "manual/getting_started/getting_started",
-      "children": [
-        {
-          "title": "In the box",
-          "path": "manual/getting_started/in_the_box"
-        },
-        {
-          "title": "Check the robot",
-          "path": "manual/getting_started/checking_the_robot"
-        },
-        {
-          "title": "Unpack",
-          "path": "manual/getting_started/unpack"
-        },
-        {
-          "title": "Turn on",
-          "path": "manual/getting_started/turn_on_robot"
-        },
-        {
-          "title": "Turn off",
-          "path": "manual/getting_started/turn_off_robot"
-        },
-        {
-          "title": "Connect to the robot interface",
-          "path": "manual/getting_started/connecting_to_the_robot_interface"
-        },
-        {
-          "title": "Connect to wi-fi",
-          "path": "manual/getting_started/connecting_the_robot_to_a_wifi_network"
-        }
+    ],
+    [
+      "getting_started/getting_started",
+      [
+        "getting_started/in_the_box",
+        "getting_started/checking_the_robot",
+        "getting_started/unpack",
+        "getting_started/turn_on_robot",
+        "getting_started/turn_off_robot",
+        "getting_started/connecting_to_the_robot_interface",
+        "getting_started/connecting_the_robot_to_a_wifi_network"
       ]
-    },
-    {
-      "title": "Product presentation",
-      "path": "manual/product_presentation/product_presentation",
-      "children": [
-        {
-          "title": "Intended use",
-          "path": "manual/product_presentation/intended_use"
-        },
-        {
-          "title": "Compatible products",
-          "path": "manual/product_presentation/compatible_products"
-        },
-        {
-          "title": "Specifications",
-          "path": "manual/specifications/mir250"
-        },
-        {
-          "title": "Obstacle detection",
-          "path": "manual/product_presentation/obstacle_detection"
-        },
-        {
-          "title": "Payload distribution",
-          "path": "manual/product_presentation/payload_distribution"
-        },
-        {
-          "title": "External parts",
-          "path": "manual/product_presentation/external_parts"
-        },
-        {
-          "title": "Internal parts",
-          "path": "manual/product_presentation/internal_parts"
-        },
-        {
-          "title": "Mount top module",
-          "path": "manual/product_presentation/mounting_top_module"
-        },
-        {
-          "title": "Electrical interfaces",
-          "path": "manual/product_presentation/electrical_interfaces"
-        },
-        {
-          "title": "System overview",
-          "path": "manual/product_presentation/system_overview"
-        },
-        {
-          "title": "Warranty",
-          "path": "manual/product_presentation/warranty"
-        },
-        {
-          "title": "System manufacturer",
-          "path": "manual/product_presentation/system_manufacturer"
-        }
+    ],
+    [
+      "product_presentation/product_presentation",
+      [
+        "product_presentation/intended_use",
+        "product_presentation/compatible_products",
+        "product_presentation/specifications",
+        "product_presentation/obstacle_detection",
+        "product_presentation/payload_distribution",
+        "product_presentation/external_parts",
+        "product_presentation/internal_parts",
+        "product_presentation/mounting_top_module",
+        "product_presentation/electrical_interfaces",
+        "product_presentation/system_overview",
+        "product_presentation/warranty",
+        "product_presentation/system_manufacturer"
       ]
-    },
-    {
-      "title": "Batteries and charging",
-      "path": "manual/batteries_and_charging/batteries_and_charging",
-      "children": [
-        {
-          "title": "Power connection",
-          "path": "manual/batteries_and_charging/power_connection"
-        },
-        {
-          "title": "Battery fast swap",
-          "path": "manual/batteries_and_charging/battery_fast_swap"
-        },
-        {
-          "title": "Remove the battery",
-          "path": "manual/batteries_and_charging/remove_the_battery"
-        }
+    ],
+    [
+      "batteries_and_charging/batteries_and_charging",
+      [
+        "batteries_and_charging/power_connection",
+        "batteries_and_charging/battery_fast_swap",
+        "batteries_and_charging/remove_the_battery"
       ]
-    },
-    {
-      "title": "Usage",
-      "path": "manual/usage/usage",
-      "children": [
-        {
-          "title": "Operating the robot",
-          "path": "manual/usage/operating_the_robot"
-        },
-        {
-          "title": "Control panel",
-          "path": "manual/usage/control_panel"
-        },
-        {
-          "title": "Types of stop",
-          "path": "manual/usage/types_of_stop"
-        },
-        {
-          "title": "Preventing unauthorized use",
-          "path": "manual/usage/preventing_unauthorized_use"
-        },
-        {
-          "title": "Manual brake release",
-          "path": "manual/usage/manual_brake_release"
-        },
-        {
-          "title": "Light indicators and speaker",
-          "path": "manual/usage/light_indicators_and_speaker"
-        },
-        {
-          "title": "Move by hand",
-          "path": "manual/usage/moving_the_robot_by_hand"
-        },
-        {
-          "title": "Error handling",
-          "path": "manual/usage/error_handling"
-        }
+    ],
+    [
+      "usage/usage",
+      [
+        "usage/operating_the_robot",
+        "usage/control_panel",
+        "usage/types_of_stop",
+        "usage/preventing_unauthorized_use",
+        "usage/manual_brake_release",
+        "usage/light_indicators_and_speaker",
+        "usage/moving_the_robot_by_hand",
+        "usage/error_handling"
       ]
-    },
-    {
-      "title": "Safety functions",
-      "path": "manual/safety_functions/safety_functions",
-      "children": [
-        {
-          "title": "Safety functions overview",
-          "path": "manual/safety_functions/safety_functions_overview"
-        },
-        {
-          "title": "Safety configuration file",
-          "path": "manual/safety_functions/safety_configuration_file"
-        },
-        {
-          "title": "Emergency stop",
-          "path": "manual/safety_functions/emergency_stop"
-        },
-        {
-          "title": "Overspeed detection",
-          "path": "manual/safety_functions/overspeed_detection"
-        },
-        {
-          "title": "Field switching and personnel detection",
-          "path": "manual/safety_functions/field_switching_and_personnel_detection"
-        },
-        {
-          "title": "Safeguarded stop",
-          "path": "manual/safety_functions/safeguarded_stop"
-        },
-        {
-          "title": "Reduced speed",
-          "path": "manual/safety_functions/reduced_speed"
-        },
-        {
-          "title": "System emergency stop",
-          "path": "manual/safety_functions/system_emergency_stop"
-        },
-        {
-          "title": "Locomotion",
-          "path": "manual/safety_functions/locomotion"
-        }
+    ],
+    [
+      "safety_functions/safety_functions",
+      [
+        "safety_functions/safety_functions_overview",
+        "safety_functions/safety_configuration_file",
+        "safety_functions/emergency_stop",
+        "safety_functions/overspeed_detection",
+        "safety_functions/field_switching_and_personnel_detection",
+        "safety_functions/safeguarded_stop",
+        "safety_functions/reduced_speed",
+        "safety_functions/system_emergency_stop",
+        "safety_functions/locomotion"
       ]
-    },
-    {
-      "title": "Maintenance and handling",
-      "path": "manual/maintenance_and_handling/maintenance_and_handling",
-      "children": [
-        {
-          "title": "Periodic tasks for all users",
-          "path": "manual/maintenance_and_handling/periodic_tasks_all_users"
-        },
-        {
-          "title": "Periodic tasks for operators",
-          "path": "manual/maintenance_and_handling/periodic_tasks_operators"
-        },
-        {
-          "title": "Battery maintenance",
-          "path": "manual/maintenance_and_handling/battery_maintenance"
-        },
-        {
-          "title": "Access internal parts",
-          "path": "manual/maintenance_and_handling/accessing_the_internal_parts"
-        },
-        {
-          "title": "Transportation",
-          "path": "manual/maintenance_and_handling/transportation"
-        },
-        {
-          "title": "Disposal",
-          "path": "manual/maintenance_and_handling/disposal"
-        },
-        {
-          "title": "Storage",
-          "path": "manual/maintenance_and_handling/storage"
-        },
-        {
-          "title": "Train users",
-          "path": "manual/maintenance_and_handling/train_users"
-        }
+    ],
+    [
+      "maintenance_and_handling/maintenance_and_handling",
+      [
+        "maintenance_and_handling/periodic_tasks",
+        "maintenance_and_handling/battery_maintenance",
+        "maintenance_and_handling/accessing_the_internal_parts",
+        "maintenance_and_handling/transportation",
+        "maintenance_and_handling/disposal",
+        "maintenance_and_handling/storage",
+        "maintenance_and_handling/train_users"
       ]
-    },
-    {
-      "title": "Appendix",
-      "path": "manual/appendix/appendix",
-      "children": [
-        {
-          "title": "Received product inspection checklist",
-          "path": "manual/appendix/received_product_inspection_checklist"
-        },
-        {
-          "title": "Declaration of Conformity example",
-          "path": "manual/appendix/declaration_of_conformity_example"
-        },
-        {
-          "title": "Declaration of Incorporation example",
-          "path": "manual/appendix/declaration_of_incorporation_example"
-        }
+    ],
+    [
+      "appendix/appendix",
+      [
+        "appendix/received_product_inspection_checklist",
+        "appendix/declaration_of_conformity_example",
+        "appendix/declaration_of_incorporation_example"
       ]
-    }
+    ]
   ]
 }

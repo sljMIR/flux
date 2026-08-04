@@ -5,7 +5,7 @@ To drive the robot in Manual mode, follow these steps:
 
 2. In the robot interface, select Manual control under the joystick icon
 
-    {% image src="/images/mir_interfaces_3.0/top_bar/select_manual_control_600_1350.webp" alt="Joystick icon" /%}
+    {% image id="830b6df2-7355-49c5-ba2f-c99118128fbe" alt="Joystick icon" /%}
 
 3. On the robot, press the Resume button. The status lights turn blue, indicating that the robot is in Manual mode.
 

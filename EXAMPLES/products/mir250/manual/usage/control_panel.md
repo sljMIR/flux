@@ -2,7 +2,7 @@
 
 {% partial file="manual_partials/control_panel/text_location_rear_left_corner.md" /%}
 
-{% image src="/images/mir250/control_panel/control_panel_labeled.webp"  /%}
+{% image id="d30e6009-6252-459f-90cb-d4da7f45a545" /%}
 
 {% partial file="manual_partials/control_panel/table_control_panel_identification.md" /%}
 

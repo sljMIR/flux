@@ -2,6 +2,6 @@ The robot is not classified as WEEE and can be disposed of in accordance with th
 
 Legal obligations apply to the robot's batteries. Batteries must be recycled. Contact your distributor to get specific information about their take back service.
 
-{% image src="/images/graphical/labels_stickers/lithium_ion_battery.webp" alt="Lithium ion battery disposal symbol"  /%}
+{% image id="7453ef7a-33ef-4aec-957b-98e0461e4320" alt="Lithium ion battery disposal symbol" /%}
 
-{% image src="/images/graphical/labels_stickers/no_not_throw_out.webp" alt="Do not discard in general waste symbol"  /%}
+{% image id="df44f5d7-c63b-4f28-98f2-78dd90d1b108" alt="Do not discard in general waste symbol" /%}

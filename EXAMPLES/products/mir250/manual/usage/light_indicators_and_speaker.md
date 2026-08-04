@@ -4,7 +4,7 @@
 
 {% partial file="manual_partials/sounds_lights/list_lights_speaker_overview.md" /%}
 
-{% image src="/images/mir250/lights/lights_labeled.webp" alt="Identification of the light types."  /%}
+{% image id="cc8a8968-93b7-4451-88d0-8b7e1c0fc7f3" alt="Identification of the light types." /%}
 
 | Pos. | Description | Pos. | Description |
 | --- | --- | --- | --- |

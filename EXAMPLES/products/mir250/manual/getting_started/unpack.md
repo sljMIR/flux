@@ -8,30 +8,30 @@ To unpack the robot, follow these steps:
 
 2. Cut the protective straps surrounding the box.
 
-   {% image src="/images/mir250/packaging/clip_ties.webp" alt="A pair of pliers cutting the two highlighted strips around the box the robot is delivered in."  /%}
+   {% image id="f4aa041a-a464-4b9a-a6f7-3339fa12025c" alt="A pair of pliers cutting the two highlighted strips around the box the robot is delivered in." /%}
 
 3. Remove the lid from the box.
 
-   {% image src="/images/mir250/packaging/remove_lid.webp" alt="The lid being lifted from the robot box."  /%}
+   {% image id="c146c80a-f660-4ec2-bec7-3e32f8cfbf5e" alt="The lid being lifted from the robot box." /%}
 
 4. Take the box with the Emergency stop box, antennas, and printed documents out of the box.
 
-   {% image src="/images/mir250/packaging/take_out_box.webp" alt="The box with documentation and additional parts being removed from the robot box."  /%}
+   {% image id="40c95ac4-54bc-4e1d-b39d-3841862bc4e5" alt="The box with documentation and additional parts being removed from the robot box." /%}
 
 5. Remove the pallet collars and the protective foam blocks.
 
-    {% image src="/images/mir250/packaging/remove_sides.webp" alt="The pallet collars being removed around the robot." /%}
+    {% image id="f23608a4-0d34-431d-bd99-193c1a17dc24" alt="The pallet collars being removed around the robot." /%}
 
-    {% image src="/images/mir250/packaging/remove_padding.webp" alt="The foam blocks being removed around the robot." /%}
+    {% image id="d33706db-c6b4-4850-97e6-736adf09bce3" alt="The foam blocks being removed around the robot." /%}
 
 6. Place the lid of the box so that you can use it as a ramp. Align the lid so that it is flush with the base of the box.
 
-   {% image src="/images/mir250/packaging/place_ramp.webp" alt="The lid being placed as a ramp on the edge of the pallet with the robot. "  /%}
+   {% image id="031d6a47-d361-4f51-a403-e85b18311817" alt="The lid being placed as a ramp on the edge of the pallet with the robot. " /%}
 
 7. Connect the Emergency stop box to the Auxiliary emergency stop interface, and mount it to one of the mounting holes. Use a T45 screwdriver to unscrew the mounting screw, and tighten it to 15 Nm when remounting it with the Emergency stop box.
 
-   {% image src="/images/mir250/emergency_stop/connect_e-stop.webp" alt="The Emergency stop box being plugged in and mounted to the robot."  /%}
+   {% image id="1b946923-801b-48f3-ac3f-df6f5a76db71" alt="The Emergency stop box being plugged in and mounted to the robot." /%}
 
 8. Screw on the two antennas.
 
-   {% image src="/images/mir250/antenna/antenna_screw_on.webp" alt="An antenna being connected and screwed onto an antenna connector on the top compartment cover."  /%}
+   {% image id="dfd07317-fc3d-472f-9ab1-5c3ecb4d623e" alt="An antenna being connected and screwed onto an antenna connector on the top compartment cover." /%}

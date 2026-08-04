@@ -85,7 +85,7 @@
 
 {% /table %}
 
-{% image src="/images/mir250/protective_fields/forward_field_sets.webp" alt="The forward field sets of the robot."  /%}
+{% image id="700e9189-e8c4-48c8-ad69-3d92c680ce59" alt="The forward field sets of the robot." /%}
 
 ## Protective fields when driving backward
 
@@ -150,7 +150,7 @@
 
 {% /table %}
 
-{% image src="/images/mir250/protective_fields/reverse_field_sets.webp" alt="The reverse field sets of the robot."  /%}
+{% image id="f4dd8639-0de4-46fd-95a6-13fa746d8fce" alt="The reverse field sets of the robot." /%}
 
 ## Protective fields when pivoting or at standstill
 
@@ -180,7 +180,7 @@
 
 {% /table %}
 
-{% image src="/images/mir250/protective_fields/pivot_field_sets.webp" alt="The field sets of the robot when it pivots or stands still."  /%}
+{% image id="361130cb-855b-4af7-b538-c269b942dd34" alt="The field sets of the robot when it pivots or stands still." /%}
 
 ## Muted Protective fields
 

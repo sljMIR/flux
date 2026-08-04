@@ -1,0 +1,12 @@
+{
+  "root": [
+    "/docs/products/mir250",
+    "/docs/products/mir250/maintenance"
+  ],
+  "sections": [
+    [
+      "intro/intro",
+      []
+    ]
+  ]
+}

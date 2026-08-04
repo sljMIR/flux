@@ -559,7 +559,7 @@
 
 * 90° turn
 
-    {% image src="/images/graphical/space_requirements_generic/90°_turn.webp" alt="Measurement for 90° turn. "  /%}
+    {% image id="1d441d57-0e0f-477d-b096-76dfb789a82a" alt="Measurement for 90° turn. " /%}
 
 * Standard settings: 1.50 m
     
@@ -569,7 +569,7 @@
 
 * Between charging stations
 
-    {% image src="/images/graphical/space_requirements_generic/between_charging_stations.webp" alt="Measurement for space between charging stations"  /%}
+    {% image id="badecd9b-22d6-4f55-bee9-8b86f8220d51" alt="Measurement for space between charging stations" /%}
 
 * Standard settings: 0.8 m
 
@@ -577,7 +577,7 @@
 
 * Between V-markers
 
-    {% image src="/images/graphical/space_requirements_generic/between_v_markers.webp" alt="Measurement for space between V-markers"  /%}
+    {% image id="863de580-a37d-496c-8651-834a653d2456" alt="Measurement for space between V-markers" /%}
 
 * 0.44 m
 
@@ -585,7 +585,7 @@
 
 * Doorway width
 
-    {% image src="/images/graphical/space_requirements_generic/doorway_width.webp" alt="Measurement for doorway width"  /%}
+    {% image id="111f2813-ddae-42cf-8050-9e75dd2f94b9" alt="Measurement for doorway width" /%}
 
 * Standard settings: 150 cm
 
@@ -593,7 +593,7 @@
 
 * In front of Bar-marker
 
-    {% image src="/images/graphical/space_requirements_generic/in_front_of_bar_marker.webp" alt="Measurement for space in front of Bar-marker"  /%}
+    {% image id="74c1f8b0-d525-433f-addf-d39c08f30db1" alt="Measurement for space in front of Bar-marker" /%}
 
 * Standard settings: 2.15 m
 
@@ -601,7 +601,7 @@
 
 * In front of charging station
 
-    {% image src="/images/graphical/space_requirements_generic/in_front_of_charging_station.webp" alt="Measurement for space in front of charging stations"  /%}
+    {% image id="45e9f5df-d45f-49e0-b07d-ce102a36c76a" alt="Measurement for space in front of charging stations" /%}
 
 * Standard settings: 2.8 m
 
@@ -609,7 +609,7 @@
 
 * In front of V-marker
 
-    {% image src="/images/graphical/space_requirements_generic/in_front_of_v_marker.webp" alt="Measurement for space in front of V-marker"  /%}
+    {% image id="7c2df32f-5b4f-402f-b28d-048fed1fa28e" alt="Measurement for space in front of V-marker" /%}
 
 * Standard settings: 2.25 m
 
@@ -617,7 +617,7 @@
 
 * In front of VL-marker
 
-    {% image src="/images/graphical/space_requirements_generic/in_front_of_vl_marker.webp" alt="Measurement for space in front of VL-marker"  /%}
+    {% image id="97fb78ba-7395-4891-9877-45194be3593e" alt="Measurement for space in front of VL-marker" /%}
 
 * Standard settings: 2.40 m
 
@@ -628,7 +628,7 @@
 
 * Pivoting
 
-    {% image src="/images/graphical/space_requirements_generic/pivoting.webp" alt="Measurement for space when pivoting."  /%}
+    {% image id="40d8f7b1-72c2-4efb-bfc9-72c85d9448b2" alt="Measurement for space when pivoting." /%}
 
 * Standard settings: 1.80 m
     
@@ -638,7 +638,7 @@
 
 * Straight corridor
 
-    {% image src="/images/graphical/space_requirements_generic/straight_corridor.webp" alt="Measurement for space in straight corridor."  /%}
+    {% image id="70f5bac1-9725-4a28-9245-5ecdd413a650" alt="Measurement for space in straight corridor." /%}
 
 * Standard settings: 1.45 m
 
@@ -646,7 +646,7 @@
 
 * To sides of charging station
 
-    {% image src="/images/graphical/space_requirements_generic/to_sides_of_charging_station.webp" alt="Measurement for space to sides of charging station to 0.5 m in front of the marker."  /%}
+    {% image id="bfe7261a-9f81-41e5-9d2c-2fa0a1b7ba46" alt="Measurement for space to sides of charging station to 0.5 m in front of the marker." /%}
 
 * Standard settings: 0.55 m
 
@@ -654,7 +654,7 @@
 
 * To sides of V-marker
 
-    {% image src="/images/graphical/space_requirements_generic/to_sides_of_v_marker.webp" alt="Measurement for space to sides of V-marker to 0.5 m in front of the marker."  /%}
+    {% image id="a0c98cc0-9149-485a-a908-f0c507140b7b" alt="Measurement for space to sides of V-marker to 0.5 m in front of the marker." /%}
 
 * Standard settings: 0.45 m
 
@@ -662,7 +662,7 @@
 
 * To sides of VL-marker
 
-    {% image src="/images/graphical/space_requirements_generic/to_sides_of_vl_marker.webp" alt="Measurement for space to sides of Vl-marker to 0.5 m in front of the marker."  /%}
+    {% image id="cd3be6f7-a579-4c4f-a0c9-e3ff82759d85" alt="Measurement for space to sides of Vl-marker to 0.5 m in front of the marker." /%}
 
 * Standard settings: 0.15 m
 
@@ -673,7 +673,7 @@
 
 * To the sides from Bar-marker to Entry position
 
-    {% image src="/images/graphical/space_requirements_generic/to_the_sides_from_bar_marker_to_entry_position.webp" alt="Measurement for space to sides of Bar-marker up to the Entry position."  /%}
+    {% image id="e6bfd98b-99c8-4fcf-9934-0803edbbd892" alt="Measurement for space to sides of Bar-marker up to the Entry position." /%}
 
 * Standard settings - Right: 0.45 m
     
@@ -688,7 +688,7 @@
 
 * To the sides from charging station to Entry position
 
-    {% image src="/images/graphical/space_requirements_generic/to_the_sides_from_charging_station_to_entry_position.webp" alt="Measurement for space to sides of charging station up to the Entry position."  /%}
+    {% image id="fc8d8678-0c3f-4fd7-b1fb-1b2d396e1823" alt="Measurement for space to sides of charging station up to the Entry position." /%}
 
 * Standard settings - Right: 0.70 m
     
@@ -698,7 +698,7 @@
 
 * To the sides from V-marker to Entry position
 
-    {% image src="/images/graphical/space_requirements_generic/to_the_sides_from_v_marker_to_entry_position.webp" alt="Measurement for space to sides of V-marker up to the Entry position."  /%}
+    {% image id="57b2c5cd-79ef-4ff0-b3f0-55ffcc496020" alt="Measurement for space to sides of V-marker up to the Entry position." /%}
 
 * Standard settings - Right: 0.65 m
     
@@ -711,7 +711,7 @@
 
 * To the sides from VL-marker to Entry position
 
-    {% image src="/images/graphical/space_requirements_generic/to_the_sides_from_vl_marker_to_entry_position.webp" alt="Measurement for space to sides of Vl-marker up to the Entry position."  /%}
+    {% image id="b3ea5da7-e8e5-487a-9ccc-62ad44ed3ac9" alt="Measurement for space to sides of Vl-marker up to the Entry position." /%}
 
 * Standard settings - Right: 0.45 m
     
@@ -729,7 +729,7 @@
 
 * Two robots passing
 
-    {% image src="/images/graphical/space_requirements_generic/two_robots_passing.webp" alt="Measurement for space when two robots are passing."  /%}
+    {% image id="2a39a762-3742-40ed-804b-4b89e88d9f87" alt="Measurement for space when two robots are passing." /%}
 
 * Standard settings: 3.00 m
     
@@ -739,7 +739,7 @@
 
 * U-turn
 
-    {% image src="/images/graphical/space_requirements_generic/u_turn.webp" alt="Measurement for space when robot makes a U-turn around an obstacle."  /%}
+    {% image id="47270d65-1b23-4ed2-abf1-c109d6bd0bb0" alt="Measurement for space when robot makes a U-turn around an obstacle." /%}
 
 * Standard settings: 1.60 m
     

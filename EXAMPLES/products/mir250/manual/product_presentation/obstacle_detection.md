@@ -28,7 +28,7 @@
 
 {% partial file="manual_partials/sensors/text_proximity_sensor_purpose.md" /%}
 
-{% image src="/images/mir250/sensor_fov/proximity_sensor_detection_cones.webp" alt="Visualazition of the area the proximity sensors detect obstacles."  /%}
+{% image id="c4f268fe-f03d-47c2-a70d-bbc62811f32c" alt="Visualazition of the area the proximity sensors detect obstacles." /%}
 
 {% partial file="manual_partials/sensors/info_proximity_disabled_calibrate.md" /%}
 

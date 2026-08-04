@@ -4,6 +4,6 @@
 
 {% partial file="manual_partials/service_maintenance/notice_move_by_hand_gently.md" /%}
 
-{% image src="/images/mir250/move_transportation/push_robot.webp" alt="Pushing on corner bumpers and top cover"  /%}
+{% image id="7bf85d62-7378-4f14-a475-920bd3c8d178" alt="Pushing on corner bumpers and top cover" /%}
 
-{% image src="/images/mir250/move_transportation/pull_robot.webp" alt="Pulling on handles"  /%}
+{% image id="a5372def-9934-4139-b6ba-c4a5fd68433f" alt="Pulling on handles" /%}

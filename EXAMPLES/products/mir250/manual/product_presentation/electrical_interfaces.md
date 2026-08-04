@@ -18,7 +18,7 @@ The robot has seven electrical interfaces in the left and right top compartments
 
 For more information on how to use the Emergency stop interface, see {% tagref "emergency_stop" /%}.
 
-{% image src="/images/mir250/interfaces/aux_e_stop.webp" alt="Emergency stop interface pins" /%}
+{% image id="0ece7739-426b-442f-9183-bfab9c90797b" alt="Emergency stop interface pins" /%}
 
 {% table %}
 
@@ -108,7 +108,7 @@ For more information on how to use the Emergency stop interface, see {% tagref "
 
 ## Power
 
-{% image src="/images/mir250/interfaces/power.webp" alt="Power interface pins"  /%}
+{% image id="648caef7-c5a2-4c2f-96bb-8e80ae65e7aa" alt="Power interface pins" /%}
 
 {% partial file="manual_partials/interfaces/caution_power_interface_usage.md" /%}
 
@@ -202,7 +202,7 @@ For more information on how to use the Emergency stop interface, see {% tagref "
 
 {% partial file="manual_partials/interfaces/text_ethernet_supported_protocols_and_speed.md" /%}
 
-{% image src="/images/mir250/interfaces/ethernet.webp" alt="Ethernet pins"  /%}
+{% image id="8210293a-c9b4-4cc2-9ff8-6a6fc3ee3d94" alt="Ethernet pins" /%}
 
 {% table %}
 
@@ -236,7 +236,7 @@ If the GPIO pins are not working as expected, ensure that the **Shelf** feature 
 
 
 
-{% image src="/images/mir250/part_identification/right_compartment-2.webp" alt="GPIO interface pins" /%}
+{% image id="2ffa8f68-8a2e-429a-b176-a399ed476eb6" alt="GPIO interface pins" /%}
 
 ### Output interface
 
@@ -394,7 +394,7 @@ If the GPIO pins are not working as expected, ensure that the **Shelf** feature 
 
 {% partial file="manual_partials/interfaces/text_aux_safety_functions_interface_supports_safety_function_section'.md" /%}
 
-{% image src="/images/mir250/interfaces/safety.webp" alt="Auxiliary safety interface pins"  /%}
+{% image id="1e33089c-6231-4ef7-b643-62cd6a0e7e1e" alt="Auxiliary safety interface pins" /%}
 
 ### Interface A
 

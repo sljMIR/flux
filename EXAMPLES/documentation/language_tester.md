@@ -5,7 +5,7 @@ title: "还有四个 M12 孔，用于固定运输吊环螺栓 TEST"
 status: "draft"
 version: "1"
 language: "ko-ko"
-releaseYear: "2025"
+firstReleaseDate: "2025-01-01"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---

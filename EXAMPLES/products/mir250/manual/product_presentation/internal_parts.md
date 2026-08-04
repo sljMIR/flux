@@ -6,7 +6,7 @@
 
 ## Front compartment
 
-{% image src="/images/mir250/overview/front_compartment.webp" alt="Identification of parts in the front compartment"  /%}
+{% image id="8f20de93-4ef4-422b-969c-d286c6b3bbfc" alt="Identification of parts in the front compartment" /%}
 
 | Pos. | Description | Pos. | Description |
 | --- | --- | --- | --- |
@@ -16,7 +16,7 @@
 
 ## Rear compartment
 
-{% image src="/images/mir250/overview/rear_compartment.webp" alt="Identification of parts in the rear compartment"  /%}
+{% image id="09c0a75d-ab59-4c71-9e67-291903219511" alt="Identification of parts in the rear compartment" /%}
 
 | Pos. | Description | Pos. | Description |
 | --- | --- | --- | --- |
@@ -32,7 +32,7 @@
 
 ### Left side
 
-{% image src="/images/mir250/overview/left_compartment.webp" alt="Identification of parts in the left compartment"  /%}
+{% image id="6cca3b93-5a68-4fff-833d-1ea4f522b121" alt="Identification of parts in the left compartment" /%}
 
 | Pos. | Description | Pos. | Description |
 | --- | --- | --- | --- |
@@ -41,7 +41,7 @@
 
 ### Right side
 
-{% image src="/images/mir250/overview/right_compartment.webp" alt="Identification of parts in the right compartment"  /%}
+{% image id="0589d368-fd27-4a02-a5ad-0f1c3edb1cdc" alt="Identification of parts in the right compartment" /%}
 
 | Pos. | Description | Pos. | Description |
 | --- | --- | --- | --- |
@@ -52,7 +52,7 @@
 
 {% partial file="manual_partials/references/text_electrical_interfaces_more_info.md" /%}
 
-{% image src="/images/mir250/overview/electrical_interfaces.webp" alt="Interfaces in the top compartments" /%}
+{% image id="e090fcbd-e958-4571-9f81-d34cd35e7db2" alt="Interfaces in the top compartments" /%}
 
 | Pos. | Description | Pos. | Description |
 | --- | --- | --- | --- |
