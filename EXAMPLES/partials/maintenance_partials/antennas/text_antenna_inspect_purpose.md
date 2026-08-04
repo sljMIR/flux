@@ -1,1 +1,0 @@
-To ensure optimum wireless communication performance.

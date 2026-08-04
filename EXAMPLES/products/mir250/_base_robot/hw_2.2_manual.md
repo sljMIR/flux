@@ -5,7 +5,7 @@ title: "MiR250 Manual"
 documentNumber: 75371702
 orderNumber: [100151, 100152, 110070]
 status: "published"
-version: "2"
+version: "4.2"
 language: "en"
 firstReleaseDate: "2021-01-01"
 updateDate: "2026-02-19"

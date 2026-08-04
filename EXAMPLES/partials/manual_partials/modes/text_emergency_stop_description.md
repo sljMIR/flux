@@ -1,3 +1,0 @@
-The robot enters Emergency stop when an Emergency stop button has been pressed physically. When you press an Emergency stop button, all moving parts of the robot do not receive power.
-
-When the robot is in Emergency stop, the status lights of the robot turn red, and you are not able to move the robot or send it on missions until you bring the robot out of the Emergency stop. To do this, you must release the Emergency stop button and then press the flashing Restart button.

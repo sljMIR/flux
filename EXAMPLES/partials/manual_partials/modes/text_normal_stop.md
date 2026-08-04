@@ -1,1 +1,0 @@
-The robot is in Normal stop when you press the Stop button on the control panel, a mission action stops the robot, or you toggle the robot into Paused state. All moving parts are still connected to a power supply.

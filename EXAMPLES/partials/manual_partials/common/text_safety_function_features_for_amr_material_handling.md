@@ -1,1 +1,0 @@
-The robot has a wide variety of functions and safety features required when designing an application-specific AMR for material handling in an industrial environment.

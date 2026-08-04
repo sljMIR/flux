@@ -1,1 +1,0 @@
-When battery is critically low (0-1%), the ends of the status lights flash red.

@@ -3,8 +3,6 @@
 
 This maintenance guide describes periodic service tasks for {% $model %}.
 
-{% partial file="maintenance_partials/frequency/text_weekly.md" /%}
-
 ## Scope
 
 The tasks in this guide apply to the base robot and compatible top modules configured in `maintenance_config.json`.

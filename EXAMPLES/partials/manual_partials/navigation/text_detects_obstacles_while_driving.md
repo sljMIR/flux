@@ -1,1 +1,0 @@
-The robot detects obstacles continuously while driving. This enables the robot to drive around obstacles and to determine the robot's current position on the map.

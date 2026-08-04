@@ -1,1 +1,0 @@
-The robot is only intended to be used by personnel that have received training in their required tasks.

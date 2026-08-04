@@ -4,7 +4,7 @@ doc_type: "manual"
 title: "MiR250 Manual"
 documentNumber: 75371700
 status: "published"
-version: "6"
+version: "1.6"
 language: "en"
 firstReleaseDate: "2020-06-26"
 updateDate: "2022-08-12"

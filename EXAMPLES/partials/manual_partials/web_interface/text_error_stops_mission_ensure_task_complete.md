@@ -1,1 +1,0 @@
-When the robot stops because of an error, it also cancels its current mission. After clearing an error, make sure the robot completes the task it was assigned, especially if the robot was transporting a load and did not finish delivering it.

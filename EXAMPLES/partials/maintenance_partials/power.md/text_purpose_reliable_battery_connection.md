@@ -1,1 +1,0 @@
-To ensure that a reliable battery connection can be made, and that the battery locking mechanism works as intended.

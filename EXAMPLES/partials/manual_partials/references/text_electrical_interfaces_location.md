@@ -1,1 +1,0 @@
-For the location of the electrical interfaces, see {% tagref "internal_parts" /%}.

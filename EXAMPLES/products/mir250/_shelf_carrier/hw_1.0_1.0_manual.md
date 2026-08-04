@@ -4,7 +4,7 @@ doc_type: "manual"
 title: "MiR250 Shelf Carrier Manual"
 documentNumber: 75372102
 status: "published"
-version: "5"
+version: "1.0"
 language: "en"
 firstReleaseDate: ""
 updateDate: ""

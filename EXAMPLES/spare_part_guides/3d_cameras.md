@@ -4,7 +4,7 @@ doc_type: "article"
 documentNumber: 300091
 title: "Replace 3D cameras"
 status: "published"
-version: "1"
+version: "1.0"
 language: "en"
 firstReleaseDate: "2001-01-01"
 updateDate: "2025-07-21"
