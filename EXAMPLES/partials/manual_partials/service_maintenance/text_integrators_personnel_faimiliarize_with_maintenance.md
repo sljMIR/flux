@@ -1,1 +1,0 @@
-Integrators and any maintenance responsible personnel at sites should familiarize themselves with this document, and, if needed, integrate maintenance tasks into any custom ERP system that handles maintenance tasks and schedules.

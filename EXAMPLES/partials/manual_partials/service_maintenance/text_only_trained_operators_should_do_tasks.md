@@ -1,1 +1,0 @@
-Only trained operators or commissioners should perform the following maintenance tasks—see {% tagref "train_users" /%}.

@@ -1,1 +1,0 @@
-Indirect users are persons in the vicinity of the robot application that do not interact with the robot. They must know how to act when they are close to the robot.

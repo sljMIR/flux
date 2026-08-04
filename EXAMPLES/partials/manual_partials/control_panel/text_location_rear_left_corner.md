@@ -1,1 +1,0 @@
-The robot has a control panel in the rear-left corner of the robot.

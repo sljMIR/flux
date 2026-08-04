@@ -4,9 +4,9 @@ doc_type: "article"
 documentNumber: null
 title: "Replace battery connector handle"
 status: "draft"
-version: "1"
+version: "1.0"
 language: "en"
-releaseYear: "2001"
+firstReleaseDate: "2001-01-01"
 updateDate: "2025-07-21"
 accessLevel: "public"
 tags:

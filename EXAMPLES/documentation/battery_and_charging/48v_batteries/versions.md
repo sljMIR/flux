@@ -5,7 +5,7 @@ title: ""
 status: "published"
 version: "1"
 language: "en-us"
-releaseYear: "2025"
+firstReleaseDate: "2025-01-01"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---
@@ -21,9 +21,9 @@ Revision 1
 
 Revision 2
 
-{% image src="/images/accessories/batteries_chargers/types/48v_battery_isolated.webp" alt="48v battery isolated" /%}
+{% image id="532d21f2-4a7c-4374-8596-5f8ef262a01c" alt="48v battery isolated" /%}
 
-{% image src="/images/accessories/batteries_chargers/types/battery_48v_rev_2.webp" alt="battery 48v rev 2" /%}
+{% image id="87b7280e-68b4-4103-91b6-00065a523792" alt="battery 48v rev 2" /%}
 
 Shipped with hardware version 1.0 and 2.0.
 
@@ -49,7 +49,7 @@ The connector pins for this version of the 48V battery are listed in [Table 2.1]
 
 **Figure 2.1**Connector for MiR250, MiR600, MiR1350, and MiR1200 Pallet Jack 48V battery
 
-{% image src="/images/accessories/batteries_chargers/types/pins_overview_250_600_1350.webp" alt="pins overview 250 600 1350" /%}
+{% image id="51a5d313-c358-4e60-8665-137444e2c087" alt="pins overview 250 600 1350" /%}
 
 **Table 2.1**
 
@@ -59,13 +59,13 @@ Identification of pins in [Figure 2.1](#Connecto2)Pos.DescriptionPos.Description
 
 The 48V battery for MiR500 and MiR1000 has a connector on top of the battery that is compatible with the battery cable used in MiR500 and MiR1000. It has order number 450567.
 
-{% image src="/images/accessories/batteries_chargers/types/MIR500 and MiR1000 battery.webp" alt="MIR500 and MiR1000 battery" /%}
+{% image id="33ec8006-0270-463d-b459-2d2fe0643a67" alt="MIR500 and MiR1000 battery" /%}
 
 The connector pins for this version of the 48V battery are listed in [Table 2.2](#Identification2).
 
 **Figure 2.2**Connector for MiR500 and MiR1000 48V battery
 
-{% image src="/images/accessories/batteries_chargers/types/pins_overview_500_1000.webp" alt="pins overview 500 1000" /%}
+{% image id="98105a67-6730-409c-989c-b16eb1ad0ef7" alt="pins overview 500 1000" /%}
 
 **Table 2.2**
 

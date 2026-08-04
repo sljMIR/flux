@@ -1,1 +1,0 @@
-This section describes how to lift the robot and how to pack the robot for transportation.

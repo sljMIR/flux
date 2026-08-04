@@ -1,1 +1,0 @@
-The unique nameplate of your robot is on the right side compartment cover. Do not swap the cover with covers from other robots.

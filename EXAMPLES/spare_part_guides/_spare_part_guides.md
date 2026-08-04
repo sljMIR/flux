@@ -5,7 +5,7 @@ title: "Spare part guides"
 status: "published"
 version: "1"
 language: "en-us"
-releaseYear: "2025"
+firstReleaseDate: "2025-01-01"
 updateDate: "2025-11-04"
 accessLevel: "public"
 products: ["MiR250, MiR600, MiR1350, MiR1200 Pallet Jack"]

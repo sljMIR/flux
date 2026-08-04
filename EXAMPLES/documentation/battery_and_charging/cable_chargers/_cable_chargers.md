@@ -5,7 +5,7 @@ title: "Cable chargers"
 status: "published"
 version: "1"
 language: "en-us"
-releaseYear: "2025"
+firstReleaseDate: "2025-01-01"
 updateDate: "2025-11-04"
 accessLevel: "public"
 ---
@@ -27,7 +27,7 @@ When you use any of the cable chargers, make sure to:
 
 The image shows a Battery lever used for MiR250. To connect the battery on another type of robot, see the user guide or integrator manual for your robot.
 
-{% image src="/images/accessories/batteries_chargers/chargers/connect_battery_first.jpg" alt="connect battery first" /%}{% image src="/images/accessories/batteries_chargers/chargers/connect_battery.jpg" alt="connect battery" /%}
+{% image src="/images/accessories/batteries_chargers/chargers/connect_battery_first.jpg" alt="connect battery first" /%}{% image id="3f4005c6-44a8-41d7-bcc4-5c81edb0ba9c" alt="connect battery" /%}
 
 - **Always** wait 30 seconds between connecting and disconnecting the battery and vice-versa.
 

@@ -1,1 +1,0 @@
-To ensure that the safety laser scanners are performing optimally. Safety laser scanner contamination or damages will greatly reduce the performance of the robot. Robots can navigate around objects that are not there and experience random Protective stops or errors that prevent the robot from driving if the safety laser scanners are not maintained properly.

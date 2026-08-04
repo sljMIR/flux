@@ -1,1 +1,0 @@
-The Auxiliary safety functions interfaces support the safety functions described in {% tagref "safety_functions" /%}.

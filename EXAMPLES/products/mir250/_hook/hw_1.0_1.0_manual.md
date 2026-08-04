@@ -4,7 +4,7 @@ doc_type: "manual"
 title: "MiR250 Hook Manual"
 documentNumber: 75371802
 status: "published"
-version: ""
+version: "1.0"
 language: "en"
 firstReleaseDate: ""
 updateDate: ""

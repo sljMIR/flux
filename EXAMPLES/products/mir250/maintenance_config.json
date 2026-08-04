@@ -1,0 +1,19 @@
+{
+  "$schema": "../../_schemas/maintenance_config.schema.json",
+  "model": "MiR250",
+  "base_robot": "MiR250",
+  "has_broom": true,
+  "has_proximity_sensors": true,
+  "has_mechanical_brake_switch": true,
+  "has_top_plate": true,
+  "has_contactors": true,
+  "has_mosfets": false,
+  "has_inbuilt_display": false,
+  "has_power_over_ethernet_service_port": true,
+  "has_estop_box": true,
+  "has_fast_swap": true,
+  "has_pull_handles": true,
+  "has_hook": false,
+  "has_shelf_carrier": false,
+  "has_3d_cameras": true
+}

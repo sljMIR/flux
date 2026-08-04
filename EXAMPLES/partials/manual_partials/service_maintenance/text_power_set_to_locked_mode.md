@@ -1,1 +1,0 @@
-If a maintenance task requires the robot to be powered, set the robot to Locked mode—see {% tagref "locked_mode" /%}.

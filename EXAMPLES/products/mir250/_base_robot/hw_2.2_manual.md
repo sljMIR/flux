@@ -3,10 +3,11 @@ id: "item-2025-11-04-001"
 doc_type: "manual"
 title: "MiR250 Manual"
 documentNumber: 75371702
+orderNumber: [100151, 100152, 110070]
 status: "published"
-version: "2"
+version: "4.2"
 language: "en"
-releaseYear: "2025"
+firstReleaseDate: "2021-01-01"
 updateDate: "2026-02-19"
 accessLevel: "public"
 tags:
